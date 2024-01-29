@@ -1,5 +1,5 @@
 ### Hi there 👋, I'm Jeremy 
-
+<!--
 <a href="https://github.com/jeremykenedy">
   <img align="center" src="https://github-readme-stats-deploy-jeremykenedy.vercel.app/api?username=jeremykenedy&show_icons=true&include_all_commits=true&count_private=true&theme=radical&bg_color=30,222222,444444&title_color=fff&text_color=fff&line_height=20&custom_title=GitHub%20Stats&hide_border=true" />
 </a>
@@ -9,6 +9,7 @@
 </a>
 
 <br>
+-->
 
 <a href="https://github.com/jeremykenedy">
   <img align="center" src="https://en4ykvpnng7c9b7.m.pipedream.net" />

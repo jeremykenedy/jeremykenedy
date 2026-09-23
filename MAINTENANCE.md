@@ -6,7 +6,7 @@ The profile uses Markdown and repository-hosted SVGs. The artwork has light and 
 
 - Edit personal copy, links, and the toolbox in `README.md`.
 - Change project selection, descriptions, and artwork in `scripts/update_profile.py`.
-- Keep the two metrics markers in the README. Only the text between those markers is generated.
+- Keep the paired METRICS and PUBLICATIONS markers in the README. Only the text between those markers is generated.
 - Do not add a resume, personal contact details, employer names, or employment metrics to this repository.
 
 To regenerate artwork from the checked-in snapshot without network access:
@@ -29,6 +29,12 @@ python3 scripts/update_profile.py
 ```
 
 The script paginates the public repository list, excludes private repositories and forks from star/fork totals, and fetches download counts for every package in the Packagist namespace. The token is sent only to GitHub. API failures stop generation and preserve the existing published assets. The snapshot records a UTC date and exact counts. Downloads can include repeated installs and maintained forks; they do not measure people.
+
+Published project counts combine Packagist repository metadata, npm packages maintained by `developernator` or `jeremykenedy`, formula and cask files in owned Homebrew taps, and public GitHub releases in original repositories. Prereleases count; draft releases and bare git tags do not. Package source URLs are normalized so a project distributed through several channels counts once. Homebrew tap repositories do not count as extra projects. Formula files are read as text, never executed. The snapshot includes each project's public evidence links and a separate distribution breakdown.
+
+The GitHub Packages registry is checked separately from GitHub Releases. It currently has no packages. If new GitHub Packages appear, the refresh stops until their source repositories are mapped into the audit, preventing an understated total. Unexpected or missing package source metadata also stops the refresh. Add any new npm publisher account to `NPM_PUBLISHERS` when needed.
+
+Upstream contributions and testimonials are curated profile copy, separate from owned project statistics. Contribution links must be public, and anything described as merged must have a verified merge. Keep testimonial excerpts attributed and linked to their source without employer names.
 
 Language shares use primary-language repository counts, not lines of code or proficiency. Archived original repositories are included. Repositories without a detected language are excluded from the language denominator.
 

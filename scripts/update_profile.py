@@ -2,6 +2,7 @@
 """Refresh public portfolio metrics and render the profile's light/dark artwork."""
 
 import argparse
+import base64
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -9,17 +10,20 @@ from html import escape
 import json
 import os
 from pathlib import Path
+import re
 import textwrap
 import time
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
-from urllib.request import Request, urlopen
+from urllib.parse import quote, urlparse
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OWNER = "jeremykenedy"
 API = "https://api.github.com"
 PACKAGIST = "https://packagist.org"
+NPM = "https://registry.npmjs.org"
+NPM_PUBLISHERS = ("developernator", "jeremykenedy")
 FONT = "system-ui, -apple-system, 'Segoe UI', sans-serif"
 PROJECTS = [
     {
@@ -62,20 +66,34 @@ THEMES = {
 LANGUAGE_COLORS = ["#8b5cf6", "#3b82f6", "#22c55e", "#f59e0b", "#ec4899", "#64748b"]
 
 
-def fetch_json(url):
+class NoRedirects(HTTPRedirectHandler):
+    """Reject redirects so API credentials cannot be forwarded to another host."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+def fetch_json(url, payload=None):
     """Keep credentials confined to GitHub; fail instead of publishing partial totals."""
-    host = urlparse(url).hostname
-    if host not in {"api.github.com", "packagist.org"}:
-        raise ValueError(f"Unexpected API host: {host}")
+    parsed = urlparse(url)
+    host = parsed.hostname
+    if parsed.scheme != "https" or host not in {"api.github.com", "packagist.org", "registry.npmjs.org"}:
+        raise ValueError(f"Unexpected API URL: {url}")
     headers = {"User-Agent": "jeremykenedy-profile (+https://github.com/jeremykenedy/jeremykenedy)"}
     if host == "api.github.com":
         headers["Accept"] = "application/vnd.github+json"
         token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         if token:
             headers["Authorization"] = f"Bearer {token}"
+    data = None
+    if payload is not None:
+        if host != "api.github.com":
+            raise ValueError("Only GitHub GraphQL requests may include a payload")
+        headers["Content-Type"] = "application/json"
+        data = json.dumps(payload).encode()
     for attempt in range(3):
         try:
-            with urlopen(Request(url, headers=headers), timeout=30) as response:
+            with build_opener(NoRedirects).open(Request(url, headers=headers, data=data), timeout=30) as response:
                 return json.load(response)
         except HTTPError as error:
             if error.code not in {429, 500, 502, 503, 504} or attempt == 2:
@@ -118,9 +136,138 @@ def summarize_repositories(repositories):
     }
 
 
+def repository_identity(url):
+    """Match package metadata to its source project, including git URL variants."""
+    normalized = str(url).removeprefix("git+")
+    if normalized.startswith("git@github.com:"):
+        normalized = "https://github.com/" + normalized.split(":", 1)[1]
+    parsed = urlparse(normalized)
+    parts = parsed.path.strip("/").split("/")
+    if parsed.hostname != "github.com" or len(parts) < 2:
+        raise ValueError(f"Cannot identify a GitHub source repository: {url}")
+    return f"{parts[0]}/{parts[1].removesuffix('.git')}".lower()
+
+
+def summarize_publications(entries, github_package_count=0):
+    """Count distribution listings separately from unique source projects."""
+    projects = {}
+    counts = {name: 0 for name in ("packagist", "npm", "homebrew", "github_release_repositories")}
+    seen = set()
+    for entry in entries:
+        key = (entry["channel"], entry["name"])
+        if key in seen:
+            continue
+        seen.add(key)
+        channel = entry["channel"]
+        counts["github_release_repositories" if channel == "github_release" else channel] += 1
+        # Taps distribute the underlying software; they are not extra software projects.
+        if channel == "github_release" and entry["repository"].split("/")[-1].startswith("homebrew-"):
+            continue
+        project = projects.setdefault(entry["repository"], {"repository": entry["repository"], "publications": []})
+        project["publications"].append(entry)
+    registry_projects = sum(
+        any(item["channel"] != "github_release" for item in project["publications"])
+        for project in projects.values()
+    )
+    counts.update({
+        "github_packages": github_package_count,
+        "registry_listings": counts["packagist"] + counts["npm"] + counts["homebrew"] + github_package_count,
+        "registry_projects": registry_projects,
+        "additional_github_projects": len(projects) - registry_projects,
+        "unique_projects": len(projects),
+    })
+    return {"counts": counts, "projects": [projects[key] for key in sorted(projects)]}
+
+
+def fetch_public_release(repo):
+    page = 1
+    while True:
+        releases = fetch_json(f"{API}/repos/{OWNER}/{repo['name']}/releases?per_page=30&page={page}")
+        if not isinstance(releases, list):
+            raise ValueError(f"Invalid release list for {repo['name']}")
+        for release in releases:
+            if not release["draft"] and release["published_at"]:
+                return {"channel": "github_release", "name": repo["name"],
+                        "repository": repository_identity(repo["html_url"]), "url": release["html_url"]}
+        if len(releases) < 30:
+            return None
+        page += 1
+
+
+def fetch_npm_publications():
+    entries = []
+    npm_names = set()
+    for publisher in NPM_PUBLISHERS:
+        offset = 0
+        while True:
+            result = fetch_json(f"{NPM}/-/v1/search?text=maintainer:{publisher}&size=250&from={offset}")
+            batch = result["objects"]
+            npm_names.update(item["package"]["name"] for item in batch)
+            offset += len(batch)
+            if offset >= result["total"]:
+                break
+            if not batch:
+                raise ValueError("npm search returned an incomplete page")
+    for name in sorted(npm_names):
+        package = fetch_json(f"{NPM}/{quote(name, safe='')}")
+        latest = package["dist-tags"]["latest"]
+        if latest not in package["versions"]:
+            raise ValueError(f"npm publication is missing its latest version: {name}")
+        metadata = package.get("repository", package["versions"][latest].get("repository"))
+        source = repository_identity(metadata["url"] if isinstance(metadata, dict) else metadata)
+        entries.append({"channel": "npm", "name": name, "repository": source,
+                        "url": f"https://www.npmjs.com/package/{name}"})
+    return entries
+
+
+def fetch_homebrew_publications(originals):
+    entries = []
+    for tap in (repo for repo in originals if repo["name"].startswith("homebrew-")):
+        tree = fetch_json(f"{API}/repos/{OWNER}/{tap['name']}/git/trees/HEAD?recursive=1")
+        if tree.get("truncated"):
+            raise ValueError(f"Homebrew tap inventory was truncated: {tap['name']}")
+        for item in tree["tree"]:
+            if item["type"] != "blob" or not item["path"].startswith(("Formula/", "Casks/")) or not item["path"].endswith(".rb"):
+                continue
+            blob = fetch_json(f"{API}/repos/{OWNER}/{tap['name']}/contents/{quote(item['path'])}")
+            formula = base64.b64decode(blob["content"]).decode()
+            homepage = re.search(r'^\s*homepage\s+[\"\x27]([^\"\x27]+)', formula, re.MULTILINE)
+            if not homepage:
+                raise ValueError(f"Homebrew formula has no source homepage: {item['path']}")
+            entries.append({"channel": "homebrew", "name": f"{tap['name']}/{item['path']}",
+                            "repository": repository_identity(homepage.group(1)), "url": blob["html_url"]})
+    return entries
+
+
+def fetch_github_package_count():
+    registry = fetch_json(f"{API}/graphql", {"query": f'query {{ user(login:"{OWNER}") {{ packages(first:1) {{ totalCount }} }} }}'})
+    if registry.get("errors"):
+        raise ValueError("GitHub Packages count could not be verified")
+    github_package_count = registry["data"]["user"]["packages"]["totalCount"]
+    if github_package_count:
+        raise ValueError("New GitHub Packages detected; map them to source projects before refreshing the total")
+    return github_package_count
+
+
+def fetch_publications(repositories, packagist_packages):
+    entries = [
+        {"channel": "packagist", "name": name, "repository": repository_identity(package["repository"]),
+         "url": f"{PACKAGIST}/packages/{name}"}
+        for name, package in sorted(packagist_packages.items())
+    ]
+    originals = [repo for repo in repositories if not repo["private"] and not repo["fork"]
+                 and repo["owner"]["login"].lower() == OWNER]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        entries.extend(entry for entry in pool.map(fetch_public_release, originals) if entry)
+    entries.extend(fetch_npm_publications())
+    entries.extend(fetch_homebrew_publications(originals))
+    return summarize_publications(entries, fetch_github_package_count())
+
+
 def fetch_metrics():
-    metrics = summarize_repositories(fetch_repositories())
-    packages = fetch_json(f"{PACKAGIST}/packages/list.json?vendor={OWNER}")["packageNames"]
+    repositories = fetch_repositories()
+    metrics = summarize_repositories(repositories)
+    packages = fetch_json(f"{PACKAGIST}/packages/list.json?vendor={OWNER}&fields[]=repository")["packages"]
     if not packages or any(not name.startswith(f"{OWNER}/") for name in packages):
         raise ValueError("Packagist returned an unexpected package list")
 
@@ -137,6 +284,7 @@ def fetch_metrics():
         "updated": datetime.now(timezone.utc).date().isoformat(),
         "package_downloads": sum(downloads.values()),
         "packages": downloads,
+        "publications": fetch_publications(repositories, packages),
     })
     for project in PROJECTS:
         if project["repo"] not in metrics["repositories"]:
@@ -218,7 +366,7 @@ def impact(metrics, theme, mobile=False):
         ("PACKAGE DOWNLOADS", compact(metrics["package_downloads"]), "Across Packagist packages"),
         ("GITHUB STARS", compact(metrics["stars"]), "Public repos, excluding forks"),
         ("COMMUNITY FORKS", compact(metrics["forks"]), "Of original public repos"),
-        ("PUBLISHED PACKAGES", len(metrics["packages"]), "In the jeremykenedy namespace"),
+        ("PUBLISHED PROJECTS", metrics["publications"]["counts"]["unique_projects"], "Packages, apps, and tools"),
     ]
     width, height = (392, 246) if mobile else (800, 143)
     body = [rect(1, 1, width - 2, height - 2, t["bg"], t["border"], 14)]
@@ -352,7 +500,25 @@ def render(metrics):
         f"{metrics['stars']:,} stars · {metrics['forks']:,} forks · "
         f"{metrics['original_repositories']} original public repositories.</sub>\n"
     )
-    output["README.md"] = readme[:a + len(start)] + summary + readme[b:]
+    readme = readme[:a + len(start)] + summary + readme[b:]
+    start, end = "<!-- PUBLICATIONS:START -->", "<!-- PUBLICATIONS:END -->"
+    if readme.count(start) != 1 or readme.count(end) != 1 or readme.index(start) >= readme.index(end):
+        raise ValueError("README must have exactly one ordered publications section")
+    counts = metrics["publications"]["counts"]
+    breakdown = (
+        "\n\n| Distribution | Published listings |\n| :--- | ---: |\n"
+        f"| Packagist | {counts['packagist']} |\n"
+        f"| npm | {counts['npm']} |\n"
+        f"| Homebrew | {counts['homebrew']} |\n"
+        f"| GitHub Packages registry | {counts['github_packages']} |\n\n"
+        f"These {counts['registry_listings']} registry listings represent {counts['registry_projects']} source projects. "
+        f"Another {counts['additional_github_projects']} projects have public GitHub releases, "
+        f"for **{counts['unique_projects']} distinct published projects** in total. "
+        f"There are {counts['github_release_repositories']} repositories with GitHub releases overall, "
+        "including projects already counted in registries and distribution taps.\n\n"
+    )
+    a, b = readme.index(start), readme.index(end)
+    output["README.md"] = readme[:a + len(start)] + breakdown + readme[b:]
     return output
 
 

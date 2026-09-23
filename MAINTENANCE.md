@@ -38,4 +38,6 @@ All API requests must succeed before output is written. Packagist requests are l
 
 Check the profile at desktop and phone widths in both light and dark modes. All project cards should link to their matching public repository. Confirm the README has no broken local asset references and that generated assets match the snapshot.
 
+Project cards share one wrapping paragraph. Native `picture` sources set their image dimensions at 768, 896, 1012, and 1280 pixels so the GitHub profile shows one column on phones, two on tablets, and three on large desktops. Narrow and compact SVG variants keep the text readable within GitHub's profile sidebar layout. Custom CSS and image `sizes` attributes are stripped by GitHub and should not be used for this layout. Responsive images use GitHub theme fragments on their links to keep light and dark artwork separate. This avoids the native theme helper replacing compound theme/width media queries when a visitor selects a theme manually. Keep width queries independent of theme queries. If GitHub changes its page widths, recheck these breakpoints on the actual profile.
+
 GitHub profile content comes from `README.md` on the default branch of `jeremykenedy/jeremykenedy`. Merging a profile change into `main` publishes it to the profile.

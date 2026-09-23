@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-labelledby="title desc">
+<title id="title">Jeremy Kenedy</title>
+<desc id="desc">Engineering leader. Architect. Hands-on builder. People, platforms, and products.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#0c0a09"/><stop offset="1" stop-color="#1c1917"/></linearGradient><linearGradient id="accent"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+<rect x="0" y="0" width="800" height="200" rx="16" fill="#fff" stroke="#e5e7eb" />
+<rect x="32" y="33" width="32" height="3" rx="1" fill="url(#accent)" stroke="none" />
+<text x="75" y="39" font-size="10" fill="#526176" font-weight="600" letter-spacing="1.8">PEOPLE. PLATFORMS. PRODUCTS.</text>
+<text x="32" y="82" font-size="40" fill="#0f172a" font-weight="700" letter-spacing="-.5">Jeremy Kenedy</text>
+<text x="33" y="111" font-size="14" fill="#64748b" font-weight="400" >Engineering leader. Architect. Hands-on builder.</text>
+<rect x="33" y="132" width="104" height="22" rx="11" fill="#f5f3ff" stroke="#6d28d9" stroke-width=".8" opacity=".8"/>
+<text x="85.0" y="147" font-size="10" fill="#6d28d9" font-weight="500" text-anchor="middle">TEAM LEADERSHIP</text>
+<rect x="145" y="132" width="122" height="22" rx="11" fill="#eff6ff" stroke="#2563eb" stroke-width=".8" opacity=".8"/>
+<text x="206.0" y="147" font-size="10" fill="#2563eb" font-weight="500" text-anchor="middle">SYSTEM ARCHITECTURE</text>
+<rect x="275" y="132" width="98" height="22" rx="11" fill="#f0fdf4" stroke="#166534" stroke-width=".8" opacity=".8"/>
+<text x="324.0" y="147" font-size="10" fill="#166534" font-weight="500" text-anchor="middle">OPEN SOURCE</text>
+<text x="33" y="180" font-size="9" fill="#526176" font-weight="500" letter-spacing="1.4">PORTLAND, OR  /  BUILDING WITH PURPOSE</text>
+<g transform="translate(568, 34)">
+<path d="M32 37 L109 18 L172 51 L169 113 L90 133 L26 94 Z M32 37 L90 71 L172 51 M90 71 L90 133" fill="none" stroke="url(#accent)" stroke-width="1.5"/>
+<path d="M109 18 L107 78 L26 94 M107 78 L169 113" fill="none" stroke="url(#accent)" stroke-opacity=".35"/>
+<path d="M-3 62 L48 6 M142 134 L197 78" stroke="url(#accent)" stroke-opacity=".2"/>
+<circle cx="32" cy="37" r="5" fill="#ffffff" stroke="#6d28d9" stroke-width="2"/>
+<circle cx="109" cy="18" r="5" fill="#ffffff" stroke="#6d28d9" stroke-width="2"/>
+<circle cx="172" cy="51" r="5" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="90" cy="71" r="5" fill="#ffffff" stroke="#6d28d9" stroke-width="2"/>
+<circle cx="26" cy="94" r="5" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="90" cy="133" r="5" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="169" cy="113" r="5" fill="#ffffff" stroke="#6d28d9" stroke-width="2"/>
+<text x="76" y="78" font-size="15" fill="#0f172a" font-weight="600" >&lt;/&gt;</text>
+</g>
+</g>
+</svg>

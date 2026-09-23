@@ -1,0 +1,78 @@
+{
+  "original_repositories": 95,
+  "stars": 6959,
+  "forks": 1990,
+  "languages": {
+    "PHP": 47,
+    "JavaScript": 17,
+    "HTML": 7,
+    "CSS": 3,
+    "Objective-C": 2,
+    "Shell": 2,
+    "Vue": 2,
+    "Blade": 1,
+    "C": 1,
+    "Python": 1,
+    "Ruby": 1,
+    "TypeScript": 1
+  },
+  "repositories": {
+    "ai-platform": {
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "language": "PHP"
+    },
+    "claude-rules-mcp-server": {
+      "stargazers_count": 2,
+      "forks_count": 2,
+      "language": "TypeScript"
+    },
+    "laravel-auth": {
+      "stargazers_count": 3042,
+      "forks_count": 978,
+      "language": "JavaScript"
+    },
+    "laravel-logger": {
+      "stargazers_count": 583,
+      "forks_count": 121,
+      "language": "PHP"
+    },
+    "laravel-roles": {
+      "stargazers_count": 1049,
+      "forks_count": 201,
+      "language": "PHP"
+    },
+    "PandaVentOS": {
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "HTML"
+    }
+  },
+  "updated": "2026-09-23",
+  "package_downloads": 4037769,
+  "packages": {
+    "jeremykenedy/filament-spotlight-2": 2817,
+    "jeremykenedy/laravel-blocker": 73994,
+    "jeremykenedy/laravel-darkmode-toggle": 4,
+    "jeremykenedy/laravel-email-database-log": 17462,
+    "jeremykenedy/laravel-exception-notifier": 300193,
+    "jeremykenedy/laravel-https": 137150,
+    "jeremykenedy/laravel-ip-capture": 1,
+    "jeremykenedy/laravel-logger": 312350,
+    "jeremykenedy/laravel-notifications": 14,
+    "jeremykenedy/laravel-observability": 5,
+    "jeremykenedy/laravel-packagist": 279,
+    "jeremykenedy/laravel-phpinfo": 186445,
+    "jeremykenedy/laravel-roles": 894797,
+    "jeremykenedy/laravel-seedster": 96,
+    "jeremykenedy/laravel-toast": 28,
+    "jeremykenedy/laravel-ui-kit": 357,
+    "jeremykenedy/laravel-users": 97601,
+    "jeremykenedy/laravel2step": 111955,
+    "jeremykenedy/laravelpodcast": 112,
+    "jeremykenedy/slack": 968558,
+    "jeremykenedy/slack-laravel": 794664,
+    "jeremykenedy/timezones": 21,
+    "jeremykenedy/uuid": 138866
+  }
+}

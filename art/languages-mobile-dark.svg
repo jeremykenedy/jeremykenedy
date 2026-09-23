@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="254" viewBox="0 0 392 254" role="img" aria-labelledby="title desc">
+<title id="title">Languages across original public repositories</title>
+<desc id="desc">PHP: 47 repositories; JavaScript: 17 repositories; HTML: 7 repositories; CSS: 3 repositories; Objective-C: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; Blade: 1 repositories; C: 1 repositories; Python: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="1" y="1" width="390" height="252" rx="14" fill="#101318" stroke="#303640" />
+<text x="24" y="35" font-size="10" fill="#a5afbf" font-weight="600" letter-spacing="1.5">THE PUBLIC CODEBASE</text>
+<text x="24" y="57" font-size="11" fill="#a5afbf" font-weight="400" >85 repos with a detected language</text>
+<rect x="24.0" y="76" width="190.212" height="11" rx="0" fill="#8b5cf6" stroke="none" />
+<circle cx="28" cy="114" r="4" fill="#8b5cf6"/>
+<text x="40" y="118" font-size="12" fill="#f0f3f8" font-weight="500" >PHP</text>
+<text x="183" y="118" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">55.3%</text>
+<rect x="214.212" y="76" width="68.8" height="11" rx="0" fill="#3b82f6" stroke="none" />
+<circle cx="212" cy="114" r="4" fill="#3b82f6"/>
+<text x="224" y="118" font-size="12" fill="#f0f3f8" font-weight="500" >JavaScript</text>
+<text x="367" y="118" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">20.0%</text>
+<rect x="283.012" y="76" width="28.329" height="11" rx="0" fill="#22c55e" stroke="none" />
+<circle cx="28" cy="150" r="4" fill="#22c55e"/>
+<text x="40" y="154" font-size="12" fill="#f0f3f8" font-weight="500" >HTML</text>
+<text x="183" y="154" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">8.2%</text>
+<rect x="311.341" y="76" width="12.141" height="11" rx="0" fill="#f59e0b" stroke="none" />
+<circle cx="212" cy="150" r="4" fill="#f59e0b"/>
+<text x="224" y="154" font-size="12" fill="#f0f3f8" font-weight="500" >CSS</text>
+<text x="367" y="154" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">3.5%</text>
+<rect x="323.482" y="76" width="8.094" height="11" rx="0" fill="#ec4899" stroke="none" />
+<circle cx="28" cy="186" r="4" fill="#ec4899"/>
+<text x="40" y="190" font-size="12" fill="#f0f3f8" font-weight="500" >Objective-C</text>
+<text x="183" y="190" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">2.4%</text>
+<rect x="331.576" y="76" width="36.424" height="11" rx="0" fill="#64748b" stroke="none" />
+<circle cx="212" cy="186" r="4" fill="#64748b"/>
+<text x="224" y="190" font-size="12" fill="#f0f3f8" font-weight="500" >Other</text>
+<text x="367" y="190" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">10.6%</text>
+<text x="24" y="224" font-size="10" fill="#a5afbf" font-weight="400" >Primary language per original public repository.</text>
+<text x="24" y="240" font-size="10" fill="#a5afbf" font-weight="400" >A view of the code, not a skills rating.</text>
+</g>
+</svg>

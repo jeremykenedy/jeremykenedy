@@ -193,6 +193,7 @@ def fetch_public_release(repo):
             return None
         page += 1
 
+
 def fetch_npm_publications():
     entries = []
     npm_names = set()
@@ -218,6 +219,7 @@ def fetch_npm_publications():
                         "url": f"https://www.npmjs.com/package/{name}"})
     return entries
 
+
 def fetch_homebrew_publications(originals):
     entries = []
     for tap in (repo for repo in originals if repo["name"].startswith("homebrew-")):
@@ -236,6 +238,7 @@ def fetch_homebrew_publications(originals):
                             "repository": repository_identity(homepage.group(1)), "url": blob["html_url"]})
     return entries
 
+
 def fetch_github_package_count():
     registry = fetch_json(f"{API}/graphql", {"query": f'query {{ user(login:"{OWNER}") {{ packages(first:1) {{ totalCount }} }} }}'})
     if registry.get("errors"):
@@ -244,6 +247,7 @@ def fetch_github_package_count():
     if github_package_count:
         raise ValueError("New GitHub Packages detected; map them to source projects before refreshing the total")
     return github_package_count
+
 
 def fetch_publications(repositories, packagist_packages):
     entries = [

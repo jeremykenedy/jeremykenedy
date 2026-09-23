@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="270" height="284" viewBox="0 0 270 284" role="img" aria-labelledby="title desc">
 <title id="title">Access Control</title>
-<desc id="desc">Roles and permissions with a management interface for application teams. 1,049 stars  /  894.8k downloads</desc>
+<desc id="desc">Roles and permissions with a management interface for application teams. 1,049 stars  /  895.4k downloads</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="268" height="266" rx="12" fill="#101318" stroke="#303640" />
 <text x="19" y="25" font-size="8" fill="#a78bfa" font-weight="600" letter-spacing=".4">AUTHORIZATION / REUSABLE SYSTEMS</text>
@@ -10,7 +10,7 @@
 <text x="19" y="149" font-size="12.5" fill="#a5afbf" font-weight="400" >application teams.</text>
 <text x="19" y="178" font-size="10" fill="#a78bfa" font-weight="500" >PHP · Laravel · RBAC</text>
 <path d="M19 207 H251" stroke="#303640"/>
-<text x="19" y="230" font-size="10" fill="#f0f3f8" font-weight="600" >1,049 stars  /  894.8k downloads</text>
+<text x="19" y="230" font-size="10" fill="#f0f3f8" font-weight="600" >1,049 stars  /  895.4k downloads</text>
 <text x="19" y="250" font-size="9" fill="#a5afbf" font-weight="400" >laravel-roles</text>
 </g>
 </svg>

@@ -1,6 +1,6 @@
 {
   "original_repositories": 95,
-  "stars": 6959,
+  "stars": 6960,
   "forks": 1990,
   "languages": {
     "PHP": 47,
@@ -49,31 +49,31 @@
     }
   },
   "updated": "2026-09-23",
-  "package_downloads": 4038071,
+  "package_downloads": 4040164,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2817,
-    "jeremykenedy/laravel-blocker": 73995,
+    "jeremykenedy/laravel-blocker": 74020,
     "jeremykenedy/laravel-darkmode-toggle": 4,
-    "jeremykenedy/laravel-email-database-log": 17462,
-    "jeremykenedy/laravel-exception-notifier": 300193,
-    "jeremykenedy/laravel-https": 137150,
+    "jeremykenedy/laravel-email-database-log": 17473,
+    "jeremykenedy/laravel-exception-notifier": 300586,
+    "jeremykenedy/laravel-https": 137169,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 312351,
+    "jeremykenedy/laravel-logger": 312499,
     "jeremykenedy/laravel-notifications": 14,
     "jeremykenedy/laravel-observability": 5,
-    "jeremykenedy/laravel-packagist": 279,
-    "jeremykenedy/laravel-phpinfo": 186445,
-    "jeremykenedy/laravel-roles": 894805,
+    "jeremykenedy/laravel-packagist": 280,
+    "jeremykenedy/laravel-phpinfo": 186481,
+    "jeremykenedy/laravel-roles": 895382,
     "jeremykenedy/laravel-seedster": 96,
-    "jeremykenedy/laravel-toast": 29,
-    "jeremykenedy/laravel-ui-kit": 357,
-    "jeremykenedy/laravel-users": 97603,
-    "jeremykenedy/laravel2step": 111955,
+    "jeremykenedy/laravel-toast": 32,
+    "jeremykenedy/laravel-ui-kit": 364,
+    "jeremykenedy/laravel-users": 97669,
+    "jeremykenedy/laravel2step": 111987,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 968845,
-    "jeremykenedy/slack-laravel": 794666,
+    "jeremykenedy/slack": 969243,
+    "jeremykenedy/slack-laravel": 795012,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 138866
+    "jeremykenedy/uuid": 138897
   },
   "publications": {
     "counts": {
@@ -489,7 +489,7 @@
             "channel": "github_release",
             "name": "laravel-ui-kit",
             "repository": "jeremykenedy/laravel-ui-kit",
-            "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.0.1"
+            "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.5.0"
           }
         ]
       },

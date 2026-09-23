@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="392" height="228" viewBox="0 0 392 228" role="img" aria-labelledby="title desc">
 <title id="title">Access Control</title>
-<desc id="desc">Roles and permissions with a management interface for application teams. 1,049 stars  /  894.8k downloads</desc>
+<desc id="desc">Roles and permissions with a management interface for application teams. 1,049 stars  /  895.4k downloads</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="390" height="210" rx="12" fill="#ffffff" stroke="#e5e7eb" />
 <rect x="21" y="22" width="3" height="13" rx="1" fill="#6d28d9" stroke="none" />
@@ -10,7 +10,7 @@
 <text x="21" y="109" font-size="12" fill="#526176" font-weight="400" >interface for application teams.</text>
 <text x="21" y="137" font-size="10" fill="#6d28d9" font-weight="500" >PHP · Laravel · RBAC</text>
 <path d="M21 151 H371" stroke="#e5e7eb"/>
-<text x="21" y="175" font-size="11" fill="#0f172a" font-weight="600" >1,049 stars  /  894.8k downloads</text>
+<text x="21" y="175" font-size="11" fill="#0f172a" font-weight="600" >1,049 stars  /  895.4k downloads</text>
 <text x="21" y="195" font-size="9" fill="#526176" font-weight="400" >laravel-roles</text>
 <path d="M355 177 L366 166 M356 166 H366 V176" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
 </g>

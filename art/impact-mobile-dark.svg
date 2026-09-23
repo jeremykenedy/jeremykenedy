@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="392" height="246" viewBox="0 0 392 246" role="img" aria-labelledby="title desc">
 <title id="title">Open source adoption</title>
-<desc id="desc">PACKAGE DOWNLOADS: 4.04M; GITHUB STARS: 6,959; COMMUNITY FORKS: 1,990; PUBLISHED PROJECTS: 39</desc>
+<desc id="desc">PACKAGE DOWNLOADS: 4.04M; GITHUB STARS: 6,960; COMMUNITY FORKS: 1,990; PUBLISHED PROJECTS: 39</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="390" height="244" rx="14" fill="#101318" stroke="#303640" />
 <text x="20" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">PACKAGE DOWNLOADS</text>
 <text x="20" y="79" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">4.04M</text>
 <text x="20" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Across Packagist packages</text>
 <text x="210" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">GITHUB STARS</text>
-<text x="210" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">6,959</text>
+<text x="210" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">6,960</text>
 <text x="210" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Public repos, excluding forks</text>
 <text x="20" y="149" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">COMMUNITY FORKS</text>
 <text x="20" y="195" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">1,990</text>

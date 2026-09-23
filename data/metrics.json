@@ -49,10 +49,10 @@
     }
   },
   "updated": "2026-09-23",
-  "package_downloads": 4037813,
+  "package_downloads": 4038071,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2817,
-    "jeremykenedy/laravel-blocker": 73994,
+    "jeremykenedy/laravel-blocker": 73995,
     "jeremykenedy/laravel-darkmode-toggle": 4,
     "jeremykenedy/laravel-email-database-log": 17462,
     "jeremykenedy/laravel-exception-notifier": 300193,
@@ -63,16 +63,598 @@
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 279,
     "jeremykenedy/laravel-phpinfo": 186445,
-    "jeremykenedy/laravel-roles": 894799,
+    "jeremykenedy/laravel-roles": 894805,
     "jeremykenedy/laravel-seedster": 96,
-    "jeremykenedy/laravel-toast": 28,
+    "jeremykenedy/laravel-toast": 29,
     "jeremykenedy/laravel-ui-kit": 357,
-    "jeremykenedy/laravel-users": 97601,
+    "jeremykenedy/laravel-users": 97603,
     "jeremykenedy/laravel2step": 111955,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 968599,
-    "jeremykenedy/slack-laravel": 794664,
+    "jeremykenedy/slack": 968845,
+    "jeremykenedy/slack-laravel": 794666,
     "jeremykenedy/timezones": 21,
     "jeremykenedy/uuid": 138866
+  },
+  "publications": {
+    "counts": {
+      "packagist": 23,
+      "npm": 1,
+      "homebrew": 1,
+      "github_release_repositories": 38,
+      "github_packages": 0,
+      "registry_listings": 25,
+      "registry_projects": 25,
+      "additional_github_projects": 14,
+      "unique_projects": 39
+    },
+    "projects": [
+      {
+        "repository": "jeremykenedy/ai-platform",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "ai-platform",
+            "repository": "jeremykenedy/ai-platform",
+            "url": "https://github.com/jeremykenedy/ai-platform/releases/tag/v1.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/claude-rules-mcp-server",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "claude-rules-mcp-server",
+            "repository": "jeremykenedy/claude-rules-mcp-server",
+            "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
+          },
+          {
+            "channel": "npm",
+            "name": "claude-rules-mcp",
+            "repository": "jeremykenedy/claude-rules-mcp-server",
+            "url": "https://www.npmjs.com/package/claude-rules-mcp"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/claude-swiftbar-monitor",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "claude-swiftbar-monitor",
+            "repository": "jeremykenedy/claude-swiftbar-monitor",
+            "url": "https://github.com/jeremykenedy/claude-swiftbar-monitor/releases/tag/v1.0.0"
+          },
+          {
+            "channel": "homebrew",
+            "name": "homebrew-claude-monitor/Formula/claude-monitor.rb",
+            "repository": "jeremykenedy/claude-swiftbar-monitor",
+            "url": "https://github.com/jeremykenedy/homebrew-claude-monitor/blob/main/Formula/claude-monitor.rb"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/filament-spotlight-2",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/filament-spotlight-2",
+            "repository": "jeremykenedy/filament-spotlight-2",
+            "url": "https://packagist.org/packages/jeremykenedy/filament-spotlight-2"
+          },
+          {
+            "channel": "github_release",
+            "name": "filament-spotlight-2",
+            "repository": "jeremykenedy/filament-spotlight-2",
+            "url": "https://github.com/jeremykenedy/filament-spotlight-2/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/gmail-monitor",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "gmail-monitor",
+            "repository": "jeremykenedy/gmail-monitor",
+            "url": "https://github.com/jeremykenedy/gmail-monitor/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/jeremy-sound-board",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "jeremy-sound-board",
+            "repository": "jeremykenedy/jeremy-sound-board",
+            "url": "https://github.com/jeremykenedy/jeremy-sound-board/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/larablog",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "larablog",
+            "repository": "jeremykenedy/larablog",
+            "url": "https://github.com/jeremykenedy/larablog/releases/tag/v1.2.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-auth",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "laravel-auth",
+            "repository": "jeremykenedy/laravel-auth",
+            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-blocker",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-blocker",
+            "repository": "jeremykenedy/laravel-blocker",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-blocker",
+            "repository": "jeremykenedy/laravel-blocker",
+            "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-darkmode-toggle",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-darkmode-toggle",
+            "repository": "jeremykenedy/laravel-darkmode-toggle",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-darkmode-toggle"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-darkmode-toggle",
+            "repository": "jeremykenedy/laravel-darkmode-toggle",
+            "url": "https://github.com/jeremykenedy/laravel-darkmode-toggle/releases/tag/v2.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-email-database-log",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-email-database-log",
+            "repository": "jeremykenedy/laravel-email-database-log",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-email-database-log"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-email-database-log",
+            "repository": "jeremykenedy/laravel-email-database-log",
+            "url": "https://github.com/jeremykenedy/laravel-email-database-log/releases/tag/v14.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-exception-notifier",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-exception-notifier",
+            "repository": "jeremykenedy/laravel-exception-notifier",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-exception-notifier",
+            "repository": "jeremykenedy/laravel-exception-notifier",
+            "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-https",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-https",
+            "repository": "jeremykenedy/laravel-https",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-https",
+            "repository": "jeremykenedy/laravel-https",
+            "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-ip-capture",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-ip-capture",
+            "repository": "jeremykenedy/laravel-ip-capture",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-ip-capture"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-ip-capture",
+            "repository": "jeremykenedy/laravel-ip-capture",
+            "url": "https://github.com/jeremykenedy/laravel-ip-capture/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-logger",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-logger",
+            "repository": "jeremykenedy/laravel-logger",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-logger",
+            "repository": "jeremykenedy/laravel-logger",
+            "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/V11.1.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-material-design",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "laravel-material-design",
+            "repository": "jeremykenedy/laravel-material-design",
+            "url": "https://github.com/jeremykenedy/laravel-material-design/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-notifications",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-notifications",
+            "repository": "jeremykenedy/laravel-notifications",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-notifications"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-notifications",
+            "repository": "jeremykenedy/laravel-notifications",
+            "url": "https://github.com/jeremykenedy/laravel-notifications/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-observability",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-observability",
+            "repository": "jeremykenedy/laravel-observability",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-observability"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-observability",
+            "repository": "jeremykenedy/laravel-observability",
+            "url": "https://github.com/jeremykenedy/laravel-observability/releases/tag/v2.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-packagist",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-packagist",
+            "repository": "jeremykenedy/laravel-packagist",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-packagist"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-packagist",
+            "repository": "jeremykenedy/laravel-packagist",
+            "url": "https://github.com/jeremykenedy/laravel-packagist/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-phpinfo",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-phpinfo",
+            "repository": "jeremykenedy/laravel-phpinfo",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-phpinfo",
+            "repository": "jeremykenedy/laravel-phpinfo",
+            "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-pusher-chat",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "laravel-pusher-chat",
+            "repository": "jeremykenedy/laravel-pusher-chat",
+            "url": "https://github.com/jeremykenedy/laravel-pusher-chat/releases/tag/v1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-roles",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-roles",
+            "repository": "jeremykenedy/laravel-roles",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-roles",
+            "repository": "jeremykenedy/laravel-roles",
+            "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v12.2.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-seedster",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-seedster",
+            "repository": "jeremykenedy/laravel-seedster",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-seedster"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-seedster",
+            "repository": "jeremykenedy/laravel-seedster",
+            "url": "https://github.com/jeremykenedy/laravel-seedster/releases/tag/v2.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-soundboard",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "laravel-soundboard",
+            "repository": "jeremykenedy/laravel-soundboard",
+            "url": "https://github.com/jeremykenedy/laravel-soundboard/releases/tag/v1.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-spa",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "laravel-spa",
+            "repository": "jeremykenedy/laravel-spa",
+            "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v7.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-toast",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-toast",
+            "repository": "jeremykenedy/laravel-toast",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-toast",
+            "repository": "jeremykenedy/laravel-toast",
+            "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-ui-kit",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-ui-kit",
+            "repository": "jeremykenedy/laravel-ui-kit",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-ui-kit"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-ui-kit",
+            "repository": "jeremykenedy/laravel-ui-kit",
+            "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-users",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel-users",
+            "repository": "jeremykenedy/laravel-users",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-users",
+            "repository": "jeremykenedy/laravel-users",
+            "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/V5.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel-uuid",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/uuid",
+            "repository": "jeremykenedy/laravel-uuid",
+            "url": "https://packagist.org/packages/jeremykenedy/uuid"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel-uuid",
+            "repository": "jeremykenedy/laravel-uuid",
+            "url": "https://github.com/jeremykenedy/laravel-uuid/releases/tag/v3.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravel2step",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravel2step",
+            "repository": "jeremykenedy/laravel2step",
+            "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
+          },
+          {
+            "channel": "github_release",
+            "name": "laravel2step",
+            "repository": "jeremykenedy/laravel2step",
+            "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/laravelpodcast",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/laravelpodcast",
+            "repository": "jeremykenedy/laravelpodcast",
+            "url": "https://packagist.org/packages/jeremykenedy/laravelpodcast"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/michael-jackson-ipsum",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "michael-jackson-ipsum",
+            "repository": "jeremykenedy/michael-jackson-ipsum",
+            "url": "https://github.com/jeremykenedy/michael-jackson-ipsum/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/pandastatusos",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "PandaStatusOS",
+            "repository": "jeremykenedy/pandastatusos",
+            "url": "https://github.com/jeremykenedy/PandaStatusOS/releases/tag/v1.9.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/pandaventos",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "PandaVentOS",
+            "repository": "jeremykenedy/pandaventos",
+            "url": "https://github.com/jeremykenedy/PandaVentOS/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/rick-sanchez-ipsum",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "rick-sanchez-ipsum",
+            "repository": "jeremykenedy/rick-sanchez-ipsum",
+            "url": "https://github.com/jeremykenedy/rick-sanchez-ipsum/releases/tag/v1.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/slack",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/slack",
+            "repository": "jeremykenedy/slack",
+            "url": "https://packagist.org/packages/jeremykenedy/slack"
+          },
+          {
+            "channel": "github_release",
+            "name": "slack",
+            "repository": "jeremykenedy/slack",
+            "url": "https://github.com/jeremykenedy/slack/releases/tag/v2.4.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/slack-laravel",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/slack-laravel",
+            "repository": "jeremykenedy/slack-laravel",
+            "url": "https://packagist.org/packages/jeremykenedy/slack-laravel"
+          },
+          {
+            "channel": "github_release",
+            "name": "slack-laravel",
+            "repository": "jeremykenedy/slack-laravel",
+            "url": "https://github.com/jeremykenedy/slack-laravel/releases/tag/v2.6.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/timezones",
+        "publications": [
+          {
+            "channel": "packagist",
+            "name": "jeremykenedy/timezones",
+            "repository": "jeremykenedy/timezones",
+            "url": "https://packagist.org/packages/jeremykenedy/timezones"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/vue-cordova-ratchet",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "vue-cordova-ratchet",
+            "repository": "jeremykenedy/vue-cordova-ratchet",
+            "url": "https://github.com/jeremykenedy/vue-cordova-ratchet/releases/tag/v1.0.0"
+          }
+        ]
+      }
+    ]
   }
 }

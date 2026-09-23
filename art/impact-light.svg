@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="143" viewBox="0 0 800 143" role="img" aria-labelledby="title desc">
 <title id="title">Open source adoption</title>
-<desc id="desc">PACKAGE DOWNLOADS: 4.04M; GITHUB STARS: 6,959; COMMUNITY FORKS: 1,990; PUBLISHED PACKAGES: 23</desc>
+<desc id="desc">PACKAGE DOWNLOADS: 4.04M; GITHUB STARS: 6,959; COMMUNITY FORKS: 1,990; PUBLISHED PROJECTS: 39</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="798" height="141" rx="14" fill="#ffffff" stroke="#e5e7eb" />
 <text x="24" y="33" font-size="9" fill="#526176" font-weight="600" letter-spacing=".7">PACKAGE DOWNLOADS</text>
@@ -15,8 +15,8 @@
 <text x="420" y="79" font-size="36" fill="#6d28d9" font-weight="700" letter-spacing="-1.2">1,990</text>
 <text x="420" y="104" font-size="8.5" fill="#526176" font-weight="400" >Of original public repos</text>
 <path d="M605 27 V115" stroke="#e5e7eb"/>
-<text x="618" y="33" font-size="9" fill="#526176" font-weight="600" letter-spacing=".7">PUBLISHED PACKAGES</text>
-<text x="618" y="79" font-size="36" fill="#2563eb" font-weight="700" letter-spacing="-1.2">23</text>
-<text x="618" y="104" font-size="8.5" fill="#526176" font-weight="400" >In the jeremykenedy namespace</text>
+<text x="618" y="33" font-size="9" fill="#526176" font-weight="600" letter-spacing=".7">PUBLISHED PROJECTS</text>
+<text x="618" y="79" font-size="36" fill="#2563eb" font-weight="700" letter-spacing="-1.2">39</text>
+<text x="618" y="104" font-size="8.5" fill="#526176" font-weight="400" >Packages, apps, and tools</text>
 </g>
 </svg>

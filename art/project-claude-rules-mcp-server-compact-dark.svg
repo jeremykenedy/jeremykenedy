@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="284" viewBox="0 0 270 284" role="img" aria-labelledby="title desc">
+<title id="title">MCP Developer Tooling</title>
+<desc id="desc">Searchable engineering rules and skills over authenticated HTTP and stdio. Explore the code</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="1" y="1" width="268" height="266" rx="12" fill="#101318" stroke="#303640" />
+<text x="19" y="25" font-size="8" fill="#60a5fa" font-weight="600" letter-spacing=".4">DEVELOPER EXPERIENCE / TYPESCRIPT</text>
+<text x="19" y="66" font-size="21" fill="#f0f3f8" font-weight="650" letter-spacing="-.4">MCP Developer Tooling</text>
+<text x="19" y="115" font-size="12.5" fill="#a5afbf" font-weight="400" >Searchable engineering rules and</text>
+<text x="19" y="132" font-size="12.5" fill="#a5afbf" font-weight="400" >skills over authenticated HTTP</text>
+<text x="19" y="149" font-size="12.5" fill="#a5afbf" font-weight="400" >and stdio.</text>
+<text x="19" y="178" font-size="10" fill="#60a5fa" font-weight="500" >TypeScript · Node.js · MCP · Docker</text>
+<path d="M19 207 H251" stroke="#303640"/>
+<text x="19" y="230" font-size="10" fill="#f0f3f8" font-weight="600" >Explore the code</text>
+<text x="19" y="250" font-size="9" fill="#a5afbf" font-weight="400" >claude-rules-mcp-server</text>
+</g>
+</svg>

@@ -9,6 +9,7 @@ from html import escape
 import json
 import os
 from pathlib import Path
+import textwrap
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
@@ -233,7 +234,7 @@ def impact(metrics, theme, mobile=False):
     return svg(width, height, "Open source adoption", description, body)
 
 
-def project_card(project, metrics, theme):
+def project_card(project, metrics, theme, width=392):
     t = THEMES[theme]
     accent = t[project["accent"]]
     repo = metrics["repositories"][project["repo"]]
@@ -245,6 +246,26 @@ def project_card(project, metrics, theme):
         counts += f"  /  {repo['forks_count']:,} forks"
     else:
         counts = "Explore the code"
+    if width != 392:
+        narrow = width < 250
+        margin = 15 if narrow else 19
+        height = 320 if narrow else 284
+        body = [rect(1, 1, width - 2, height - 18, t["bg"], t["border"], 12)]
+        for index, line in enumerate(textwrap.wrap(project["category"], 25 if narrow else 36)):
+            body.append(text(margin, 25 + index * 12, line, 7.5 if narrow else 8, accent, 600, 'letter-spacing=".4"'))
+        for index, line in enumerate(textwrap.wrap(project["title"], 17 if narrow else 24)):
+            body.append(text(margin, 66 + index * 24, line, 18 if narrow else 21, t["text"], 650, 'letter-spacing="-.4"'))
+        for index, line in enumerate(textwrap.wrap(" ".join(project["lines"]), 26 if narrow else 33)):
+            body.append(text(margin, 115 + index * 17, line, 11.5 if narrow else 12.5, t["muted"]))
+        stack_y = 193 if narrow else 178
+        for index, line in enumerate(textwrap.wrap(project["stack"], 29 if narrow else 38)):
+            body.append(text(margin, stack_y + index * 15, line, 9 if narrow else 10, accent, 500))
+        divider_y = 224 if narrow else 207
+        body.append(f'<path d="M{margin} {divider_y} H{width-margin}" stroke="{t["border"]}"/>')
+        for index, line in enumerate(textwrap.wrap(counts, 28 if narrow else 38)):
+            body.append(text(margin, divider_y + 23 + index * 15, line, 9 if narrow else 10, t["text"], 600))
+        body.append(text(margin, height - 34, project["repo"], 8 if narrow else 9, t["muted"]))
+        return svg(width, height, project["title"], " ".join(project["lines"]) + " " + counts, body)
     body = [rect(1, 1, 390, 210, t["bg"], t["border"], 12),
             rect(21, 22, 3, 13, accent, radius=1),
             text(32, 32, project["category"], 8.4, accent, 600, 'letter-spacing=".7"'),
@@ -256,7 +277,7 @@ def project_card(project, metrics, theme):
             text(21, 175, counts, 11, t["text"], 600),
             text(21, 195, project["repo"], 9, t["muted"]),
             '<path d="M355 177 L366 166 M356 166 H366 V176" fill="none" stroke="' + accent + '" stroke-width="1.5"/>']
-    return svg(392, 212, project["title"], " ".join(project["lines"]) + " " + counts, body)
+    return svg(392, 228, project["title"], " ".join(project["lines"]) + " " + counts, body)
 
 
 def language_groups(languages):
@@ -317,6 +338,8 @@ def render(metrics):
         output[f"art/stars-{theme}.svg"] = badge("GitHub stars", compact(metrics["stars"]), theme, 137)
         for project in PROJECTS:
             output[f"art/project-{project['repo']}-{theme}.svg"] = project_card(project, metrics, theme)
+            output[f"art/project-{project['repo']}-compact-{theme}.svg"] = project_card(project, metrics, theme, width=270)
+            output[f"art/project-{project['repo']}-narrow-{theme}.svg"] = project_card(project, metrics, theme, width=194)
     readme = (ROOT / "README.md").read_text()
     start, end = "<!-- METRICS:START -->", "<!-- METRICS:END -->"
     if readme.count(start) != 1 or readme.count(end) != 1:

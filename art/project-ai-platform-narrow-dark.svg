@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="320" viewBox="0 0 194 320" role="img" aria-labelledby="title desc">
+<title id="title">AI Platform</title>
+<desc id="desc">Self-hosted inference, persistent memory, and real-time conversations. Explore the code</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="1" y="1" width="192" height="302" rx="12" fill="#101318" stroke="#303640" />
+<text x="15" y="25" font-size="7.5" fill="#a78bfa" font-weight="600" letter-spacing=".4">APPLIED AI / PLATFORM</text>
+<text x="15" y="37" font-size="7.5" fill="#a78bfa" font-weight="600" letter-spacing=".4">ARCHITECTURE</text>
+<text x="15" y="66" font-size="18" fill="#f0f3f8" font-weight="650" letter-spacing="-.4">AI Platform</text>
+<text x="15" y="115" font-size="11.5" fill="#a5afbf" font-weight="400" >Self-hosted inference,</text>
+<text x="15" y="132" font-size="11.5" fill="#a5afbf" font-weight="400" >persistent memory, and</text>
+<text x="15" y="149" font-size="11.5" fill="#a5afbf" font-weight="400" >real-time conversations.</text>
+<text x="15" y="193" font-size="9" fill="#a78bfa" font-weight="500" >Vue · PostgreSQL · Redis ·</text>
+<text x="15" y="208" font-size="9" fill="#a78bfa" font-weight="500" >Docker</text>
+<path d="M15 224 H179" stroke="#303640"/>
+<text x="15" y="247" font-size="9" fill="#f0f3f8" font-weight="600" >Explore the code</text>
+<text x="15" y="286" font-size="8" fill="#a5afbf" font-weight="400" >ai-platform</text>
+</g>
+</svg>

@@ -58,7 +58,7 @@ Outside the day job, I build in public, maintain open source projects, and follo
 </p>
 
 <!-- METRICS:START -->
-<sub>Updated 2026-09-23 UTC · 4,037,769 Packagist downloads · 6,959 stars · 1,990 forks · 95 original public repositories.</sub>
+<sub>Updated 2026-09-23 UTC · 4,037,813 Packagist downloads · 6,959 stars · 1,990 forks · 95 original public repositories.</sub>
 <!-- METRICS:END -->
 
 <details>

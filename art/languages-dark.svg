@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-labelledby="title desc">
 <title id="title">Languages across original public repositories</title>
-<desc id="desc">PHP: 47 repositories; JavaScript: 17 repositories; HTML: 7 repositories; CSS: 3 repositories; Objective-C: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; Blade: 1 repositories; C: 1 repositories; Python: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
+<desc id="desc">PHP: 47 repositories; JavaScript: 17 repositories; HTML: 7 repositories; CSS: 3 repositories; Objective-C: 2 repositories; Python: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; Blade: 1 repositories; C: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="798" height="198" rx="14" fill="#101318" stroke="#303640" />
 <text x="24" y="35" font-size="10" fill="#a5afbf" font-weight="600" letter-spacing="1.5">THE PUBLIC CODEBASE</text>
-<text x="776" y="35" font-size="11" fill="#a5afbf" font-weight="400" text-anchor="end">85 repos with a detected language</text>
-<rect x="24.0" y="54" width="415.812" height="11" rx="0" fill="#8b5cf6" stroke="none" />
+<text x="776" y="35" font-size="11" fill="#a5afbf" font-weight="400" text-anchor="end">86 repos with a detected language</text>
+<rect x="24.0" y="54" width="410.977" height="11" rx="0" fill="#8b5cf6" stroke="none" />
 <circle cx="28" cy="93" r="4" fill="#8b5cf6"/>
 <text x="40" y="97" font-size="12" fill="#f0f3f8" font-weight="500" >PHP</text>
-<text x="242" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">55.3%</text>
-<rect x="439.812" y="54" width="150.4" height="11" rx="0" fill="#3b82f6" stroke="none" />
+<text x="242" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">54.7%</text>
+<rect x="434.977" y="54" width="148.651" height="11" rx="0" fill="#3b82f6" stroke="none" />
 <circle cx="282" cy="93" r="4" fill="#3b82f6"/>
 <text x="294" y="97" font-size="12" fill="#f0f3f8" font-weight="500" >JavaScript</text>
-<text x="496" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">20.0%</text>
-<rect x="590.212" y="54" width="61.929" height="11" rx="0" fill="#22c55e" stroke="none" />
+<text x="496" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">19.8%</text>
+<rect x="583.628" y="54" width="61.209" height="11" rx="0" fill="#22c55e" stroke="none" />
 <circle cx="536" cy="93" r="4" fill="#22c55e"/>
 <text x="548" y="97" font-size="12" fill="#f0f3f8" font-weight="500" >HTML</text>
-<text x="750" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">8.2%</text>
-<rect x="652.141" y="54" width="26.541" height="11" rx="0" fill="#f59e0b" stroke="none" />
+<text x="750" y="97" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">8.1%</text>
+<rect x="644.837" y="54" width="26.233" height="11" rx="0" fill="#f59e0b" stroke="none" />
 <circle cx="28" cy="129" r="4" fill="#f59e0b"/>
 <text x="40" y="133" font-size="12" fill="#f0f3f8" font-weight="500" >CSS</text>
 <text x="242" y="133" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">3.5%</text>
-<rect x="678.682" y="54" width="17.694" height="11" rx="0" fill="#ec4899" stroke="none" />
+<rect x="671.07" y="54" width="17.488" height="11" rx="0" fill="#ec4899" stroke="none" />
 <circle cx="282" cy="129" r="4" fill="#ec4899"/>
 <text x="294" y="133" font-size="12" fill="#f0f3f8" font-weight="500" >Objective-C</text>
-<text x="496" y="133" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">2.4%</text>
-<rect x="696.376" y="54" width="79.624" height="11" rx="0" fill="#64748b" stroke="none" />
+<text x="496" y="133" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">2.3%</text>
+<rect x="688.558" y="54" width="87.442" height="11" rx="0" fill="#64748b" stroke="none" />
 <circle cx="536" cy="129" r="4" fill="#64748b"/>
 <text x="548" y="133" font-size="12" fill="#f0f3f8" font-weight="500" >Other</text>
-<text x="750" y="133" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">10.6%</text>
+<text x="750" y="133" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">11.6%</text>
 <text x="24" y="177" font-size="10" fill="#a5afbf" font-weight="400" >Primary language per original public repository. A view of the code, not a skills rating.</text>
 </g>
 </svg>

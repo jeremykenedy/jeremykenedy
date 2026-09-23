@@ -51,6 +51,18 @@ class ProfileTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             profile.repository_identity("https://example.com/not-a-github-project")
 
+    def test_api_requests_reject_untrusted_schemes_and_hosts_before_network_access(self):
+        with patch.object(profile, "build_opener") as opener:
+            for url in ["file:///etc/passwd", "http://api.github.com/user", "https://example.com/data"]:
+                with self.assertRaises(ValueError):
+                    profile.fetch_json(url)
+            opener.assert_not_called()
+
+    def test_api_redirects_cannot_forward_credentials(self):
+        request = profile.Request("https://api.github.com/user", headers={"Authorization": "Bearer test-token"})
+        redirect = profile.NoRedirects().redirect_request(request, None, 302, "Found", {}, "https://example.com")
+        self.assertIsNone(redirect)
+
     def test_publications_deduplicate_distributions_and_skip_tap_as_extra_project(self):
         def entry(channel, name, repository):
             return {"channel": channel, "name": name, "repository": f"jeremykenedy/{repository}"}

@@ -15,7 +15,7 @@ import textwrap
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlparse
-from urllib.request import Request, urlopen
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,11 +66,19 @@ THEMES = {
 LANGUAGE_COLORS = ["#8b5cf6", "#3b82f6", "#22c55e", "#f59e0b", "#ec4899", "#64748b"]
 
 
+class NoRedirects(HTTPRedirectHandler):
+    """Reject redirects so API credentials cannot be forwarded to another host."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
 def fetch_json(url, payload=None):
     """Keep credentials confined to GitHub; fail instead of publishing partial totals."""
-    host = urlparse(url).hostname
-    if host not in {"api.github.com", "packagist.org", "registry.npmjs.org"}:
-        raise ValueError(f"Unexpected API host: {host}")
+    parsed = urlparse(url)
+    host = parsed.hostname
+    if parsed.scheme != "https" or host not in {"api.github.com", "packagist.org", "registry.npmjs.org"}:
+        raise ValueError(f"Unexpected API URL: {url}")
     headers = {"User-Agent": "jeremykenedy-profile (+https://github.com/jeremykenedy/jeremykenedy)"}
     if host == "api.github.com":
         headers["Accept"] = "application/vnd.github+json"
@@ -85,7 +93,7 @@ def fetch_json(url, payload=None):
         data = json.dumps(payload).encode()
     for attempt in range(3):
         try:
-            with urlopen(Request(url, headers=headers, data=data), timeout=30) as response:
+            with build_opener(NoRedirects).open(Request(url, headers=headers, data=data), timeout=30) as response:
                 return json.load(response)
         except HTTPError as error:
             if error.code not in {429, 500, 502, 503, 504} or attempt == 2:
@@ -171,31 +179,22 @@ def summarize_publications(entries, github_package_count=0):
     return {"counts": counts, "projects": [projects[key] for key in sorted(projects)]}
 
 
-def fetch_publications(repositories, packagist_packages):
+def fetch_public_release(repo):
+    page = 1
+    while True:
+        releases = fetch_json(f"{API}/repos/{OWNER}/{repo['name']}/releases?per_page=30&page={page}")
+        if not isinstance(releases, list):
+            raise ValueError(f"Invalid release list for {repo['name']}")
+        for release in releases:
+            if not release["draft"] and release["published_at"]:
+                return {"channel": "github_release", "name": repo["name"],
+                        "repository": repository_identity(repo["html_url"]), "url": release["html_url"]}
+        if len(releases) < 30:
+            return None
+        page += 1
+
+def fetch_npm_publications():
     entries = []
-    for name, package in sorted(packagist_packages.items()):
-        entries.append({"channel": "packagist", "name": name, "repository": repository_identity(package["repository"]),
-                        "url": f"{PACKAGIST}/packages/{name}"})
-
-    def public_release(repo):
-        page = 1
-        while True:
-            releases = fetch_json(f"{API}/repos/{OWNER}/{repo['name']}/releases?per_page=30&page={page}")
-            if not isinstance(releases, list):
-                raise ValueError(f"Invalid release list for {repo['name']}")
-            for release in releases:
-                if not release["draft"] and release["published_at"]:
-                    return {"channel": "github_release", "name": repo["name"],
-                            "repository": repository_identity(repo["html_url"]), "url": release["html_url"]}
-            if len(releases) < 30:
-                return None
-            page += 1
-
-    originals = [repo for repo in repositories if not repo["private"] and not repo["fork"]
-                 and repo["owner"]["login"].lower() == OWNER]
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        entries.extend(entry for entry in pool.map(public_release, originals) if entry)
-
     npm_names = set()
     for publisher in NPM_PUBLISHERS:
         offset = 0
@@ -217,7 +216,10 @@ def fetch_publications(repositories, packagist_packages):
         source = repository_identity(metadata["url"] if isinstance(metadata, dict) else metadata)
         entries.append({"channel": "npm", "name": name, "repository": source,
                         "url": f"https://www.npmjs.com/package/{name}"})
+    return entries
 
+def fetch_homebrew_publications(originals):
+    entries = []
     for tap in (repo for repo in originals if repo["name"].startswith("homebrew-")):
         tree = fetch_json(f"{API}/repos/{OWNER}/{tap['name']}/git/trees/HEAD?recursive=1")
         if tree.get("truncated"):
@@ -232,14 +234,30 @@ def fetch_publications(repositories, packagist_packages):
                 raise ValueError(f"Homebrew formula has no source homepage: {item['path']}")
             entries.append({"channel": "homebrew", "name": f"{tap['name']}/{item['path']}",
                             "repository": repository_identity(homepage.group(1)), "url": blob["html_url"]})
+    return entries
 
+def fetch_github_package_count():
     registry = fetch_json(f"{API}/graphql", {"query": f'query {{ user(login:"{OWNER}") {{ packages(first:1) {{ totalCount }} }} }}'})
     if registry.get("errors"):
         raise ValueError("GitHub Packages count could not be verified")
     github_package_count = registry["data"]["user"]["packages"]["totalCount"]
     if github_package_count:
         raise ValueError("New GitHub Packages detected; map them to source projects before refreshing the total")
-    return summarize_publications(entries, github_package_count)
+    return github_package_count
+
+def fetch_publications(repositories, packagist_packages):
+    entries = [
+        {"channel": "packagist", "name": name, "repository": repository_identity(package["repository"]),
+         "url": f"{PACKAGIST}/packages/{name}"}
+        for name, package in sorted(packagist_packages.items())
+    ]
+    originals = [repo for repo in repositories if not repo["private"] and not repo["fork"]
+                 and repo["owner"]["login"].lower() == OWNER]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        entries.extend(entry for entry in pool.map(fetch_public_release, originals) if entry)
+    entries.extend(fetch_npm_publications())
+    entries.extend(fetch_homebrew_publications(originals))
+    return summarize_publications(entries, fetch_github_package_count())
 
 
 def fetch_metrics():

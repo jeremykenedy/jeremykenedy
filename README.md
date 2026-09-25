@@ -32,7 +32,7 @@
 
 ## A little about me
 
-**15+ years building software. 9 years leading engineering teams. Still writing code.**
+**16+ years building software. 10 years leading engineering teams. Still writing code.**
 
 I'm an engineering leader and software engineer in Portland, Oregon. I like taking ideas from a rough sketch to something people can actually use, and helping teams find their rhythm along the way.
 

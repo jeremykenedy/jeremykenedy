@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="194" height="320" viewBox="0 0 194 320" role="img" aria-labelledby="title desc">
 <title id="title">Application Observability</title>
-<desc id="desc">Activity logging, configurable events, and a dashboard for investigation. 583 stars  /  312.7k downloads</desc>
+<desc id="desc">Activity logging, configurable events, and a dashboard for investigation. 583 stars  /  312.8k downloads</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="192" height="302" rx="12" fill="#101318" stroke="#303640" />
 <text x="15" y="25" font-size="7.5" fill="#60a5fa" font-weight="600" letter-spacing=".4">OPERATIONS / DEVELOPER</text>
@@ -14,7 +14,7 @@
 <text x="15" y="193" font-size="9" fill="#60a5fa" font-weight="500" >PHP · Laravel · Activity</text>
 <text x="15" y="208" font-size="9" fill="#60a5fa" font-weight="500" >logging</text>
 <path d="M15 224 H179" stroke="#303640"/>
-<text x="15" y="247" font-size="9" fill="#f0f3f8" font-weight="600" >583 stars  /  312.7k</text>
+<text x="15" y="247" font-size="9" fill="#f0f3f8" font-weight="600" >583 stars  /  312.8k</text>
 <text x="15" y="262" font-size="9" fill="#f0f3f8" font-weight="600" >downloads</text>
 <text x="15" y="286" font-size="8" fill="#a5afbf" font-weight="400" >laravel-logger</text>
 </g>

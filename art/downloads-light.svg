@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="174" height="26" viewBox="0 0 174 26" role="img" aria-labelledby="title desc">
-<title id="title">Packagist downloads: 4.04M</title>
-<desc id="desc">Packagist downloads: 4.04M</desc>
+<title id="title">Packagist downloads: 4.05M</title>
+<desc id="desc">Packagist downloads: 4.05M</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="172" height="24" rx="6" fill="#f8fafc" stroke="#e5e7eb" />
 <text x="10" y="17" font-size="10" fill="#526176" font-weight="500" >Packagist downloads</text>
-<text x="164" y="17" font-size="10" fill="#6d28d9" font-weight="650" text-anchor="end">4.04M</text>
+<text x="164" y="17" font-size="10" fill="#6d28d9" font-weight="650" text-anchor="end">4.05M</text>
 </g>
 </svg>

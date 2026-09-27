@@ -3,15 +3,15 @@
   "stars": 6962,
   "forks": 1989,
   "languages": {
-    "PHP": 47,
+    "PHP": 46,
     "JavaScript": 17,
     "HTML": 7,
     "CSS": 3,
+    "Blade": 2,
     "Objective-C": 2,
     "Python": 2,
     "Shell": 2,
     "Vue": 2,
-    "Blade": 1,
     "C": 1,
     "Ruby": 1,
     "TypeScript": 1
@@ -40,7 +40,7 @@
     "laravel-roles": {
       "stargazers_count": 1050,
       "forks_count": 200,
-      "language": "PHP"
+      "language": "Blade"
     },
     "PandaVentOS": {
       "stargazers_count": 1,
@@ -48,32 +48,32 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-09-26",
-  "package_downloads": 4047256,
+  "updated": "2026-09-27",
+  "package_downloads": 4048382,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2817,
-    "jeremykenedy/laravel-blocker": 74050,
+    "jeremykenedy/laravel-blocker": 74053,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 17581,
-    "jeremykenedy/laravel-exception-notifier": 301929,
-    "jeremykenedy/laravel-https": 137233,
+    "jeremykenedy/laravel-email-database-log": 17594,
+    "jeremykenedy/laravel-exception-notifier": 302107,
+    "jeremykenedy/laravel-https": 137258,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 312856,
+    "jeremykenedy/laravel-logger": 312951,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 186599,
-    "jeremykenedy/laravel-roles": 896652,
-    "jeremykenedy/laravel-seedster": 96,
+    "jeremykenedy/laravel-phpinfo": 186631,
+    "jeremykenedy/laravel-roles": 896952,
+    "jeremykenedy/laravel-seedster": 329,
     "jeremykenedy/laravel-toast": 32,
-    "jeremykenedy/laravel-ui-kit": 398,
-    "jeremykenedy/laravel-users": 97793,
-    "jeremykenedy/laravel2step": 112076,
+    "jeremykenedy/laravel-ui-kit": 399,
+    "jeremykenedy/laravel-users": 97803,
+    "jeremykenedy/laravel2step": 112097,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 971277,
-    "jeremykenedy/slack-laravel": 796449,
+    "jeremykenedy/slack": 971422,
+    "jeremykenedy/slack-laravel": 796494,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 138978
+    "jeremykenedy/uuid": 139003
   },
   "publications": {
     "counts": {
@@ -416,7 +416,7 @@
             "channel": "github_release",
             "name": "laravel-roles",
             "repository": "jeremykenedy/laravel-roles",
-            "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v12.2.0"
+            "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
           }
         ]
       },

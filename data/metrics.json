@@ -1,10 +1,10 @@
 {
-  "original_repositories": 95,
-  "stars": 6962,
-  "forks": 1989,
+  "original_repositories": 96,
+  "stars": 6964,
+  "forks": 1990,
   "languages": {
     "PHP": 46,
-    "JavaScript": 17,
+    "JavaScript": 18,
     "HTML": 7,
     "CSS": 3,
     "Blade": 2,
@@ -28,8 +28,8 @@
       "language": "TypeScript"
     },
     "laravel-auth": {
-      "stargazers_count": 3042,
-      "forks_count": 978,
+      "stargazers_count": 3043,
+      "forks_count": 979,
       "language": "JavaScript"
     },
     "laravel-logger": {
@@ -48,44 +48,44 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-09-27",
-  "package_downloads": 4048382,
+  "updated": "2026-09-28",
+  "package_downloads": 4051844,
   "packages": {
-    "jeremykenedy/filament-spotlight-2": 2817,
-    "jeremykenedy/laravel-blocker": 74053,
+    "jeremykenedy/filament-spotlight-2": 2849,
+    "jeremykenedy/laravel-blocker": 74182,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 17594,
-    "jeremykenedy/laravel-exception-notifier": 302107,
-    "jeremykenedy/laravel-https": 137258,
+    "jeremykenedy/laravel-email-database-log": 17783,
+    "jeremykenedy/laravel-exception-notifier": 302755,
+    "jeremykenedy/laravel-https": 137426,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 312951,
+    "jeremykenedy/laravel-logger": 313336,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 186631,
-    "jeremykenedy/laravel-roles": 896952,
+    "jeremykenedy/laravel-phpinfo": 186818,
+    "jeremykenedy/laravel-roles": 897607,
     "jeremykenedy/laravel-seedster": 329,
     "jeremykenedy/laravel-toast": 32,
     "jeremykenedy/laravel-ui-kit": 399,
-    "jeremykenedy/laravel-users": 97803,
-    "jeremykenedy/laravel2step": 112097,
+    "jeremykenedy/laravel-users": 97887,
+    "jeremykenedy/laravel2step": 112283,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 971422,
-    "jeremykenedy/slack-laravel": 796494,
+    "jeremykenedy/slack": 971747,
+    "jeremykenedy/slack-laravel": 796792,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139003
+    "jeremykenedy/uuid": 139179
   },
   "publications": {
     "counts": {
       "packagist": 23,
       "npm": 1,
       "homebrew": 1,
-      "github_release_repositories": 38,
+      "github_release_repositories": 39,
       "github_packages": 0,
       "registry_listings": 25,
       "registry_projects": 25,
-      "additional_github_projects": 14,
-      "unique_projects": 39
+      "additional_github_projects": 15,
+      "unique_projects": 40
     },
     "projects": [
       {
@@ -96,6 +96,17 @@
             "name": "ai-platform",
             "repository": "jeremykenedy/ai-platform",
             "url": "https://github.com/jeremykenedy/ai-platform/releases/tag/v1.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/amazon-fire-tv-fixes",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "amazon-fire-tv-fixes",
+            "repository": "jeremykenedy/amazon-fire-tv-fixes",
+            "url": "https://github.com/jeremykenedy/amazon-fire-tv-fixes/releases/tag/v1.0.0"
           }
         ]
       },
@@ -190,7 +201,7 @@
             "channel": "github_release",
             "name": "laravel-auth",
             "repository": "jeremykenedy/laravel-auth",
-            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.1.0"
+            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.3.0"
           }
         ]
       },

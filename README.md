@@ -60,7 +60,7 @@ I'm comfortable with Scrum, Agile, Waterfall, and the days when we just need to 
 </p>
 
 <!-- METRICS:START -->
-<sub>Updated 2026-09-27 UTC · 4,048,382 Packagist downloads · 6,962 stars · 1,989 forks · 95 original public repositories.</sub>
+<sub>Updated 2026-09-28 UTC · 4,051,844 Packagist downloads · 6,964 stars · 1,990 forks · 96 original public repositories.</sub>
 <!-- METRICS:END -->
 
 <details>
@@ -77,7 +77,7 @@ Downloads are lifetime downloads across every package in the [jeremykenedy Packa
 | Homebrew | 1 |
 | GitHub Packages registry | 0 |
 
-These 25 registry listings represent 25 source projects. Another 14 projects have public GitHub releases, for **39 distinct published projects** in total. There are 38 repositories with GitHub releases overall, including projects already counted in registries and distribution taps.
+These 25 registry listings represent 25 source projects. Another 15 projects have public GitHub releases, for **40 distinct published projects** in total. There are 39 repositories with GitHub releases overall, including projects already counted in registries and distribution taps.
 
 <!-- PUBLICATIONS:END -->
 

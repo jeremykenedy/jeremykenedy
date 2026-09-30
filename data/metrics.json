@@ -1,6 +1,6 @@
 {
   "original_repositories": 96,
-  "stars": 6964,
+  "stars": 6963,
   "forks": 1990,
   "languages": {
     "PHP": 46,
@@ -48,32 +48,32 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-09-28",
-  "package_downloads": 4051844,
+  "updated": "2026-09-30",
+  "package_downloads": 4058388,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74182,
+    "jeremykenedy/laravel-blocker": 74255,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 17783,
-    "jeremykenedy/laravel-exception-notifier": 302755,
-    "jeremykenedy/laravel-https": 137426,
+    "jeremykenedy/laravel-email-database-log": 17904,
+    "jeremykenedy/laravel-exception-notifier": 304473,
+    "jeremykenedy/laravel-https": 137507,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 313336,
+    "jeremykenedy/laravel-logger": 313781,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 186818,
-    "jeremykenedy/laravel-roles": 897607,
-    "jeremykenedy/laravel-seedster": 329,
-    "jeremykenedy/laravel-toast": 32,
+    "jeremykenedy/laravel-phpinfo": 186953,
+    "jeremykenedy/laravel-roles": 898839,
+    "jeremykenedy/laravel-seedster": 359,
+    "jeremykenedy/laravel-toast": 33,
     "jeremykenedy/laravel-ui-kit": 399,
-    "jeremykenedy/laravel-users": 97887,
-    "jeremykenedy/laravel2step": 112283,
+    "jeremykenedy/laravel-users": 97980,
+    "jeremykenedy/laravel2step": 112384,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 971747,
-    "jeremykenedy/slack-laravel": 796792,
+    "jeremykenedy/slack": 973229,
+    "jeremykenedy/slack-laravel": 797715,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139179
+    "jeremykenedy/uuid": 139288
   },
   "publications": {
     "counts": {
@@ -106,7 +106,7 @@
             "channel": "github_release",
             "name": "amazon-fire-tv-fixes",
             "repository": "jeremykenedy/amazon-fire-tv-fixes",
-            "url": "https://github.com/jeremykenedy/amazon-fire-tv-fixes/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/amazon-fire-tv-fixes/releases/tag/v2.0.0"
           }
         ]
       },
@@ -201,7 +201,7 @@
             "channel": "github_release",
             "name": "laravel-auth",
             "repository": "jeremykenedy/laravel-auth",
-            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.3.0"
+            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v13.0.0"
           }
         ]
       },

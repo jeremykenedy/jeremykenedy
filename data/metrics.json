@@ -1,7 +1,7 @@
 {
   "original_repositories": 96,
   "stars": 6963,
-  "forks": 1990,
+  "forks": 1989,
   "languages": {
     "PHP": 46,
     "JavaScript": 18,
@@ -29,7 +29,7 @@
     },
     "laravel-auth": {
       "stargazers_count": 3043,
-      "forks_count": 979,
+      "forks_count": 978,
       "language": "JavaScript"
     },
     "laravel-logger": {
@@ -48,32 +48,32 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-09-30",
-  "package_downloads": 4058388,
+  "updated": "2026-10-01",
+  "package_downloads": 4061887,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74255,
+    "jeremykenedy/laravel-blocker": 74310,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 17904,
-    "jeremykenedy/laravel-exception-notifier": 304473,
-    "jeremykenedy/laravel-https": 137507,
+    "jeremykenedy/laravel-email-database-log": 17957,
+    "jeremykenedy/laravel-exception-notifier": 305675,
+    "jeremykenedy/laravel-https": 137576,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 313781,
+    "jeremykenedy/laravel-logger": 314005,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 186953,
-    "jeremykenedy/laravel-roles": 898839,
-    "jeremykenedy/laravel-seedster": 359,
+    "jeremykenedy/laravel-phpinfo": 187043,
+    "jeremykenedy/laravel-roles": 899394,
+    "jeremykenedy/laravel-seedster": 362,
     "jeremykenedy/laravel-toast": 33,
-    "jeremykenedy/laravel-ui-kit": 399,
-    "jeremykenedy/laravel-users": 97980,
-    "jeremykenedy/laravel2step": 112384,
+    "jeremykenedy/laravel-ui-kit": 400,
+    "jeremykenedy/laravel-users": 98023,
+    "jeremykenedy/laravel2step": 112462,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 973229,
-    "jeremykenedy/slack-laravel": 797715,
+    "jeremykenedy/slack": 973824,
+    "jeremykenedy/slack-laravel": 798165,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139288
+    "jeremykenedy/uuid": 139369
   },
   "publications": {
     "counts": {

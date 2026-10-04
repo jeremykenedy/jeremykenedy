@@ -138,6 +138,6 @@ I choose tools around the problem. These are some of the ones I work with:
 
 ## Say hello
 
-I'm always up for talking about interesting engineering problems, thoughtful teams, and useful things we could build. Open to engineering leadership opportunities where I can help people grow and stay close to the work.
+I'm always up for talking about interesting engineering problems, thoughtful teams, and useful things we could build.
 
 [Get in touch](https://jeremykenedy.com/#contact) · [Connect on LinkedIn](https://www.linkedin.com/in/jeremykenedy/) · [Browse my work](https://github.com/jeremykenedy?tab=repositories&amp;type=source)

@@ -1,7 +1,7 @@
 {
   "original_repositories": 96,
-  "stars": 6962,
-  "forks": 1988,
+  "stars": 6963,
+  "forks": 1987,
   "languages": {
     "PHP": 46,
     "JavaScript": 18,
@@ -28,7 +28,7 @@
       "language": "TypeScript"
     },
     "laravel-auth": {
-      "stargazers_count": 3042,
+      "stargazers_count": 3043,
       "forks_count": 977,
       "language": "JavaScript"
     },
@@ -48,32 +48,32 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-10-04",
-  "package_downloads": 4070215,
+  "updated": "2026-10-05",
+  "package_downloads": 4074711,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74365,
+    "jeremykenedy/laravel-blocker": 74401,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 17999,
-    "jeremykenedy/laravel-exception-notifier": 309849,
-    "jeremykenedy/laravel-https": 137679,
+    "jeremykenedy/laravel-email-database-log": 18064,
+    "jeremykenedy/laravel-exception-notifier": 311748,
+    "jeremykenedy/laravel-https": 137742,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 314508,
+    "jeremykenedy/laravel-logger": 314804,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187157,
-    "jeremykenedy/laravel-roles": 900813,
+    "jeremykenedy/laravel-phpinfo": 187229,
+    "jeremykenedy/laravel-roles": 901479,
     "jeremykenedy/laravel-seedster": 362,
     "jeremykenedy/laravel-toast": 34,
     "jeremykenedy/laravel-ui-kit": 400,
-    "jeremykenedy/laravel-users": 98085,
-    "jeremykenedy/laravel2step": 112560,
+    "jeremykenedy/laravel-users": 98139,
+    "jeremykenedy/laravel2step": 112635,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 974814,
-    "jeremykenedy/slack-laravel": 798823,
+    "jeremykenedy/slack": 975426,
+    "jeremykenedy/slack-laravel": 799412,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139478
+    "jeremykenedy/uuid": 139547
   },
   "publications": {
     "counts": {

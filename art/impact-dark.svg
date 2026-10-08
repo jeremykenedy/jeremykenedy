@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="143" viewBox="0 0 800 143" role="img" aria-labelledby="title desc">
 <title id="title">Open source adoption</title>
-<desc id="desc">PACKAGE DOWNLOADS: 4.08M; GITHUB STARS: 6,960; COMMUNITY FORKS: 1,986; PUBLISHED PROJECTS: 40</desc>
+<desc id="desc">PACKAGE DOWNLOADS: 4.09M; GITHUB STARS: 6,961; COMMUNITY FORKS: 1,985; PUBLISHED PROJECTS: 42</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="798" height="141" rx="14" fill="#101318" stroke="#303640" />
 <text x="24" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">PACKAGE DOWNLOADS</text>
-<text x="24" y="79" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">4.08M</text>
+<text x="24" y="79" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">4.09M</text>
 <text x="24" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Across Packagist packages</text>
 <path d="M209 27 V115" stroke="#303640"/>
 <text x="222" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">GITHUB STARS</text>
-<text x="222" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">6,960</text>
+<text x="222" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">6,961</text>
 <text x="222" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Public repos, excluding forks</text>
 <path d="M407 27 V115" stroke="#303640"/>
 <text x="420" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">COMMUNITY FORKS</text>
-<text x="420" y="79" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">1,986</text>
+<text x="420" y="79" font-size="36" fill="#a78bfa" font-weight="700" letter-spacing="-1.2">1,985</text>
 <text x="420" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Of original public repos</text>
 <path d="M605 27 V115" stroke="#303640"/>
 <text x="618" y="33" font-size="9" fill="#a5afbf" font-weight="600" letter-spacing=".7">PUBLISHED PROJECTS</text>
-<text x="618" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">40</text>
+<text x="618" y="79" font-size="36" fill="#60a5fa" font-weight="700" letter-spacing="-1.2">42</text>
 <text x="618" y="104" font-size="8.5" fill="#a5afbf" font-weight="400" >Packages, apps, and tools</text>
 </g>
 </svg>

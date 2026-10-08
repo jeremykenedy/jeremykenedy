@@ -1,15 +1,16 @@
 {
-  "original_repositories": 96,
-  "stars": 6960,
-  "forks": 1986,
+  "original_repositories": 99,
+  "stars": 6961,
+  "forks": 1985,
   "languages": {
     "PHP": 46,
     "JavaScript": 18,
     "HTML": 7,
-    "CSS": 3,
-    "Blade": 2,
+    "Blade": 3,
+    "Python": 3,
+    "CSS": 2,
+    "Java": 2,
     "Objective-C": 2,
-    "Python": 2,
     "Shell": 2,
     "Vue": 2,
     "C": 1,
@@ -34,7 +35,7 @@
     },
     "laravel-logger": {
       "stargazers_count": 583,
-      "forks_count": 121,
+      "forks_count": 120,
       "language": "PHP"
     },
     "laravel-roles": {
@@ -48,44 +49,44 @@
       "language": "HTML"
     }
   },
-  "updated": "2026-10-07",
-  "package_downloads": 4082390,
+  "updated": "2026-10-08",
+  "package_downloads": 4085893,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74467,
+    "jeremykenedy/laravel-blocker": 74495,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18229,
-    "jeremykenedy/laravel-exception-notifier": 313741,
-    "jeremykenedy/laravel-https": 137936,
+    "jeremykenedy/laravel-email-database-log": 18273,
+    "jeremykenedy/laravel-exception-notifier": 314400,
+    "jeremykenedy/laravel-https": 137959,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 315343,
+    "jeremykenedy/laravel-logger": 315545,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187498,
-    "jeremykenedy/laravel-roles": 902695,
-    "jeremykenedy/laravel-seedster": 373,
-    "jeremykenedy/laravel-toast": 34,
+    "jeremykenedy/laravel-phpinfo": 187547,
+    "jeremykenedy/laravel-roles": 903166,
+    "jeremykenedy/laravel-seedster": 390,
+    "jeremykenedy/laravel-toast": 37,
     "jeremykenedy/laravel-ui-kit": 400,
-    "jeremykenedy/laravel-users": 98228,
-    "jeremykenedy/laravel2step": 112845,
+    "jeremykenedy/laravel-users": 98293,
+    "jeremykenedy/laravel2step": 112871,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 976979,
-    "jeremykenedy/slack-laravel": 800586,
+    "jeremykenedy/slack": 978146,
+    "jeremykenedy/slack-laravel": 801316,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139747
+    "jeremykenedy/uuid": 139766
   },
   "publications": {
     "counts": {
       "packagist": 23,
       "npm": 1,
       "homebrew": 1,
-      "github_release_repositories": 39,
+      "github_release_repositories": 41,
       "github_packages": 0,
       "registry_listings": 25,
       "registry_projects": 25,
-      "additional_github_projects": 15,
-      "unique_projects": 40
+      "additional_github_projects": 17,
+      "unique_projects": 42
     },
     "projects": [
       {
@@ -107,6 +108,17 @@
             "name": "amazon-fire-tv-fixes",
             "repository": "jeremykenedy/amazon-fire-tv-fixes",
             "url": "https://github.com/jeremykenedy/amazon-fire-tv-fixes/releases/tag/v2.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/aquarium-live",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "aquarium-live",
+            "repository": "jeremykenedy/aquarium-live",
+            "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.2"
           }
         ]
       },
@@ -158,6 +170,17 @@
             "name": "filament-spotlight-2",
             "repository": "jeremykenedy/filament-spotlight-2",
             "url": "https://github.com/jeremykenedy/filament-spotlight-2/releases/tag/v2.0.1"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/fire-tv-aquarium",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "fire-tv-aquarium",
+            "repository": "jeremykenedy/fire-tv-aquarium",
+            "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.1"
           }
         ]
       },
@@ -320,7 +343,7 @@
             "channel": "github_release",
             "name": "laravel-logger",
             "repository": "jeremykenedy/laravel-logger",
-            "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/V11.1.1"
+            "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
           }
         ]
       },

@@ -18,7 +18,7 @@
     "TypeScript": 1
   },
   "updated": "2026-10-09",
-  "package_downloads": 4087416,
+  "package_downloads": 4087420,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
     "jeremykenedy/laravel-blocker": 74502,
@@ -32,15 +32,15 @@
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
     "jeremykenedy/laravel-phpinfo": 187572,
-    "jeremykenedy/laravel-roles": 903509,
+    "jeremykenedy/laravel-roles": 903511,
     "jeremykenedy/laravel-seedster": 470,
     "jeremykenedy/laravel-toast": 88,
     "jeremykenedy/laravel-ui-kit": 400,
     "jeremykenedy/laravel-users": 98306,
     "jeremykenedy/laravel2step": 112887,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 978718,
-    "jeremykenedy/slack-laravel": 801493,
+    "jeremykenedy/slack": 978719,
+    "jeremykenedy/slack-laravel": 801494,
     "jeremykenedy/timezones": 21,
     "jeremykenedy/uuid": 139774
   },
@@ -1147,7 +1147,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 903509,
+        "count": 903511,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1274,13 +1274,13 @@
       "description": "Animated topographic contour screensaver for your TV.",
       "category": "Creative graphics",
       "stack": "Java / Python / Shell",
-      "updated": "2026-10-09T08:26:52Z",
+      "updated": "2026-10-09T08:34:09Z",
       "stars": 1,
       "forks": 0,
       "license": "Apache-2.0",
       "branch": "main",
-      "commits": 1,
-      "contributors": 1,
+      "commits": 7,
+      "contributors": 2,
       "used_by": null,
       "releases": 1,
       "latest_release": {
@@ -1289,7 +1289,7 @@
         "url": "https://github.com/jeremykenedy/contour-flow/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 0,
+        "count": 2,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/contour-flow/releases"
       },
@@ -1323,7 +1323,7 @@
         "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 2,
+        "count": 3,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/canopy-drift/releases"
       },
@@ -1357,7 +1357,7 @@
         "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 1,
+        "count": 2,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/split-flap-drift/releases"
       },
@@ -1391,7 +1391,7 @@
         "url": "https://github.com/jeremykenedy/perseid-passage/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/perseid-passage/releases"
       },
@@ -1425,7 +1425,7 @@
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 7,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases"
       },
@@ -1493,7 +1493,7 @@
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases"
       },
@@ -1527,7 +1527,7 @@
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases"
       },
@@ -1561,7 +1561,7 @@
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases"
       },
@@ -1595,7 +1595,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -1629,7 +1629,7 @@
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
       },
@@ -1663,7 +1663,7 @@
         "url": "https://github.com/jeremykenedy/retro-flight/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/retro-flight/releases"
       },
@@ -1697,7 +1697,7 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
       },
@@ -1731,7 +1731,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -3728,5 +3728,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 28968
+  "public_authored_commits": 28972
 }

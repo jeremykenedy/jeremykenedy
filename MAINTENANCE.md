@@ -35,7 +35,7 @@ Credentials are sent only to `api.github.com`. All endpoints require HTTPS and r
 
 The collector paginates owned public, non-fork repositories and excludes archived, empty, unlicensed, and explicitly excluded projects. GitHub's fork flag is not enough: the configuration also records known detached forks and maintained derivatives. Keep those provenance exclusions current when auditing new projects. The Homebrew monitor and its tap are deliberately excluded from the cards at the owner's request.
 
-A project with no meaningful activity in five years is omitted unless it has at least 100 stars. Funding and sponsorship commit subjects are ignored when choosing the activity date from the latest 30 default-branch commits. Recent flagships are promoted only while active within 90 days. Remaining cards sort by meaningful activity, then stars. New eligible repositories appear automatically on the next refresh.
+A project with no meaningful activity in five years is omitted unless it has at least 100 stars. Funding and sponsorship commit subjects are ignored when choosing the activity date from the latest 30 default-branch commits. Projects with at least 10 stars appear first, ordered by descending star count. Below that threshold, the existing ordering is preserved: recent flagships are promoted only while active within 90 days, followed by meaningful activity and then stars. New eligible repositories appear automatically on the next refresh.
 
 Cards use public source evidence:
 

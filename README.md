@@ -71,7 +71,7 @@ I'm comfortable with Scrum, Agile, Waterfall, and the days when we just need to 
 </p>
 
 <!-- METRICS:START -->
-<sub>Updated 2026-10-09 UTC · 4,087,413 Packagist downloads · 6,983 stars · 1,985 forks · 120 public source repositories.</sub>
+<sub>Updated 2026-10-09 UTC · 4,087,416 Packagist downloads · 6,983 stars · 1,985 forks · 120 public source repositories.</sub>
 <!-- METRICS:END -->
 
 <details>
@@ -191,7 +191,7 @@ I contribute features, fixes, compatibility updates, and documentation to other 
 
 **57 public pull requests across 31 other projects. 36 merged.** These figures do not include private projects or private contributions.
 
-**28,967 public authored commits indexed by GitHub.** This covers indexed default-branch history, not private work.
+**28,968 public authored commits indexed by GitHub.** This covers indexed default-branch history, not private work.
 
 <details>
 <summary>Explore the full public contribution history</summary>

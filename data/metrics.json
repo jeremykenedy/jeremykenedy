@@ -18,7 +18,7 @@
     "TypeScript": 1
   },
   "updated": "2026-10-09",
-  "package_downloads": 4087413,
+  "package_downloads": 4087416,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
     "jeremykenedy/laravel-blocker": 74502,
@@ -27,7 +27,7 @@
     "jeremykenedy/laravel-exception-notifier": 314482,
     "jeremykenedy/laravel-https": 137987,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 315657,
+    "jeremykenedy/laravel-logger": 315658,
     "jeremykenedy/laravel-notifications": 15,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
@@ -39,8 +39,8 @@
     "jeremykenedy/laravel-users": 98306,
     "jeremykenedy/laravel2step": 112887,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 978717,
-    "jeremykenedy/slack-laravel": 801492,
+    "jeremykenedy/slack": 978718,
+    "jeremykenedy/slack-laravel": 801493,
     "jeremykenedy/timezones": 21,
     "jeremykenedy/uuid": 139774
   },
@@ -2303,7 +2303,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 315657,
+        "count": 315658,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -3601,12 +3601,6 @@
             "updated": "2018-07-10T13:53:45Z"
           },
           {
-            "title": "Update to work with l5.4 out the box",
-            "url": "https://github.com/rashidlaasri/LaravelInstaller/pull/83",
-            "state": "merged",
-            "updated": "2018-07-10T13:53:43Z"
-          },
-          {
             "title": "Add already installed config options.",
             "url": "https://github.com/rashidlaasri/LaravelInstaller/pull/90",
             "state": "merged",
@@ -3615,6 +3609,12 @@
           {
             "title": "add form wizard, add more config options, switch to font awesome, add…",
             "url": "https://github.com/rashidlaasri/LaravelInstaller/pull/89",
+            "state": "merged",
+            "updated": "2018-07-10T13:53:43Z"
+          },
+          {
+            "title": "Update to work with l5.4 out the box",
+            "url": "https://github.com/rashidlaasri/LaravelInstaller/pull/83",
             "state": "merged",
             "updated": "2018-07-10T13:53:43Z"
           }
@@ -3728,5 +3728,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 28967
+  "public_authored_commits": 28968
 }

@@ -61,7 +61,7 @@ Search explicitly uses `is:public` and excludes the account's own repositories. 
 
 ## Review before publishing
 
-Run the unit suite, regenerate from cache, and confirm the generated files match the snapshot. Check the actual GitHub renderer at phone, tablet, and desktop widths in automatic and manually selected light/dark themes. Check image loading, text clipping, wrapping, links, and banner motion. Reduced-motion preferences disable the route animation; the banner copy stays still.
+Run the unit suite, regenerate from cache, and confirm the generated files match the snapshot. Check the actual GitHub renderer at phone, tablet, and desktop widths in automatic and manually selected light/dark themes. Check image loading, text clipping, wrapping, links, and banner motion. Reduced-motion picture sources select dedicated static banner SVGs, because embedded SVG media queries do not consistently inherit the browser preference. The banner copy stays still in either version.
 
 Each card uses a native left-aligned table to keep its repository link and separate Star/Sponsor links together. Width-only picture sources account for GitHub's changing sidebar widths: two columns below 768px, three from 768px, and four from 1280px. SVG variants keep text legible at narrow widths. The minimum tested viewport is 320px. GitHub strips custom layout CSS and image `sizes`; do not introduce them as layout dependencies. Theme fragments on paired links prevent the native theme helper from rewriting compound theme/width queries. Keep width and theme selection separate.
 

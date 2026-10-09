@@ -1,14 +1,14 @@
 {
-  "original_repositories": 120,
-  "stars": 6983,
+  "original_repositories": 122,
+  "stars": 6977,
   "forks": 1985,
   "languages": {
-    "PHP": 46,
-    "Python": 19,
+    "PHP": 47,
+    "Python": 21,
     "JavaScript": 18,
     "HTML": 7,
     "Java": 7,
-    "Blade": 3,
+    "Blade": 2,
     "CSS": 2,
     "Objective-C": 2,
     "Shell": 2,
@@ -18,43 +18,43 @@
     "TypeScript": 1
   },
   "updated": "2026-10-09",
-  "package_downloads": 4087420,
+  "package_downloads": 4089896,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74502,
+    "jeremykenedy/laravel-blocker": 74519,
     "jeremykenedy/laravel-darkmode-toggle": 6,
     "jeremykenedy/laravel-email-database-log": 18281,
-    "jeremykenedy/laravel-exception-notifier": 314482,
-    "jeremykenedy/laravel-https": 137987,
+    "jeremykenedy/laravel-exception-notifier": 314993,
+    "jeremykenedy/laravel-https": 137995,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 315658,
-    "jeremykenedy/laravel-notifications": 15,
+    "jeremykenedy/laravel-logger": 315794,
+    "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187572,
-    "jeremykenedy/laravel-roles": 903511,
+    "jeremykenedy/laravel-phpinfo": 187593,
+    "jeremykenedy/laravel-roles": 903991,
     "jeremykenedy/laravel-seedster": 470,
-    "jeremykenedy/laravel-toast": 88,
+    "jeremykenedy/laravel-toast": 174,
     "jeremykenedy/laravel-ui-kit": 400,
-    "jeremykenedy/laravel-users": 98306,
-    "jeremykenedy/laravel2step": 112887,
+    "jeremykenedy/laravel-users": 98353,
+    "jeremykenedy/laravel2step": 112905,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 978719,
-    "jeremykenedy/slack-laravel": 801494,
+    "jeremykenedy/slack": 979369,
+    "jeremykenedy/slack-laravel": 801980,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139774
+    "jeremykenedy/uuid": 139785
   },
   "publications": {
     "counts": {
       "packagist": 23,
       "npm": 1,
       "homebrew": 1,
-      "github_release_repositories": 62,
+      "github_release_repositories": 64,
       "github_packages": 0,
       "registry_listings": 25,
       "registry_projects": 25,
-      "additional_github_projects": 38,
-      "unique_projects": 63
+      "additional_github_projects": 40,
+      "unique_projects": 65
     },
     "projects": [
       {
@@ -214,7 +214,7 @@
             "channel": "github_release",
             "name": "fire-tv-toolkit",
             "repository": "jeremykenedy/fire-tv-toolkit",
-            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.5.0"
+            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.7.0"
           }
         ]
       },
@@ -438,7 +438,7 @@
             "channel": "github_release",
             "name": "laravel-notifications",
             "repository": "jeremykenedy/laravel-notifications",
-            "url": "https://github.com/jeremykenedy/laravel-notifications/releases/tag/v2.0.1"
+            "url": "https://github.com/jeremykenedy/laravel-notifications/releases/tag/v3.0.0"
           }
         ]
       },
@@ -573,7 +573,7 @@
             "channel": "github_release",
             "name": "laravel-toast",
             "repository": "jeremykenedy/laravel-toast",
-            "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.0.1"
+            "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.1.0"
           }
         ]
       },
@@ -607,7 +607,7 @@
             "channel": "github_release",
             "name": "laravel-users",
             "repository": "jeremykenedy/laravel-users",
-            "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.0"
+            "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
           }
         ]
       },
@@ -734,6 +734,17 @@
         ]
       },
       {
+        "repository": "jeremykenedy/pulse-circuit",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "pulse-circuit",
+            "repository": "jeremykenedy/pulse-circuit",
+            "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
+          }
+        ]
+      },
+      {
         "repository": "jeremykenedy/rain-on-glass",
         "publications": [
           {
@@ -785,6 +796,17 @@
             "name": "signal-rain",
             "repository": "jeremykenedy/signal-rain",
             "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/skyburst-nocturne",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "skyburst-nocturne",
+            "repository": "jeremykenedy/skyburst-nocturne",
+            "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases/tag/v1.0.0"
           }
         ]
       },
@@ -899,7 +921,7 @@
       "category": "Application security",
       "stack": "PHP / JavaScript / Laravel",
       "updated": "2026-10-08T20:53:13Z",
-      "stars": 3042,
+      "stars": 3041,
       "forks": 977,
       "license": "MIT",
       "branch": "master",
@@ -959,7 +981,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 903511,
+        "count": 903991,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -995,7 +1017,7 @@
       "category": "Operations",
       "stack": "PHP / Laravel",
       "updated": "2026-10-08T20:58:48Z",
-      "stars": 583,
+      "stars": 582,
       "forks": 120,
       "license": "MIT",
       "branch": "master",
@@ -1009,7 +1031,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 315658,
+        "count": 315794,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1044,22 +1066,22 @@
       "description": "A complete dashboard for managing application accounts.",
       "category": "Application security",
       "stack": "PHP / Blade / Laravel",
-      "updated": "2026-01-08T06:01:26Z",
+      "updated": "2026-10-09T09:15:37Z",
       "stars": 455,
       "forks": 116,
       "license": "MIT",
       "branch": "master",
-      "commits": 167,
-      "contributors": 15,
+      "commits": 291,
+      "contributors": 16,
       "used_by": 206,
-      "releases": 21,
+      "releases": 22,
       "latest_release": {
-        "tag": "v6.0.0",
-        "date": "2026-10-09T08:08:08Z",
-        "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.0"
+        "tag": "v6.0.1",
+        "date": "2026-10-09T08:44:42Z",
+        "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98306,
+        "count": 98353,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1141,7 +1163,7 @@
       "category": "Application security",
       "stack": "PHP / Laravel",
       "updated": "2026-09-11T08:44:44Z",
-      "stars": 281,
+      "stars": 279,
       "forks": 47,
       "license": "MIT",
       "branch": "master",
@@ -1155,7 +1177,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 112887,
+        "count": 112905,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1283,7 +1305,7 @@
       "category": "Operations",
       "stack": "PHP / Laravel",
       "updated": "2026-10-08T20:59:03Z",
-      "stars": 142,
+      "stars": 141,
       "forks": 31,
       "license": "MIT",
       "branch": "master",
@@ -1297,7 +1319,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 314482,
+        "count": 314993,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1333,7 +1355,7 @@
       "category": "Application security",
       "stack": "PHP / Laravel",
       "updated": "2026-10-08T20:58:58Z",
-      "stars": 102,
+      "stars": 100,
       "forks": 27,
       "license": "MIT",
       "branch": "master",
@@ -1347,7 +1369,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74502,
+        "count": 74519,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1383,7 +1405,7 @@
       "category": "Developer tools",
       "stack": "PHP / Blade",
       "updated": "2026-10-08T20:58:36Z",
-      "stars": 46,
+      "stars": 44,
       "forks": 4,
       "license": "MIT",
       "branch": "master",
@@ -1397,7 +1419,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187572,
+        "count": 187593,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1447,7 +1469,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 137987,
+        "count": 137995,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1524,19 +1546,19 @@
       "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
       "category": "TV and tooling",
       "stack": "Java / JavaScript / Shell",
-      "updated": "2026-10-09T08:23:08Z",
+      "updated": "2026-10-09T09:04:41Z",
       "stars": 1,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
-      "commits": 83,
+      "commits": 88,
       "contributors": 3,
       "used_by": null,
-      "releases": 10,
+      "releases": 13,
       "latest_release": {
-        "tag": "v3.5.0",
-        "date": "2026-10-09T08:23:18Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.5.0"
+        "tag": "v3.7.0",
+        "date": "2026-10-09T09:06:04Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.7.0"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -1617,7 +1639,7 @@
       "category": "Embedded systems",
       "stack": "ESP32 / C++ / Web UI",
       "updated": "2026-09-27T04:43:51Z",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
@@ -1752,6 +1774,174 @@
       ]
     },
     {
+      "name": "laravel-notifications",
+      "url": "https://github.com/jeremykenedy/laravel-notifications",
+      "title": "Notifications",
+      "description": "An in-app notification center with unread counts and inbox controls.",
+      "category": "Interface tools",
+      "stack": "PHP / Blade / Laravel",
+      "updated": "2026-10-09T09:45:56Z",
+      "stars": 6,
+      "forks": 1,
+      "license": "MIT",
+      "branch": "main",
+      "commits": 44,
+      "contributors": 3,
+      "used_by": null,
+      "releases": 6,
+      "latest_release": {
+        "tag": "v3.0.0",
+        "date": "2026-10-09T09:48:04Z",
+        "url": "https://github.com/jeremykenedy/laravel-notifications/releases/tag/v3.0.0"
+      },
+      "downloads": {
+        "count": 20,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-notifications"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-toast",
+      "url": "https://github.com/jeremykenedy/laravel-toast",
+      "title": "Laravel Toast",
+      "description": "Flash messages and real-time broadcast notifications.",
+      "category": "Interface tools",
+      "stack": "PHP / Reverb / Laravel",
+      "updated": "2026-10-09T09:42:20Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "MIT",
+      "branch": "main",
+      "commits": 52,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 6,
+      "latest_release": {
+        "tag": "v3.1.0",
+        "date": "2026-10-09T09:47:03Z",
+        "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.1.0"
+      },
+      "downloads": {
+        "count": 174,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "pulse-circuit",
+      "url": "https://github.com/jeremykenedy/pulse-circuit",
+      "title": "Pulse Circuit",
+      "description": "An animated geometric screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-09T08:48:58Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 1,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-09T08:49:36Z",
+        "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
+      },
+      "downloads": {
+        "count": 6,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/pulse-circuit/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "skyburst-nocturne",
+      "url": "https://github.com/jeremykenedy/skyburst-nocturne",
+      "title": "Skyburst Nocturne",
+      "description": "Original animated fireworks screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-09T08:41:03Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 1,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-09T08:41:32Z",
+        "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases/tag/v1.0.0"
+      },
+      "downloads": {
+        "count": 3,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
       "name": "contour-flow",
       "url": "https://github.com/jeremykenedy/contour-flow",
       "title": "Contour Flow",
@@ -1773,7 +1963,7 @@
         "url": "https://github.com/jeremykenedy/contour-flow/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 2,
+        "count": 3,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/contour-flow/releases"
       },
@@ -1909,7 +2099,7 @@
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 8,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases"
       },
@@ -1977,7 +2167,7 @@
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases"
       },
@@ -2011,7 +2201,7 @@
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases"
       },
@@ -2045,7 +2235,7 @@
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases"
       },
@@ -2079,7 +2269,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -2113,7 +2303,7 @@
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
       },
@@ -2147,7 +2337,7 @@
         "url": "https://github.com/jeremykenedy/retro-flight/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/retro-flight/releases"
       },
@@ -2181,7 +2371,7 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
       },
@@ -2215,7 +2405,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2351,7 +2541,7 @@
         "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/starfield-drift/releases"
       },
@@ -2385,7 +2575,7 @@
         "url": "https://github.com/jeremykenedy/firefly-grove/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/firefly-grove/releases"
       },
@@ -2419,7 +2609,7 @@
         "url": "https://github.com/jeremykenedy/neon-corridor/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/neon-corridor/releases"
       },
@@ -2616,56 +2806,6 @@
       ]
     },
     {
-      "name": "laravel-notifications",
-      "url": "https://github.com/jeremykenedy/laravel-notifications",
-      "title": "Notifications",
-      "description": "An in-app notification center with unread counts and inbox controls.",
-      "category": "Interface tools",
-      "stack": "PHP / Blade / Laravel",
-      "updated": "2026-10-08T20:58:46Z",
-      "stars": 6,
-      "forks": 1,
-      "license": "MIT",
-      "branch": "main",
-      "commits": 25,
-      "contributors": 3,
-      "used_by": null,
-      "releases": 4,
-      "latest_release": {
-        "tag": "v2.0.1",
-        "date": "2026-09-12T07:18:07Z",
-        "url": "https://github.com/jeremykenedy/laravel-notifications/releases/tag/v2.0.1"
-      },
-      "downloads": {
-        "count": 15,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-notifications"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "laravel-observability",
       "url": "https://github.com/jeremykenedy/laravel-observability",
       "title": "Observability",
@@ -2740,56 +2880,6 @@
         "count": 280,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-packagist"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-toast",
-      "url": "https://github.com/jeremykenedy/laravel-toast",
-      "title": "Laravel Toast",
-      "description": "Flash messages and real-time broadcast notifications.",
-      "category": "Interface tools",
-      "stack": "PHP / Reverb / Laravel",
-      "updated": "2026-10-08T20:58:25Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "MIT",
-      "branch": "main",
-      "commits": 44,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 5,
-      "latest_release": {
-        "tag": "v3.0.1",
-        "date": "2026-09-23T03:35:22Z",
-        "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.0.1"
-      },
-      "downloads": {
-        "count": 88,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
       },
       "made_with_laravel": null,
       "funding": [
@@ -3112,13 +3202,13 @@
             "title": "ENH: per-filament control of purifying the chamber air at print end",
             "url": "https://github.com/bambulab/BambuStudio/pull/12194",
             "state": "open",
-            "updated": "2026-09-23T03:31:18Z"
+            "updated": "2026-10-09T08:48:22Z"
           },
           {
             "title": "ENH: text tool accepts emoji and other characters above U+FFFF",
             "url": "https://github.com/bambulab/BambuStudio/pull/12185",
             "state": "open",
-            "updated": "2026-09-23T03:15:50Z"
+            "updated": "2026-10-09T08:47:18Z"
           },
           {
             "title": "Text tool: multi-line text with Enter and a Line Gap control",
@@ -3728,5 +3818,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 28972
+  "public_authored_commits": 29133
 }

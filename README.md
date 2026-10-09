@@ -28,7 +28,7 @@
 <!-- SUPPORT:END -->
 
 <p align="center">
-  <sub><strong>Contents</strong> &nbsp; <a href="#a-little-about-me">About</a> · <a href="#people-and-teams">Leadership</a> · <a href="#built-to-be-used">Stats</a> · <a href="#things-i-have-built">Things I have built</a> · <a href="#contributing-beyond-my-own-repos">Contributions</a> · <a href="#my-toolbox">Toolbox</a> · <a href="#say-hello">Say hello</a></sub>
+  <sub><strong>Contents</strong> &nbsp; <a href="#a-little-about-me">About</a> · <a href="#people-and-teams">Leadership</a> · <a href="#built-to-be-used">Stats</a> · <a href="#my-toolbox">Toolbox</a> · <a href="#things-i-have-built">Things I have built</a> · <a href="#contributing-beyond-my-own-repos">Contributions</a> · <a href="#say-hello">Say hello</a></sub>
 </p>
 
 ## A little about me
@@ -52,6 +52,8 @@ I'm comfortable with Scrum, Agile, Waterfall, and the days when we just need to 
 > Tiffany Braga, PSM, [testimonial on my website](https://jeremykenedy.com/#2)
 
 [More from people I've worked with](https://jeremykenedy.com/#2) · [Professional background](https://www.linkedin.com/in/jeremykenedy/)
+
+[37 LinkedIn Recommendations Given](https://www.linkedin.com/in/jeremykenedy/details/recommendations/?detailScreenTabIndex=0)
 
 ## Built to be used
 
@@ -95,6 +97,26 @@ The language chart counts each public source repository once, using its primary 
 [Snapshot and exact counts](data/metrics.json) · [Daily refresh](https://github.com/jeremykenedy/jeremykenedy/actions/workflows/profile-metrics.yml)
 
 </details>
+
+<p align="center">
+  <a href="data/metrics.json#gh-light-mode-only"><picture><source media="(max-width: 600px)" srcset="art/languages-mobile-light.6ad72aad8d3d.svg"><img src="art/languages-light.b21463245181.svg#gh-light-mode-only" alt="Primary languages across public source repositories. Full language counts are available in the metrics snapshot." width="800"></picture></a>
+  <a href="data/metrics.json#gh-dark-mode-only"><picture><source media="(max-width: 600px)" srcset="art/languages-mobile-dark.c91f1a2502c8.svg"><img src="art/languages-dark.3c79cc9f9d5f.svg#gh-dark-mode-only" alt="Primary languages across public source repositories. Full language counts are available in the metrics snapshot." width="800"></picture></a>
+</p>
+
+## My toolbox
+
+I choose tools around the problem. These are some of the ones I work with:
+
+| Area | Tools and interests |
+| :--- | :--- |
+| Languages | TypeScript, JavaScript, Python, PHP, C++, C#, Java, SQL, Bash / shell scripting |
+| Web and mobile | React, React Native / Expo, Vue, Nuxt, Node.js, Laravel, Android, Fire TV / Android TV |
+| Data and APIs | PostgreSQL, MySQL, MongoDB, Redis, REST, GraphQL, WebSockets |
+| Infrastructure | AWS, Docker, Linux, Nginx, CI/CD, GitHub Actions |
+| Systems | Multi-tenant SaaS, event-driven architecture, authentication, observability |
+| Leadership and delivery | Company leadership, department restructuring, mentoring, Scrum, Agile, Waterfall, rapid prototyping |
+| AI and hardware | Local AI, MCP, vector search, ESP32 / ESP-IDF, firmware, connected devices |
+| Graphics and interfaces | OpenGL ES, GLSL shaders, animation, real-time rendering, accessible interfaces |
 
 <a id="a-few-things-ive-built"></a>
 
@@ -222,26 +244,6 @@ I contribute features, fixes, compatibility updates, and documentation to other 
 
 </details>
 <!-- CONTRIBUTIONS:END -->
-
-## My toolbox
-
-I choose tools around the problem. These are some of the ones I work with:
-
-| Area | Tools and interests |
-| :--- | :--- |
-| Languages | TypeScript, JavaScript, Python, PHP, C++, C#, Java, SQL, Bash / shell scripting |
-| Web and mobile | React, React Native / Expo, Vue, Nuxt, Node.js, Laravel, Android, Fire TV / Android TV |
-| Data and APIs | PostgreSQL, MySQL, MongoDB, Redis, REST, GraphQL, WebSockets |
-| Infrastructure | AWS, Docker, Linux, Nginx, CI/CD, GitHub Actions |
-| Systems | Multi-tenant SaaS, event-driven architecture, authentication, observability |
-| Leadership and delivery | Company leadership, department restructuring, mentoring, Scrum, Agile, Waterfall, rapid prototyping |
-| AI and hardware | Local AI, MCP, vector search, ESP32 / ESP-IDF, firmware, connected devices |
-| Graphics and interfaces | OpenGL ES, GLSL shaders, animation, real-time rendering, accessible interfaces |
-
-<p align="center">
-  <a href="data/metrics.json#gh-light-mode-only"><picture><source media="(max-width: 600px)" srcset="art/languages-mobile-light.6ad72aad8d3d.svg"><img src="art/languages-light.b21463245181.svg#gh-light-mode-only" alt="Primary languages across public source repositories. Full language counts are available in the metrics snapshot." width="800"></picture></a>
-  <a href="data/metrics.json#gh-dark-mode-only"><picture><source media="(max-width: 600px)" srcset="art/languages-mobile-dark.c91f1a2502c8.svg"><img src="art/languages-dark.3c79cc9f9d5f.svg#gh-dark-mode-only" alt="Primary languages across public source repositories. Full language counts are available in the metrics snapshot." width="800"></picture></a>
-</p>
 
 ## Say hello
 

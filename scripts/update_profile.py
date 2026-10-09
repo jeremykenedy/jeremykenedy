@@ -7,6 +7,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html import escape
+from hashlib import sha256
 import json
 import os
 from pathlib import Path
@@ -552,6 +553,16 @@ def badge(label, value, theme, width):
     ])
 
 
+def version_artwork(readme, output):
+    def reference(match):
+        name = re.sub(r'\.[a-f0-9]{12}(?=\.svg$)', '', match.group(1))
+        digest = sha256(output[name].encode()).hexdigest()[:12]
+        versioned = name.removesuffix('.svg') + f'.{digest}.svg'
+        output[versioned] = output[name]
+        return versioned
+    return re.sub(r'(art/[^"?#\s]+\.svg)(?:\?v=[a-f0-9]+)?', reference, readme)
+
+
 def render(metrics):
     output = {"data/metrics.json": json.dumps(metrics, indent=2, ensure_ascii=False) + "\n"}
     for theme in THEMES:
@@ -608,7 +619,7 @@ def render(metrics):
             raise ValueError(f"README must have one ordered {name} section")
         a, b = readme.index(start), readme.index(end)
         readme = readme[:a + len(start)] + content + readme[b:]
-    output["README.md"] = readme
+    output["README.md"] = version_artwork(readme, output)
     return output
 
 
@@ -625,8 +636,9 @@ def main():
         temporary = destination.with_suffix(destination.suffix + ".tmp")
         temporary.write_text(content)
         temporary.replace(destination)
-    for obsolete in (ROOT / "art").glob("project-*.svg"):
-        if str(obsolete.relative_to(ROOT)) not in output:
+    for obsolete in (ROOT / "art").glob("*.svg"):
+        generated = obsolete.name.startswith('project-') or re.search(r'\.[a-f0-9]{12}\.svg$', obsolete.name)
+        if generated and str(obsolete.relative_to(ROOT)) not in output:
             obsolete.unlink()
     print(f"Updated {len(output)} files from the {metrics['updated']} public-data snapshot.")
 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182" height="386" viewBox="0 0 182 386" role="img" aria-labelledby="title desc">
+<title id="title">Laravel Dashboard</title>
+<desc id="desc">Laravel Dashboard. An extensible dashboard built on Spatie and Livewire. PHP / Livewire. 22 stars; 2 contributors; 0 releases; 55 commits. MIT license.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="182" height="386" rx="8" fill="#101318" stroke="none" />
+<text x="10" y="16" font-size="8.5" fill="#60a5fa" font-weight="600" >Web applications</text>
+<text x="10" y="41" font-size="17" fill="#f0f3f8" font-weight="700" >Laravel Dashboard</text>
+<text x="10" y="92" font-size="11" fill="#a5afbf" font-weight="400" >An extensible dashboard</text>
+<text x="10" y="105" font-size="11" fill="#a5afbf" font-weight="400" >built on Spatie and</text>
+<text x="10" y="118" font-size="11" fill="#a5afbf" font-weight="400" >Livewire.</text>
+<text x="10" y="136" font-size="8.5" fill="#a78bfa" font-weight="500" >PHP / Livewire</text>
+<text x="10" y="170" font-size="9.5" fill="#a5afbf" font-weight="400" >Stars</text>
+<text x="172" y="170" font-size="10.5" fill="#f0f3f8" font-weight="600" text-anchor="end">22</text>
+<text x="10" y="187" font-size="9.5" fill="#a5afbf" font-weight="400" >Contributors</text>
+<text x="172" y="187" font-size="10.5" fill="#f0f3f8" font-weight="600" text-anchor="end">2</text>
+<text x="10" y="204" font-size="9.5" fill="#a5afbf" font-weight="400" >Releases</text>
+<text x="172" y="204" font-size="10.5" fill="#f0f3f8" font-weight="600" text-anchor="end">0</text>
+<text x="10" y="221" font-size="9.5" fill="#a5afbf" font-weight="400" >Commits</text>
+<text x="172" y="221" font-size="10.5" fill="#f0f3f8" font-weight="600" text-anchor="end">55</text>
+<text x="10" y="258" font-size="8.5" fill="#f0f3f8" font-weight="500" >Latest unreleased</text>
+<text x="10" y="274" font-size="8" fill="#a5afbf" font-weight="400" >Updated 2023-08-01</text>
+<rect x="10" y="286" width="162" height="20" rx="5" fill="#161b22" stroke="#303640" />
+<text x="91.0" y="299.5" font-size="9.5" fill="#a78bfa" font-weight="500" text-anchor="middle">MIT license</text>
+<text x="10" y="378" font-size="8" fill="#a5afbf" font-weight="400" >Free and open source</text>
+</g>
+</svg>

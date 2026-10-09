@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="422" viewBox="0 0 100 422" role="img" aria-labelledby="title desc">
+<title id="title">PHP Info</title>
+<desc id="desc">PHP Info. Inspect the PHP environment from a Blade application page. PHP / Blade. 46 stars; 2 contributors; 6 releases; 47 commits. MIT license.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="100" height="422" rx="8" fill="#ffffff" stroke="none" />
+<text x="7" y="16" font-size="8.5" fill="#2563eb" font-weight="600" >Developer tools</text>
+<text x="7" y="41" font-size="14" fill="#0f172a" font-weight="700" >PHP Info</text>
+<text x="7" y="101" font-size="10.2" fill="#526176" font-weight="400" >Inspect the PHP</text>
+<text x="7" y="114" font-size="10.2" fill="#526176" font-weight="400" >environment</text>
+<text x="7" y="127" font-size="10.2" fill="#526176" font-weight="400" >from a Blade</text>
+<text x="7" y="140" font-size="10.2" fill="#526176" font-weight="400" >application</text>
+<text x="7" y="153" font-size="10.2" fill="#526176" font-weight="400" >page.</text>
+<text x="7" y="172" font-size="8.5" fill="#6d28d9" font-weight="500" >PHP / Blade</text>
+<text x="7" y="206" font-size="9.5" fill="#526176" font-weight="400" >Stars</text>
+<text x="93" y="206" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">46</text>
+<text x="7" y="223" font-size="9.5" fill="#526176" font-weight="400" >Contributors</text>
+<text x="93" y="223" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">2</text>
+<text x="7" y="240" font-size="9.5" fill="#526176" font-weight="400" >Releases</text>
+<text x="93" y="240" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">6</text>
+<text x="7" y="257" font-size="9.5" fill="#526176" font-weight="400" >Commits</text>
+<text x="93" y="257" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">47</text>
+<text x="7" y="274" font-size="9.5" fill="#526176" font-weight="400" >Used by</text>
+<text x="93" y="274" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">466</text>
+<text x="7" y="294" font-size="8.5" fill="#0f172a" font-weight="500" >Latest v2.0.0</text>
+<text x="7" y="310" font-size="8" fill="#526176" font-weight="400" >Updated 2026-10-08</text>
+<rect x="7" y="322" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="50.0" y="335.5" font-size="9.5" fill="#6d28d9" font-weight="500" text-anchor="middle">MIT license</text>
+<rect x="7" y="347" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="50.0" y="360.5" font-size="8.64" fill="#2563eb" font-weight="500" text-anchor="middle">187.6k downloads</text>
+<text x="7" y="414" font-size="8" fill="#526176" font-weight="400" >Free and open source</text>
+</g>
+</svg>

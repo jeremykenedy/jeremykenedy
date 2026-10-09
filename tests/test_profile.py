@@ -134,7 +134,7 @@ class ProfileTests(unittest.TestCase):
         metrics["languages"]['C++ & <examples>'] = 500
         output = profile.render(metrics)
         svgs = {name: content for name, content in output.items() if name.endswith(".svg")}
-        self.assertEqual(len(svgs), 32 + len(metrics['showcase']) * 6)
+        self.assertEqual(len(svgs), 2 * (32 + len(metrics['showcase']) * 6))
         for name, content in svgs.items():
             root = ET.fromstring(content)
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg", name)
@@ -154,6 +154,15 @@ class ProfileTests(unittest.TestCase):
         self.assertNotIn('<script>', art)
         self.assertIn(project['url'] + '/stargazers', output['README.md'])
         self.assertIn(project['url'] + '?sponsor=1', output['README.md'])
+
+    def test_artwork_versions_change_with_content_and_preserve_theme_fragments(self):
+        markup = '<img src="art/example.svg#gh-dark-mode-only">'
+        first = profile.version_artwork(markup, {'art/example.svg': 'first'})
+        second = profile.version_artwork(first, {'art/example.svg': 'second'})
+        self.assertNotEqual(first, second)
+        self.assertIn('#gh-dark-mode-only', second)
+        self.assertEqual(second, profile.version_artwork(second, {'art/example.svg': 'second'}))
+        self.assertNotIn('?v=', second)
 
 
 class PortfolioTests(unittest.TestCase):

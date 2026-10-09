@@ -134,7 +134,7 @@ class ProfileTests(unittest.TestCase):
         metrics["languages"]['C++ & <examples>'] = 500
         output = profile.render(metrics)
         svgs = {name: content for name, content in output.items() if name.endswith(".svg")}
-        self.assertEqual(len(svgs), 2 * (32 + len(metrics['showcase']) * 6))
+        self.assertEqual(len(svgs), 2 * (36 + len(metrics['showcase']) * 6))
         for name, content in svgs.items():
             root = ET.fromstring(content)
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg", name)

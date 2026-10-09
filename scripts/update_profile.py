@@ -568,6 +568,8 @@ def render(metrics):
     for theme in THEMES:
         output[f"art/banner-{theme}.svg"] = banner(theme)
         output[f"art/banner-mobile-{theme}.svg"] = mobile_banner(theme)
+        output[f"art/banner-still-{theme}.svg"] = re.sub(r'<style>.*?</style>', '', banner(theme))
+        output[f"art/banner-mobile-still-{theme}.svg"] = re.sub(r'<style>.*?</style>', '', mobile_banner(theme))
         output[f"art/impact-{theme}.svg"] = impact(metrics, theme)
         output[f"art/impact-mobile-{theme}.svg"] = impact(metrics, theme, mobile=True)
         output[f"art/languages-{theme}.svg"] = languages_card(metrics, theme)
@@ -633,11 +635,14 @@ def main():
     for name, content in output.items():
         destination = ROOT / name
         destination.parent.mkdir(parents=True, exist_ok=True)
+        if destination.exists() and destination.read_text() == content:
+            continue
         temporary = destination.with_suffix(destination.suffix + ".tmp")
         temporary.write_text(content)
         temporary.replace(destination)
     for obsolete in (ROOT / "art").glob("*.svg"):
-        generated = obsolete.name.startswith('project-') or re.search(r'\.[a-f0-9]{12}\.svg$', obsolete.name)
+        generated = re.fullmatch(r'project-.+-(100|144|182)-(dark|light)\.svg', obsolete.name)
+        generated = generated or re.search(r'\.[a-f0-9]{12}\.svg$', obsolete.name)
         if generated and str(obsolete.relative_to(ROOT)) not in output:
             obsolete.unlink()
     print(f"Updated {len(output)} files from the {metrics['updated']} public-data snapshot.")

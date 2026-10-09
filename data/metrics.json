@@ -892,6 +892,632 @@
   },
   "showcase": [
     {
+      "name": "laravel-auth",
+      "url": "https://github.com/jeremykenedy/laravel-auth",
+      "title": "Laravel Auth",
+      "description": "An application foundation with sign-in, recovery, roles, and account management.",
+      "category": "Application security",
+      "stack": "PHP / JavaScript / Laravel",
+      "updated": "2026-10-08T20:53:13Z",
+      "stars": 3042,
+      "forks": 977,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 879,
+      "contributors": 35,
+      "used_by": null,
+      "releases": 35,
+      "latest_release": {
+        "tag": "v11.3.0",
+        "date": "2026-09-29T02:28:51Z",
+        "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.3.0"
+      },
+      "downloads": null,
+      "made_with_laravel": "https://madewithlaravel.com/p/laravel-auth/shield-link",
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-roles",
+      "url": "https://github.com/jeremykenedy/laravel-roles",
+      "title": "Laravel Roles",
+      "description": "Roles, permissions, and access levels with a management interface.",
+      "category": "Application security",
+      "stack": "PHP / Blade / Laravel",
+      "updated": "2026-10-08T21:04:57Z",
+      "stars": 1050,
+      "forks": 200,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 339,
+      "contributors": 33,
+      "used_by": 1419,
+      "releases": 53,
+      "latest_release": {
+        "tag": "v13.0.0",
+        "date": "2026-09-27T04:23:16Z",
+        "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
+      },
+      "downloads": {
+        "count": 903511,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
+      },
+      "made_with_laravel": "https://madewithlaravel.com/p/laravel-roles/shield-link",
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-logger",
+      "url": "https://github.com/jeremykenedy/laravel-logger",
+      "title": "Laravel Logger",
+      "description": "Activity logging and an investigation dashboard for applications.",
+      "category": "Operations",
+      "stack": "PHP / Laravel",
+      "updated": "2026-10-08T20:58:48Z",
+      "stars": 583,
+      "forks": 120,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 304,
+      "contributors": 30,
+      "used_by": 712,
+      "releases": 44,
+      "latest_release": {
+        "tag": "v12.0.0",
+        "date": "2026-10-08T02:26:09Z",
+        "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
+      },
+      "downloads": {
+        "count": 315658,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-users",
+      "url": "https://github.com/jeremykenedy/laravel-users",
+      "title": "Laravel Users",
+      "description": "A complete dashboard for managing application accounts.",
+      "category": "Application security",
+      "stack": "PHP / Blade / Laravel",
+      "updated": "2026-01-08T06:01:26Z",
+      "stars": 455,
+      "forks": 116,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 167,
+      "contributors": 15,
+      "used_by": 206,
+      "releases": 21,
+      "latest_release": {
+        "tag": "v6.0.0",
+        "date": "2026-10-09T08:08:08Z",
+        "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.0"
+      },
+      "downloads": {
+        "count": 98306,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-spa",
+      "url": "https://github.com/jeremykenedy/laravel-spa",
+      "title": "Laravel SPA",
+      "description": "A Vue application foundation with authentication, accounts, and social sign-in.",
+      "category": "Web applications",
+      "stack": "Vue / PHP / Tailwind",
+      "updated": "2026-10-08T21:24:39Z",
+      "stars": 294,
+      "forks": 75,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 976,
+      "contributors": 6,
+      "used_by": null,
+      "releases": 38,
+      "latest_release": {
+        "tag": "v7.0.0",
+        "date": "2025-10-21T23:26:06Z",
+        "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v7.0.0"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel2step",
+      "url": "https://github.com/jeremykenedy/laravel2step",
+      "title": "Laravel 2-Step",
+      "description": "Add two-step account verification to Laravel applications.",
+      "category": "Application security",
+      "stack": "PHP / Laravel",
+      "updated": "2026-09-11T08:44:44Z",
+      "stars": 281,
+      "forks": 47,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 111,
+      "contributors": 6,
+      "used_by": 453,
+      "releases": 22,
+      "latest_release": {
+        "tag": "v6.0.0",
+        "date": "2026-09-11T08:46:12Z",
+        "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
+      },
+      "downloads": {
+        "count": 112887,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
+      },
+      "made_with_laravel": "https://madewithlaravel.com/p/laravel-2-step-verification/shield-link",
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-material-design",
+      "url": "https://github.com/jeremykenedy/laravel-material-design",
+      "title": "Material Design",
+      "description": "A Material Design application starter with accounts and authentication.",
+      "category": "Established work",
+      "stack": "PHP / JavaScript / Laravel",
+      "updated": "2023-01-06T05:50:48Z",
+      "stars": 265,
+      "forks": 103,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 200,
+      "contributors": 8,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v2.0.1",
+        "date": "2023-01-06T05:51:25Z",
+        "url": "https://github.com/jeremykenedy/laravel-material-design/releases/tag/v2.0.1"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "larablog",
+      "url": "https://github.com/jeremykenedy/larablog",
+      "title": "Larablog",
+      "description": "An open source blog with a visual editor and content management.",
+      "category": "Established work",
+      "stack": "PHP / Bootstrap / Laravel",
+      "updated": "2021-01-06T01:09:11Z",
+      "stars": 144,
+      "forks": 80,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 141,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.2.0",
+        "date": "2019-03-24T06:34:47Z",
+        "url": "https://github.com/jeremykenedy/larablog/releases/tag/v1.2.0"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-exception-notifier",
+      "url": "https://github.com/jeremykenedy/laravel-exception-notifier",
+      "title": "Exception Notifier",
+      "description": "Exception emails with request context and a stack trace.",
+      "category": "Operations",
+      "stack": "PHP / Laravel",
+      "updated": "2026-10-08T20:59:03Z",
+      "stars": 142,
+      "forks": 31,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 109,
+      "contributors": 6,
+      "used_by": 542,
+      "releases": 12,
+      "latest_release": {
+        "tag": "V5.0.0",
+        "date": "2026-09-21T07:43:36Z",
+        "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
+      },
+      "downloads": {
+        "count": 314482,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-blocker",
+      "url": "https://github.com/jeremykenedy/laravel-blocker",
+      "title": "Laravel Blocker",
+      "description": "Block unwanted traffic by account, IP address, domain, or location.",
+      "category": "Application security",
+      "stack": "PHP / Laravel",
+      "updated": "2026-10-08T20:58:58Z",
+      "stars": 102,
+      "forks": 27,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 119,
+      "contributors": 6,
+      "used_by": 374,
+      "releases": 26,
+      "latest_release": {
+        "tag": "v7.0.0",
+        "date": "2026-09-23T00:49:07Z",
+        "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
+      },
+      "downloads": {
+        "count": 74502,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-phpinfo",
+      "url": "https://github.com/jeremykenedy/laravel-phpinfo",
+      "title": "PHP Info",
+      "description": "Inspect the PHP environment from a Blade application page.",
+      "category": "Developer tools",
+      "stack": "PHP / Blade",
+      "updated": "2026-10-08T20:58:36Z",
+      "stars": 46,
+      "forks": 4,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 47,
+      "contributors": 2,
+      "used_by": 466,
+      "releases": 6,
+      "latest_release": {
+        "tag": "v2.0.0",
+        "date": "2026-09-22T23:24:25Z",
+        "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
+      },
+      "downloads": {
+        "count": 187572,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-https",
+      "url": "https://github.com/jeremykenedy/laravel-https",
+      "title": "Laravel HTTPS",
+      "description": "Enforce secure HTTPS requests with configurable middleware.",
+      "category": "Application security",
+      "stack": "PHP / Laravel",
+      "updated": "2026-10-08T20:58:56Z",
+      "stars": 36,
+      "forks": 5,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 36,
+      "contributors": 2,
+      "used_by": 477,
+      "releases": 10,
+      "latest_release": {
+        "tag": "v3.0.0",
+        "date": "2026-09-22T23:22:50Z",
+        "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
+      },
+      "downloads": {
+        "count": 137987,
+        "label": "Packagist downloads",
+        "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "laravel-dashboard",
+      "url": "https://github.com/jeremykenedy/laravel-dashboard",
+      "title": "Laravel Dashboard",
+      "description": "An extensible dashboard built on Spatie and Livewire.",
+      "category": "Web applications",
+      "stack": "PHP / Livewire",
+      "updated": "2023-08-01T23:46:08Z",
+      "stars": 22,
+      "forks": 5,
+      "license": "MIT",
+      "branch": "master",
+      "commits": 55,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 0,
+      "latest_release": null,
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
       "name": "fire-tv-toolkit",
       "url": "https://github.com/jeremykenedy/fire-tv-toolkit",
       "title": "Fire TV Toolkit",
@@ -1030,52 +1656,6 @@
       ]
     },
     {
-      "name": "laravel-auth",
-      "url": "https://github.com/jeremykenedy/laravel-auth",
-      "title": "Laravel Auth",
-      "description": "An application foundation with sign-in, recovery, roles, and account management.",
-      "category": "Application security",
-      "stack": "PHP / JavaScript / Laravel",
-      "updated": "2026-10-08T20:53:13Z",
-      "stars": 3042,
-      "forks": 977,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 879,
-      "contributors": 35,
-      "used_by": null,
-      "releases": 35,
-      "latest_release": {
-        "tag": "v11.3.0",
-        "date": "2026-09-29T02:28:51Z",
-        "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.3.0"
-      },
-      "downloads": null,
-      "made_with_laravel": "https://madewithlaravel.com/p/laravel-auth/shield-link",
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "aquarium-live",
       "url": "https://github.com/jeremykenedy/aquarium-live",
       "title": "Aquarium Live",
@@ -1126,56 +1706,6 @@
       ]
     },
     {
-      "name": "laravel-roles",
-      "url": "https://github.com/jeremykenedy/laravel-roles",
-      "title": "Laravel Roles",
-      "description": "Roles, permissions, and access levels with a management interface.",
-      "category": "Application security",
-      "stack": "PHP / Blade / Laravel",
-      "updated": "2026-10-08T21:04:57Z",
-      "stars": 1050,
-      "forks": 200,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 339,
-      "contributors": 33,
-      "used_by": 1419,
-      "releases": 53,
-      "latest_release": {
-        "tag": "v13.0.0",
-        "date": "2026-09-27T04:23:16Z",
-        "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
-      },
-      "downloads": {
-        "count": 903511,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
-      },
-      "made_with_laravel": "https://madewithlaravel.com/p/laravel-roles/shield-link",
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "PandaVentOS",
       "url": "https://github.com/jeremykenedy/PandaVentOS",
       "title": "PandaVentOS",
@@ -1195,52 +1725,6 @@
         "tag": "v1.1.0",
         "date": "2026-09-05T06:12:51Z",
         "url": "https://github.com/jeremykenedy/PandaVentOS/releases/tag/v1.1.0"
-      },
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-spa",
-      "url": "https://github.com/jeremykenedy/laravel-spa",
-      "title": "Laravel SPA",
-      "description": "A Vue application foundation with authentication, accounts, and social sign-in.",
-      "category": "Web applications",
-      "stack": "Vue / PHP / Tailwind",
-      "updated": "2026-10-08T21:24:39Z",
-      "stars": 294,
-      "forks": 75,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 976,
-      "contributors": 6,
-      "used_by": null,
-      "releases": 38,
-      "latest_release": {
-        "tag": "v7.0.0",
-        "date": "2025-10-21T23:26:06Z",
-        "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v7.0.0"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -2082,156 +2566,6 @@
       ]
     },
     {
-      "name": "laravel-exception-notifier",
-      "url": "https://github.com/jeremykenedy/laravel-exception-notifier",
-      "title": "Exception Notifier",
-      "description": "Exception emails with request context and a stack trace.",
-      "category": "Operations",
-      "stack": "PHP / Laravel",
-      "updated": "2026-10-08T20:59:03Z",
-      "stars": 142,
-      "forks": 31,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 109,
-      "contributors": 6,
-      "used_by": 542,
-      "releases": 12,
-      "latest_release": {
-        "tag": "V5.0.0",
-        "date": "2026-09-21T07:43:36Z",
-        "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
-      },
-      "downloads": {
-        "count": 314482,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-blocker",
-      "url": "https://github.com/jeremykenedy/laravel-blocker",
-      "title": "Laravel Blocker",
-      "description": "Block unwanted traffic by account, IP address, domain, or location.",
-      "category": "Application security",
-      "stack": "PHP / Laravel",
-      "updated": "2026-10-08T20:58:58Z",
-      "stars": 102,
-      "forks": 27,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 119,
-      "contributors": 6,
-      "used_by": 374,
-      "releases": 26,
-      "latest_release": {
-        "tag": "v7.0.0",
-        "date": "2026-09-23T00:49:07Z",
-        "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
-      },
-      "downloads": {
-        "count": 74502,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-https",
-      "url": "https://github.com/jeremykenedy/laravel-https",
-      "title": "Laravel HTTPS",
-      "description": "Enforce secure HTTPS requests with configurable middleware.",
-      "category": "Application security",
-      "stack": "PHP / Laravel",
-      "updated": "2026-10-08T20:58:56Z",
-      "stars": 36,
-      "forks": 5,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 36,
-      "contributors": 2,
-      "used_by": 477,
-      "releases": 10,
-      "latest_release": {
-        "tag": "v3.0.0",
-        "date": "2026-09-22T23:22:50Z",
-        "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
-      },
-      "downloads": {
-        "count": 137987,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "laravel-ip-capture",
       "url": "https://github.com/jeremykenedy/laravel-ip-capture",
       "title": "IP Capture",
@@ -2256,56 +2590,6 @@
         "count": 1,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-ip-capture"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-logger",
-      "url": "https://github.com/jeremykenedy/laravel-logger",
-      "title": "Laravel Logger",
-      "description": "Activity logging and an investigation dashboard for applications.",
-      "category": "Operations",
-      "stack": "PHP / Laravel",
-      "updated": "2026-10-08T20:58:48Z",
-      "stars": 583,
-      "forks": 120,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 304,
-      "contributors": 30,
-      "used_by": 712,
-      "releases": 44,
-      "latest_release": {
-        "tag": "v12.0.0",
-        "date": "2026-10-08T02:26:09Z",
-        "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
-      },
-      "downloads": {
-        "count": 315658,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2482,56 +2766,6 @@
       ]
     },
     {
-      "name": "laravel-phpinfo",
-      "url": "https://github.com/jeremykenedy/laravel-phpinfo",
-      "title": "PHP Info",
-      "description": "Inspect the PHP environment from a Blade application page.",
-      "category": "Developer tools",
-      "stack": "PHP / Blade",
-      "updated": "2026-10-08T20:58:36Z",
-      "stars": 46,
-      "forks": 4,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 47,
-      "contributors": 2,
-      "used_by": 466,
-      "releases": 6,
-      "latest_release": {
-        "tag": "v2.0.0",
-        "date": "2026-09-22T23:24:25Z",
-        "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
-      },
-      "downloads": {
-        "count": 187572,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "laravel-toast",
       "url": "https://github.com/jeremykenedy/laravel-toast",
       "title": "Laravel Toast",
@@ -2608,56 +2842,6 @@
         "url": "https://packagist.org/packages/jeremykenedy/laravel-darkmode-toggle"
       },
       "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel2step",
-      "url": "https://github.com/jeremykenedy/laravel2step",
-      "title": "Laravel 2-Step",
-      "description": "Add two-step account verification to Laravel applications.",
-      "category": "Application security",
-      "stack": "PHP / Laravel",
-      "updated": "2026-09-11T08:44:44Z",
-      "stars": 281,
-      "forks": 47,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 111,
-      "contributors": 6,
-      "used_by": 453,
-      "releases": 22,
-      "latest_release": {
-        "tag": "v6.0.0",
-        "date": "2026-09-11T08:46:12Z",
-        "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
-      },
-      "downloads": {
-        "count": 112887,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
-      },
-      "made_with_laravel": "https://madewithlaravel.com/p/laravel-2-step-verification/shield-link",
       "funding": [
         {
           "platform": "GITHUB",
@@ -2873,98 +3057,6 @@
       ]
     },
     {
-      "name": "laravel-users",
-      "url": "https://github.com/jeremykenedy/laravel-users",
-      "title": "Laravel Users",
-      "description": "A complete dashboard for managing application accounts.",
-      "category": "Application security",
-      "stack": "PHP / Blade / Laravel",
-      "updated": "2026-01-08T06:01:26Z",
-      "stars": 455,
-      "forks": 116,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 167,
-      "contributors": 15,
-      "used_by": 206,
-      "releases": 21,
-      "latest_release": {
-        "tag": "v6.0.0",
-        "date": "2026-10-09T08:08:08Z",
-        "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.0"
-      },
-      "downloads": {
-        "count": 98306,
-        "label": "Packagist downloads",
-        "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-dashboard",
-      "url": "https://github.com/jeremykenedy/laravel-dashboard",
-      "title": "Laravel Dashboard",
-      "description": "An extensible dashboard built on Spatie and Livewire.",
-      "category": "Web applications",
-      "stack": "PHP / Livewire",
-      "updated": "2023-08-01T23:46:08Z",
-      "stars": 22,
-      "forks": 5,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 55,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 0,
-      "latest_release": null,
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "konami-asteroids",
       "url": "https://github.com/jeremykenedy/konami-asteroids",
       "title": "Konami Asteroids",
@@ -2981,98 +3073,6 @@
       "used_by": null,
       "releases": 0,
       "latest_release": null,
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "laravel-material-design",
-      "url": "https://github.com/jeremykenedy/laravel-material-design",
-      "title": "Material Design",
-      "description": "A Material Design application starter with accounts and authentication.",
-      "category": "Established work",
-      "stack": "PHP / JavaScript / Laravel",
-      "updated": "2023-01-06T05:50:48Z",
-      "stars": 265,
-      "forks": 103,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 200,
-      "contributors": 8,
-      "used_by": null,
-      "releases": 2,
-      "latest_release": {
-        "tag": "v2.0.1",
-        "date": "2023-01-06T05:51:25Z",
-        "url": "https://github.com/jeremykenedy/laravel-material-design/releases/tag/v2.0.1"
-      },
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "larablog",
-      "url": "https://github.com/jeremykenedy/larablog",
-      "title": "Larablog",
-      "description": "An open source blog with a visual editor and content management.",
-      "category": "Established work",
-      "stack": "PHP / Bootstrap / Laravel",
-      "updated": "2021-01-06T01:09:11Z",
-      "stars": 144,
-      "forks": 80,
-      "license": "MIT",
-      "branch": "master",
-      "commits": 141,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 2,
-      "latest_release": {
-        "tag": "v1.2.0",
-        "date": "2019-03-24T06:34:47Z",
-        "url": "https://github.com/jeremykenedy/larablog/releases/tag/v1.2.0"
-      },
       "downloads": null,
       "made_with_laravel": null,
       "funding": [

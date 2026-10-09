@@ -199,6 +199,15 @@ class PortfolioTests(unittest.TestCase):
         ordered = profile.portfolio.order_projects(projects, ['old-flagship', 'flagship'], self.today)
         self.assertEqual([p['name'] for p in ordered], ['flagship', 'recent', 'older', 'old-flagship'])
 
+    def test_ten_or_more_stars_lead_in_descending_order_without_reordering_lower_star_projects(self):
+        projects = [{'name': name, 'stars': stars, 'updated': date + 'T00:00:00Z'} for name, stars, date in [
+            ('flagship', 1, '2026-10-01'), ('nine-stars', 9, '2026-10-08'),
+            ('ten-stars', 10, '2026-10-07'), ('most-stars', 1000, '2018-01-01'),
+            ('middle', 100, '2026-10-02'), ('older-low', 5, '2025-01-01')]]
+        ordered = profile.portfolio.order_projects(projects, ['flagship'], self.today)
+        self.assertEqual([p['name'] for p in ordered], [
+            'most-stars', 'middle', 'ten-stars', 'flagship', 'nine-stars', 'older-low'])
+
     def test_public_contributions_deduplicate_and_preserve_merge_status(self):
         def pr(identifier, repository='upstream/project', state='open', merged=None):
             return {'id': identifier, 'repository_url': 'https://api.github.com/repos/' + repository,

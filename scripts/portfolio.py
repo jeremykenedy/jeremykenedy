@@ -78,7 +78,8 @@ def order_projects(projects, featured, today):
         if project["name"] in featured and (today - date).days <= 90:
             return (0, featured.index(project["name"]), 0)
         return (1, -date.timestamp(), -project["stars"])
-    return sorted(projects, key=rank)
+    ordered = sorted(projects, key=rank)
+    return sorted(ordered, key=lambda project: (project['stars'] < 10, -project['stars'] if project['stars'] >= 10 else 0))
 
 
 def readme_text(fetch, name):

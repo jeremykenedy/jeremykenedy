@@ -7,6 +7,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html import escape
+from hashlib import sha256
 import json
 import os
 from pathlib import Path
@@ -552,6 +553,14 @@ def badge(label, value, theme, width):
     ])
 
 
+def version_artwork(readme, output):
+    def reference(match):
+        name = match.group(1)
+        digest = sha256(output[name].encode()).hexdigest()[:12]
+        return f'{name}?v={digest}'
+    return re.sub(r'(art/[^"?#\s]+\.svg)(?:\?v=[a-f0-9]+)?', reference, readme)
+
+
 def render(metrics):
     output = {"data/metrics.json": json.dumps(metrics, indent=2, ensure_ascii=False) + "\n"}
     for theme in THEMES:
@@ -608,7 +617,7 @@ def render(metrics):
             raise ValueError(f"README must have one ordered {name} section")
         a, b = readme.index(start), readme.index(end)
         readme = readme[:a + len(start)] + content + readme[b:]
-    output["README.md"] = readme
+    output["README.md"] = version_artwork(readme, output)
     return output
 
 

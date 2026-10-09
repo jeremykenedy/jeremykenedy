@@ -155,6 +155,15 @@ class ProfileTests(unittest.TestCase):
         self.assertIn(project['url'] + '/stargazers', output['README.md'])
         self.assertIn(project['url'] + '?sponsor=1', output['README.md'])
 
+    def test_artwork_versions_change_with_content_and_preserve_theme_fragments(self):
+        markup = '<img src="art/example.svg#gh-dark-mode-only">'
+        first = profile.version_artwork(markup, {'art/example.svg': 'first'})
+        second = profile.version_artwork(first, {'art/example.svg': 'second'})
+        self.assertNotEqual(first, second)
+        self.assertIn('#gh-dark-mode-only', second)
+        self.assertEqual(second, profile.version_artwork(second, {'art/example.svg': 'second'}))
+        self.assertEqual(second.count('?v='), 1)
+
 
 class PortfolioTests(unittest.TestCase):
     def setUp(self):

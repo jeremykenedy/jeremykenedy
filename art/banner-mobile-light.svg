@@ -1,12 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="392" height="181" viewBox="0 0 392 181" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="342" viewBox="0 0 392 342" role="img" aria-labelledby="title desc">
 <title id="title">Jeremy Kenedy</title>
-<desc id="desc">Engineering leader. Architect. Hands-on builder.</desc>
+<desc id="desc">Engineering leader. Architect. Hands-on builder. Illustrated routes from Portland to the world.</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-<rect x="1" y="1" width="390" height="179" rx="14" fill="#ffffff" stroke="#e5e7eb" />
-<rect x="24" y="24" width="32" height="3" rx="1" fill="#6d28d9" stroke="none" />
-<text x="24" y="51" font-size="9" fill="#526176" font-weight="600" letter-spacing="1.4">PEOPLE. PLATFORMS. PRODUCTS.</text>
-<text x="23" y="94" font-size="36" fill="#0f172a" font-weight="700" letter-spacing="-.7">Jeremy Kenedy</text>
-<text x="24" y="120" font-size="12" fill="#526176" font-weight="400" >Engineering leader. Architect. Hands-on builder.</text>
-<text x="24" y="155" font-size="9" fill="#2563eb" font-weight="500" letter-spacing=".8">PORTLAND, OR  /  BUILDING WITH PURPOSE</text>
+<rect x="1" y="1" width="390" height="340" rx="16" fill="#ffffff" stroke="#e5e7eb" />
+<rect x="20" y="24" width="24" height="3" rx="1" fill="#6d28d9" stroke="none" />
+<text x="54" y="29" font-size="9" fill="#526176" font-weight="600" letter-spacing="1.2">PEOPLE. PLATFORMS. PRODUCTS.</text>
+<text x="19" y="76" font-size="36" fill="#0f172a" font-weight="700" letter-spacing="-.5">Jeremy Kenedy</text>
+<text x="20" y="104" font-size="12.2" fill="#526176" font-weight="400" >Engineering leader. Architect. Hands-on builder.</text>
+<rect x="20" y="125" width="111" height="26" rx="13" fill="#f5f3ff" stroke="#6d28d9" stroke-width=".7"/>
+<text x="75.5" y="142" font-size="8.2" fill="#6d28d9" font-weight="600" text-anchor="middle">TEAM LEADERSHIP</text>
+<rect x="139" y="125" width="132" height="26" rx="13" fill="#eff6ff" stroke="#2563eb" stroke-width=".7"/>
+<text x="205.0" y="142" font-size="8.2" fill="#2563eb" font-weight="600" text-anchor="middle">SYSTEM ARCHITECTURE</text>
+<rect x="279" y="125" width="93" height="26" rx="13" fill="#f0fdf4" stroke="#166534" stroke-width=".7"/>
+<text x="325.5" y="142" font-size="8.2" fill="#166534" font-weight="600" text-anchor="middle">OPEN SOURCE</text>
+<g transform="translate(88 165) scale(1.12)">
+<style>@keyframes routes{to{stroke-dashoffset:-100}}.route-motion{animation:routes 16s linear infinite}@media(prefers-reduced-motion:reduce){.route-motion{animation:none;stroke-dasharray:none;opacity:.3}}</style>
+<ellipse cx="96" cy="67" rx="92" ry="59" fill="#f8fafc" stroke="#e5e7eb"/>
+<ellipse cx="96" cy="67" rx="91" ry="26" fill="none" stroke="#e5e7eb" stroke-width=".7"/>
+<ellipse cx="96" cy="67" rx="44" ry="59" fill="none" stroke="#e5e7eb" stroke-width=".7"/>
+<ellipse cx="96" cy="67" rx="72" ry="59" fill="none" stroke="#e5e7eb" stroke-width=".7"/>
+<path d="M22 39L34 25L53 23L62 34L75 33L68 46L54 48L48 59L40 61L34 51L25 49Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M49 64L63 71L73 83L67 96L63 109L56 114L52 99L48 88L43 76Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M76 19L84 15L90 22L85 30L79 29Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M95 34L103 28L112 31L115 41L106 46L98 42L91 45Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M94 51L111 49L126 66L119 84L109 103L101 96L99 79L88 63Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M114 33L127 23L151 26L172 40L171 54L157 60L150 74L139 67L134 52L120 47Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M144 78L159 82L165 86L157 88Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M153 98L170 94L181 104L172 114L156 110Z" fill="#2563eb" fill-opacity=".14" stroke="#2563eb" stroke-opacity=".55" stroke-width=".7"/>
+<path d="M28 43 Q67 3 101 37" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q67 3 101 37" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-0s"/>
+<circle cx="101" cy="37" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<path d="M28 43 Q104 -3 167 47" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q104 -3 167 47" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-2s"/>
+<circle cx="167" cy="47" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<path d="M28 43 Q23 83 64 98" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q23 83 64 98" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-4s"/>
+<circle cx="64" cy="98" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<path d="M28 43 Q75 49 111 94" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q75 49 111 94" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-6s"/>
+<circle cx="111" cy="94" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<path d="M28 43 Q106 22 153 77" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q106 22 153 77" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-8s"/>
+<circle cx="153" cy="77" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<path d="M28 43 Q109 42 167 104" fill="none" stroke="#6d28d9" stroke-opacity=".3"/>
+<path class="route-motion" d="M28 43 Q109 42 167 104" pathLength="100" fill="none" stroke="#6d28d9" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-10s"/>
+<circle cx="167" cy="104" r="2.8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<circle cx="28" cy="43" r="6" fill="#6d28d9" fill-opacity=".16"/>
+<circle cx="28" cy="43" r="3" fill="#6d28d9"/>
+<text x="7" y="32" font-size="8" fill="#0f172a" font-weight="600" >Portland</text>
+</g>
+<text x="196" y="319" font-size="9" fill="#526176" font-weight="500" text-anchor="middle" letter-spacing=".9">PORTLAND, OR  /  BUILDING WITH PURPOSE</text>
 </g>
 </svg>

@@ -1,0 +1,222 @@
+{
+  "stale_after_years": 5,
+  "legacy_star_threshold": 100,
+  "featured": [
+    "fire-tv-toolkit",
+    "ai-platform",
+    "PandaStatusOS",
+    "laravel-auth",
+    "aquarium-live",
+    "laravel-roles",
+    "PandaVentOS",
+    "laravel-spa"
+  ],
+  "excluded": {
+    ".github": "Account configuration, not a software project",
+    "jeremykenedy": "The profile itself",
+    "jeremykenedy.github.io": "Historical personal site",
+    "homebrew-claude-monitor": "Excluded from the showcase at the owner's request",
+    "claude-swiftbar-monitor": "Excluded from the showcase at the owner's request",
+    "CustomPandaVent": "Derivative of upstream PandaVent and DragonVent firmware",
+    "filament-spotlight-2": "Derived from Dennis Koch's Spotlight package",
+    "laravel-email-database-log": "Maintained derivative of shvetsgroup/laravel-email-database-log",
+    "laravel-seedster": "Maintained derivative of eklundkristoffer/seedster",
+    "laravel-uuid": "README credits original development to webpatser",
+    "slack": "README identifies this as a maintained fork of maknz/slack",
+    "slack-laravel": "Maintained derivative of maknz/slack-laravel",
+    "ChargifyV2": "Original package belongs to yurevichcv",
+    "polr2": "Copy of the Polr project",
+    "github-readme-stats-deploy": "Deployment of another author's project"
+  },
+  "excluded_contributions": [
+    "ArborXR/interview-brief"
+  ],
+  "copy": {
+    "fire-tv-toolkit": {
+      "title": "Fire TV Toolkit",
+      "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
+      "category": "TV and tooling",
+      "stack": "Java / JavaScript / Shell"
+    },
+    "ai-platform": {
+      "title": "AI Platform",
+      "description": "Self-hosted AI conversations, persistent memory, and integrations.",
+      "category": "AI and platforms",
+      "stack": "Vue / PHP / PostgreSQL"
+    },
+    "PandaStatusOS": {
+      "title": "PandaStatusOS",
+      "description": "Printer status firmware with live telemetry and a web interface in 24 languages.",
+      "category": "Embedded systems",
+      "stack": "ESP32 / C++ / Web UI"
+    },
+    "PandaVentOS": {
+      "title": "PandaVentOS",
+      "description": "Open printer ventilation firmware, lighting, telemetry, and 24 languages.",
+      "category": "Embedded systems",
+      "stack": "ESP32 / C / Python"
+    },
+    "laravel-auth": {
+      "title": "Laravel Auth",
+      "description": "An application foundation with sign-in, recovery, roles, and account management.",
+      "category": "Application security",
+      "stack": "PHP / JavaScript / Laravel"
+    },
+    "laravel-roles": {
+      "title": "Laravel Roles",
+      "description": "Roles, permissions, and access levels with a management interface.",
+      "category": "Application security",
+      "stack": "PHP / Blade / Laravel"
+    },
+    "laravel-spa": {
+      "title": "Laravel SPA",
+      "description": "A Vue application foundation with authentication, accounts, and social sign-in.",
+      "category": "Web applications",
+      "stack": "Vue / PHP / Tailwind"
+    },
+    "aquarium-live": {
+      "title": "Aquarium Live",
+      "description": "A real-time living aquarium with day and night cycles and interactive scenes.",
+      "category": "Creative graphics",
+      "stack": "Java / Android / OpenGL"
+    },
+    "fire-tv-aquarium": {
+      "title": "Fire TV Aquarium",
+      "description": "An offline 4K aquarium with custom fish, sea life, and scenes.",
+      "category": "Creative graphics",
+      "stack": "Java / Android TV"
+    },
+    "claude-rules-mcp-server": {
+      "title": "MCP Rules Server",
+      "description": "Searchable engineering rules and skills over authenticated HTTP and stdio.",
+      "category": "Developer tools",
+      "stack": "TypeScript / Node.js / MCP"
+    },
+    "laravel-exception-notifier": {
+      "title": "Exception Notifier",
+      "description": "Exception emails with request context and a stack trace.",
+      "category": "Operations",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-ip-capture": {
+      "title": "IP Capture",
+      "description": "Capture IP addresses automatically during model activity.",
+      "category": "Application security",
+      "stack": "PHP / Eloquent"
+    },
+    "laravel-observability": {
+      "title": "Observability",
+      "description": "Connect application monitoring services through one integration layer.",
+      "category": "Operations",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-darkmode-toggle": {
+      "title": "Dark Mode Toggle",
+      "description": "A theme switcher for Bootstrap, Tailwind, and plain CSS interfaces.",
+      "category": "Interface tools",
+      "stack": "PHP / CSS / JavaScript"
+    },
+    "laravel-notifications": {
+      "title": "Notifications",
+      "description": "An in-app notification center with unread counts and inbox controls.",
+      "category": "Interface tools",
+      "stack": "PHP / Blade / Laravel"
+    },
+    "laravel-material-design": {
+      "title": "Material Design",
+      "description": "A Material Design application starter with accounts and authentication.",
+      "category": "Established work",
+      "stack": "PHP / JavaScript / Laravel"
+    },
+    "michael-jackson-ipsum": {
+      "title": "Michael Jackson Ipsum",
+      "description": "A playful placeholder-text generator built with a modern web stack.",
+      "category": "Web applications",
+      "stack": "Vue / PHP / Tailwind"
+    },
+    "rick-sanchez-ipsum": {
+      "title": "Rick Sanchez Ipsum",
+      "description": "A themed placeholder-text generator with a Vue interface.",
+      "category": "Web applications",
+      "stack": "Vue / PHP / Tailwind"
+    },
+    "gmail-monitor": {
+      "title": "Gmail Monitor",
+      "description": "A containerized IMAP monitor for useful email updates.",
+      "category": "Automation",
+      "stack": "Python / Docker / IMAP"
+    },
+    "konami-asteroids": {
+      "title": "Konami Asteroids",
+      "description": "Turn a web page into a playable game with keyboard and touch controls.",
+      "category": "Creative coding",
+      "stack": "JavaScript / HTML"
+    },
+    "laravel-blocker": {
+      "title": "Laravel Blocker",
+      "description": "Block unwanted traffic by account, IP address, domain, or location.",
+      "category": "Application security",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-ui-kit": {
+      "title": "Laravel UI Kit",
+      "description": "Reusable UI components across several frontend frameworks.",
+      "category": "Interface tools",
+      "stack": "PHP / Blade / CSS"
+    },
+    "laravel-logger": {
+      "title": "Laravel Logger",
+      "description": "Activity logging and an investigation dashboard for applications.",
+      "category": "Operations",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-https": {
+      "title": "Laravel HTTPS",
+      "description": "Enforce secure HTTPS requests with configurable middleware.",
+      "category": "Application security",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-packagist": {
+      "title": "Packagist Client",
+      "description": "Read package and vendor metadata through the Packagist API.",
+      "category": "Developer tools",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-phpinfo": {
+      "title": "PHP Info",
+      "description": "Inspect the PHP environment from a Blade application page.",
+      "category": "Developer tools",
+      "stack": "PHP / Blade"
+    },
+    "laravel-toast": {
+      "title": "Laravel Toast",
+      "description": "Flash messages and real-time broadcast notifications.",
+      "category": "Interface tools",
+      "stack": "PHP / Reverb / Laravel"
+    },
+    "laravel2step": {
+      "title": "Laravel 2-Step",
+      "description": "Add two-step account verification to Laravel applications.",
+      "category": "Application security",
+      "stack": "PHP / Laravel"
+    },
+    "laravel-users": {
+      "title": "Laravel Users",
+      "description": "A complete dashboard for managing application accounts.",
+      "category": "Application security",
+      "stack": "PHP / Blade / Laravel"
+    },
+    "laravel-dashboard": {
+      "title": "Laravel Dashboard",
+      "description": "An extensible dashboard built on Spatie and Livewire.",
+      "category": "Web applications",
+      "stack": "PHP / Livewire"
+    },
+    "larablog": {
+      "title": "Larablog",
+      "description": "An open source blog with a visual editor and content management.",
+      "category": "Established work",
+      "stack": "PHP / Bootstrap / Laravel"
+    }
+  }
+}

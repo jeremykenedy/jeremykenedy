@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" viewBox="0 0 50 26" role="img" aria-labelledby="title desc">
+<title id="title">Sponsor</title>
+<desc id="desc">Sponsor</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="1" y="1" width="48" height="24" rx="6" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="25.0" y="16.5" font-size="9" fill="#2563eb" font-weight="600" text-anchor="middle">Sponsor</text>
+</g>
+</svg>

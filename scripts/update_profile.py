@@ -11,11 +11,15 @@ import json
 import os
 from pathlib import Path
 import re
+import sys
 import textwrap
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlparse
 from urllib.request import HTTPRedirectHandler, Request, build_opener
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import portfolio
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,38 +29,6 @@ PACKAGIST = "https://packagist.org"
 NPM = "https://registry.npmjs.org"
 NPM_PUBLISHERS = ("developernator", "jeremykenedy")
 FONT = "system-ui, -apple-system, 'Segoe UI', sans-serif"
-PROJECTS = [
-    {
-        "repo": "ai-platform", "title": "AI Platform", "category": "APPLIED AI / PLATFORM ARCHITECTURE",
-        "lines": ["Self-hosted inference, persistent memory,", "and real-time conversations."],
-        "stack": "Vue · PostgreSQL · Redis · Docker", "accent": "purple",
-    },
-    {
-        "repo": "PandaVentOS", "title": "PandaVentOS", "category": "EMBEDDED SYSTEMS / HARDWARE",
-        "lines": ["Open firmware, live printer telemetry,", "and a web interface in 24 languages."],
-        "stack": "ESP32 · ESP-IDF · Web UI", "accent": "blue",
-    },
-    {
-        "repo": "claude-rules-mcp-server", "title": "MCP Developer Tooling", "category": "DEVELOPER EXPERIENCE / TYPESCRIPT",
-        "lines": ["Searchable engineering rules and skills", "over authenticated HTTP and stdio."],
-        "stack": "TypeScript · Node.js · MCP · Docker", "accent": "blue",
-    },
-    {
-        "repo": "laravel-auth", "title": "Application Foundations", "category": "IDENTITY / FULL-STACK ENGINEERING",
-        "lines": ["Authentication, social sign-in, account", "recovery, and user management."],
-        "stack": "PHP · JavaScript · Laravel", "accent": "purple",
-    },
-    {
-        "repo": "laravel-roles", "title": "Access Control", "category": "AUTHORIZATION / REUSABLE SYSTEMS",
-        "lines": ["Roles and permissions with a management", "interface for application teams."],
-        "stack": "PHP · Laravel · RBAC", "accent": "purple",
-    },
-    {
-        "repo": "laravel-logger", "title": "Application Observability", "category": "OPERATIONS / DEVELOPER TOOLING",
-        "lines": ["Activity logging, configurable events,", "and a dashboard for investigation."],
-        "stack": "PHP · Laravel · Activity logging", "accent": "blue",
-    },
-]
 THEMES = {
     "dark": {"bg": "#101318", "panel": "#161b22", "border": "#303640", "text": "#f0f3f8",
              "muted": "#a5afbf", "purple": "#a78bfa", "blue": "#60a5fa", "track": "#252b37"},
@@ -77,9 +49,11 @@ def fetch_json(url, payload=None):
     """Keep credentials confined to GitHub; fail instead of publishing partial totals."""
     parsed = urlparse(url)
     host = parsed.hostname
-    if parsed.scheme != "https" or host not in {"api.github.com", "packagist.org", "registry.npmjs.org"}:
+    if parsed.scheme != "https" or host not in {"api.github.com", "github.com", "packagist.org", "registry.npmjs.org", "api.npmjs.org"}:
         raise ValueError(f"Unexpected API URL: {url}")
     headers = {"User-Agent": "jeremykenedy-profile (+https://github.com/jeremykenedy/jeremykenedy)"}
+    if host == "github.com":
+        headers["Accept"] = "application/json"
     if host == "api.github.com":
         headers["Accept"] = "application/vnd.github+json"
         token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
@@ -129,10 +103,6 @@ def summarize_repositories(repositories):
         "stars": sum(repo["stargazers_count"] for repo in originals),
         "forks": sum(repo["forks_count"] for repo in originals),
         "languages": dict(sorted(languages.items(), key=lambda item: (-item[1], item[0]))),
-        "repositories": {
-            repo["name"]: {key: repo[key] for key in ("stargazers_count", "forks_count", "language")}
-            for repo in originals if repo["name"] in {project["repo"] for project in PROJECTS}
-        },
     }
 
 
@@ -286,9 +256,7 @@ def fetch_metrics():
         "packages": downloads,
         "publications": fetch_publications(repositories, packages),
     })
-    for project in PROJECTS:
-        if project["repo"] not in metrics["repositories"]:
-            raise ValueError(f"Featured project is no longer public and original: {project['repo']}")
+    metrics.update(portfolio.collect(fetch_json, json.loads((ROOT / "data/showcase.json").read_text()), metrics))
     return metrics
 
 
@@ -316,116 +284,227 @@ def compact(number):
     return f"{number:,}"
 
 
+def world_graphic(theme, x=568, y=34, scale=1):
+    t = THEMES[theme]
+    body = [f'<g transform="translate({x} {y}) scale({scale})">',
+            '<style>@keyframes routes{to{stroke-dashoffset:-100}}'
+            '.route-motion{animation:routes 16s linear infinite}'
+            '@media(prefers-reduced-motion:reduce){.route-motion{animation:none;stroke-dasharray:none;opacity:.3}}</style>',
+            f'<ellipse cx="96" cy="67" rx="92" ry="59" fill="{t["panel"]}" stroke="{t["border"]}"/>']
+    for rx, ry in [(91, 26), (44, 59), (72, 59)]:
+        body.append(f'<ellipse cx="96" cy="67" rx="{rx}" ry="{ry}" fill="none" stroke="{t["border"]}" stroke-width=".7"/>')
+    continents = [
+        'M22 39L34 25L53 23L62 34L75 33L68 46L54 48L48 59L40 61L34 51L25 49Z',
+        'M49 64L63 71L73 83L67 96L63 109L56 114L52 99L48 88L43 76Z',
+        'M76 19L84 15L90 22L85 30L79 29Z',
+        'M95 34L103 28L112 31L115 41L106 46L98 42L91 45Z',
+        'M94 51L111 49L126 66L119 84L109 103L101 96L99 79L88 63Z',
+        'M114 33L127 23L151 26L172 40L171 54L157 60L150 74L139 67L134 52L120 47Z',
+        'M144 78L159 82L165 86L157 88Z',
+        'M153 98L170 94L181 104L172 114L156 110Z',
+    ]
+    for path in continents:
+        body.append(f'<path d="{path}" fill="{t["blue"]}" fill-opacity=".14" stroke="{t["blue"]}" stroke-opacity=".55" stroke-width=".7"/>')
+    destinations = [(101, 37, 67, 3), (167, 47, 104, -3), (64, 98, 23, 83),
+                    (111, 94, 75, 49), (153, 77, 106, 22), (167, 104, 109, 42)]
+    for index, (end_x, end_y, control_x, control_y) in enumerate(destinations):
+        path = f'M28 43 Q{control_x} {control_y} {end_x} {end_y}'
+        body += [f'<path d="{path}" fill="none" stroke="{t["purple"]}" stroke-opacity=".3"/>',
+                 f'<path class="route-motion" d="{path}" pathLength="100" fill="none" stroke="{t["purple"]}" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-{index * 2}s"/>',
+                 f'<circle cx="{end_x}" cy="{end_y}" r="2.8" fill="{t["bg"]}" stroke="{t["blue"]}" stroke-width="1.2"/>']
+    body += [f'<circle cx="28" cy="43" r="6" fill="{t["purple"]}" fill-opacity=".16"/>',
+             f'<circle cx="28" cy="43" r="3" fill="{t["purple"]}"/>',
+             text(7, 32, 'Portland', 8, t['text'], 600), '</g>']
+    return body
+
+
+def banner_pills(theme, x, y, mobile=False):
+    t = THEMES[theme]
+    size, gap = (8.2, 8) if mobile else (10, 10)
+    widths = (111, 132, 93) if mobile else (130, 150, 114)
+    body = []
+    for label, width, color, light_fill in zip(
+            ['TEAM LEADERSHIP', 'SYSTEM ARCHITECTURE', 'OPEN SOURCE'], widths,
+            [t['purple'], t['blue'], '#4ade80' if theme == 'dark' else '#166534'],
+            ['#f5f3ff', '#eff6ff', '#f0fdf4']):
+        body += [rect(x, y, width, 26, '#1a1a1a' if theme == 'dark' else light_fill, color, 13, 'stroke-width=".7"'),
+                 text(x + width / 2, y + 17, label, size, color, 600, 'text-anchor="middle"')]
+        x += width + gap
+    return body
+
+
 def banner(theme):
     t = THEMES[theme]
-    dark = theme == "dark"
-    body = [
-        '<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#0c0a09"/><stop offset="1" stop-color="#1c1917"/></linearGradient>'
-        '<linearGradient id="accent"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>',
-        rect(0, 0, 800, 200, "url(#background)" if dark else "#fff", "none" if dark else "#e5e7eb", 16),
-        rect(32, 33, 32, 3, "url(#accent)", radius=1),
-        text(75, 39, "PEOPLE. PLATFORMS. PRODUCTS.", 10, t["muted"], 600, 'letter-spacing="1.8"'),
-        text(32, 82, "Jeremy Kenedy", 40, "#fff" if dark else "#0f172a", 700, 'letter-spacing="-.5"'),
-        text(33, 111, "Engineering leader. Architect. Hands-on builder.", 14, "#a8a29e" if dark else "#64748b"),
-    ]
-    for x, width, label, color, fill in [
-        (33, 104, "TEAM LEADERSHIP", t["purple"], "#f5f3ff"),
-        (145, 122, "SYSTEM ARCHITECTURE", t["blue"], "#eff6ff"),
-        (275, 98, "OPEN SOURCE", "#4ade80" if dark else "#166534", "#f0fdf4"),
-    ]:
-        body += [rect(x, 132, width, 22, "#1a1a1a" if dark else fill, color, 11, 'stroke-width=".8" opacity=".8"'),
-                 text(x + width / 2, 147, label, 10, color, 500, 'text-anchor="middle"')]
-    body.append(text(33, 180, "PORTLAND, OR  /  BUILDING WITH PURPOSE", 9, t["muted"], 500, 'letter-spacing="1.4"'))
-    body += [
-        '<g transform="translate(568, 34)">',
-        '<path d="M32 37 L109 18 L172 51 L169 113 L90 133 L26 94 Z M32 37 L90 71 L172 51 M90 71 L90 133" fill="none" stroke="url(#accent)" stroke-width="1.5"/>',
-        '<path d="M109 18 L107 78 L26 94 M107 78 L169 113" fill="none" stroke="url(#accent)" stroke-opacity=".35"/>',
-        '<path d="M-3 62 L48 6 M142 134 L197 78" stroke="url(#accent)" stroke-opacity=".2"/>',
-    ]
-    for x, y, color in [(32, 37, t["purple"]), (109, 18, t["purple"]), (172, 51, t["blue"]),
-                        (90, 71, t["purple"]), (26, 94, t["blue"]), (90, 133, t["blue"]), (169, 113, t["purple"])]:
-        body.append(f'<circle cx="{x}" cy="{y}" r="5" fill="{t["bg"]}" stroke="{color}" stroke-width="2"/>')
-    body += [text(76, 78, "</>", 15, t["text"], 600), '</g>']
-    return svg(800, 200, "Jeremy Kenedy", "Engineering leader. Architect. Hands-on builder. People, platforms, and products.", body)
+    background = 'url(#background)' if theme == 'dark' else '#fff'
+    body = ['<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#0c0a09"/><stop offset="1" stop-color="#1c1917"/></linearGradient></defs>',
+            rect(1, 1, 798, 198, background, t['border'], 16),
+            rect(32, 32, 24, 3, t['purple'], radius=1),
+            text(68, 38, 'PEOPLE. PLATFORMS. PRODUCTS.', 10, t['muted'], 600, 'letter-spacing="1.5"'),
+            text(31, 82, 'Jeremy Kenedy', 40, t['text'], 700, 'letter-spacing="-.5"'),
+            text(32, 111, 'Engineering leader. Architect. Hands-on builder.', 14, t['muted']),
+            *banner_pills(theme, 32, 130),
+            text(32, 180, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'letter-spacing="1.2"'),
+            *world_graphic(theme)]
+    return svg(800, 200, 'Jeremy Kenedy', 'Engineering leader. Architect. Hands-on builder. Illustrated routes from Portland to the world.', body)
 
 
 def mobile_banner(theme):
     t = THEMES[theme]
-    body = [rect(1, 1, 390, 179, t["bg"], t["border"], 14),
-            rect(24, 24, 32, 3, t["purple"], radius=1),
-            text(24, 51, "PEOPLE. PLATFORMS. PRODUCTS.", 9, t["muted"], 600, 'letter-spacing="1.4"'),
-            text(23, 94, "Jeremy Kenedy", 36, t["text"], 700, 'letter-spacing="-.7"'),
-            text(24, 120, "Engineering leader. Architect. Hands-on builder.", 12, t["muted"]),
-            text(24, 155, "PORTLAND, OR  /  BUILDING WITH PURPOSE", 9, t["blue"], 500, 'letter-spacing=".8"')]
-    return svg(392, 181, "Jeremy Kenedy", "Engineering leader. Architect. Hands-on builder.", body)
+    body = [rect(1, 1, 390, 340, t['bg'], t['border'], 16),
+            rect(20, 24, 24, 3, t['purple'], radius=1),
+            text(54, 29, 'PEOPLE. PLATFORMS. PRODUCTS.', 9, t['muted'], 600, 'letter-spacing="1.2"'),
+            text(19, 76, 'Jeremy Kenedy', 36, t['text'], 700, 'letter-spacing="-.5"'),
+            text(20, 104, 'Engineering leader. Architect. Hands-on builder.', 12.2, t['muted']),
+            *banner_pills(theme, 20, 125, mobile=True),
+            *world_graphic(theme, 88, 165, 1.12),
+            text(196, 319, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'text-anchor="middle" letter-spacing=".9"')]
+    return svg(392, 342, 'Jeremy Kenedy', 'Engineering leader. Architect. Hands-on builder. Illustrated routes from Portland to the world.', body)
 
 
 def impact(metrics, theme, mobile=False):
     t = THEMES[theme]
     values = [
-        ("PACKAGE DOWNLOADS", compact(metrics["package_downloads"]), "Across Packagist packages"),
-        ("GITHUB STARS", compact(metrics["stars"]), "Public repos, excluding forks"),
-        ("COMMUNITY FORKS", compact(metrics["forks"]), "Of original public repos"),
-        ("PUBLISHED PROJECTS", metrics["publications"]["counts"]["unique_projects"], "Packages, apps, and tools"),
+        ('Package downloads', compact(metrics['package_downloads']), 'Across Packagist packages'),
+        ('GitHub stars', compact(metrics['stars']), 'Public source repositories'),
+        ('Community forks', compact(metrics['forks']), 'Of public source repositories'),
+        ('Published projects', metrics['publications']['counts']['unique_projects'], 'Packages, apps, and tools'),
     ]
     width, height = (392, 246) if mobile else (800, 143)
-    body = [rect(1, 1, width - 2, height - 2, t["bg"], t["border"], 14)]
+    body = [rect(1, 1, width - 2, height - 2, t['bg'], t['border'], 14)]
     for index, (label, value, note) in enumerate(values):
         x = (20 + index % 2 * 190) if mobile else (24 + index * 198)
         y = index // 2 * 116 if mobile else 0
         if not mobile and index:
             body.append(f'<path d="M{x-13} 27 V115" stroke="{t["border"]}"/>')
-        body += [text(x, y + 33, label, 9, t["muted"], 600, 'letter-spacing=".7"'),
-                 text(x, y + 79, value, 36, t["purple"] if index % 2 == 0 else t["blue"], 700, 'letter-spacing="-1.2"'),
-                 text(x, y + 104, note, 8.5, t["muted"])]
-    description = "; ".join(f"{label}: {value}" for label, value, _ in values)
-    return svg(width, height, "Open source adoption", description, body)
+        body += [text(x, y + 33, label, 11, t['muted'], 500),
+                 text(x, y + 79, value, 36, t['purple'] if index % 2 == 0 else t['blue'], 700),
+                 text(x, y + 104, note, 8.5, t['muted'])]
+    return svg(width, height, 'Open source adoption', '; '.join(f'{label}: {value}' for label, value, _ in values), body)
 
 
-def project_card(project, metrics, theme, width=392):
+def wrapped_text(value, x, y, width, size, color, max_lines, line_height, weight=400):
+    max_word = max((len(word) for word in value.split()), default=1)
+    fitted = min(size, width / (max_word * .65))
+    lines = textwrap.wrap(value, max(1, int(width / (fitted * .53))), break_long_words=False,
+                          max_lines=max_lines, placeholder='...')
+    return [text(x, y + index * line_height, line, round(fitted, 2), color, weight)
+            for index, line in enumerate(lines)]
+
+
+def card_pill(label, x, y, width, theme, color=None):
     t = THEMES[theme]
-    accent = t[project["accent"]]
-    repo = metrics["repositories"][project["repo"]]
-    package = f"{OWNER}/{project['repo']}"
-    counts = f"{repo['stargazers_count']:,} stars"
-    if package in metrics["packages"]:
-        counts += f"  /  {compact(metrics['packages'][package])} downloads"
-    elif repo["stargazers_count"] >= 25:
-        counts += f"  /  {repo['forks_count']:,} forks"
-    else:
-        counts = "Explore the code"
-    if width != 392:
-        narrow = width < 250
-        margin = 15 if narrow else 19
-        height = 320 if narrow else 284
-        body = [rect(1, 1, width - 2, height - 18, t["bg"], t["border"], 12)]
-        for index, line in enumerate(textwrap.wrap(project["category"], 25 if narrow else 36)):
-            body.append(text(margin, 25 + index * 12, line, 7.5 if narrow else 8, accent, 600, 'letter-spacing=".4"'))
-        for index, line in enumerate(textwrap.wrap(project["title"], 17 if narrow else 24)):
-            body.append(text(margin, 66 + index * 24, line, 18 if narrow else 21, t["text"], 650, 'letter-spacing="-.4"'))
-        for index, line in enumerate(textwrap.wrap(" ".join(project["lines"]), 26 if narrow else 33)):
-            body.append(text(margin, 115 + index * 17, line, 11.5 if narrow else 12.5, t["muted"]))
-        stack_y = 193 if narrow else 178
-        for index, line in enumerate(textwrap.wrap(project["stack"], 29 if narrow else 38)):
-            body.append(text(margin, stack_y + index * 15, line, 9 if narrow else 10, accent, 500))
-        divider_y = 224 if narrow else 207
-        body.append(f'<path d="M{margin} {divider_y} H{width-margin}" stroke="{t["border"]}"/>')
-        for index, line in enumerate(textwrap.wrap(counts, 28 if narrow else 38)):
-            body.append(text(margin, divider_y + 23 + index * 15, line, 9 if narrow else 10, t["text"], 600))
-        body.append(text(margin, height - 34, project["repo"], 8 if narrow else 9, t["muted"]))
-        return svg(width, height, project["title"], " ".join(project["lines"]) + " " + counts, body)
-    body = [rect(1, 1, 390, 210, t["bg"], t["border"], 12),
-            rect(21, 22, 3, 13, accent, radius=1),
-            text(32, 32, project["category"], 8.4, accent, 600, 'letter-spacing=".7"'),
-            text(21, 65, project["title"], 23, t["text"], 650, 'letter-spacing="-.6"'),
-            text(21, 90, project["lines"][0], 12, t["muted"]),
-            text(21, 109, project["lines"][1], 12, t["muted"]),
-            text(21, 137, project["stack"], 10, accent, 500),
-            f'<path d="M21 151 H371" stroke="{t["border"]}"/>',
-            text(21, 175, counts, 11, t["text"], 600),
-            text(21, 195, project["repo"], 9, t["muted"]),
-            '<path d="M355 177 L366 166 M356 166 H366 V176" fill="none" stroke="' + accent + '" stroke-width="1.5"/>']
-    return svg(392, 228, project["title"], " ".join(project["lines"]) + " " + counts, body)
+    color = color or t['purple']
+    size = min(9.5, (width - 10) / (len(label) * .55))
+    return [rect(x, y, width, 20, t['panel'], t['border'], 5),
+            text(x + width / 2, y + 13.5, label, round(size, 2), color, 500, 'text-anchor="middle"')]
+
+
+def project_card(project, metrics, theme, width=182):
+    t = THEMES[theme]
+    narrow = width < 120
+    height, start = (422, 206) if narrow else (386, 170)
+    margin = 7 if narrow else 10
+    usable = width - margin * 2
+    body = [rect(0, 0, width, height, t['bg'], radius=8),
+            text(margin, 16, project['category'], min(8.5, usable / (len(project['category']) * .54)), t['blue'], 600),
+            *wrapped_text(project['title'], margin, 41, usable, 14 if narrow else 17, t['text'], 3 if narrow else 2, 18 if narrow else 21, 700),
+            *wrapped_text(project['description'], margin, 101 if narrow else 92, usable, 10.2 if narrow else 11,
+                          t['muted'], 5 if narrow else 3, 13),
+            *wrapped_text(project['stack'], margin, start - 34, usable, 8.5, t['purple'], 2, 11, 500)]
+    rows = [('Stars', compact(project['stars'])), ('Contributors', project['contributors']),
+            ('Releases', project['releases']), ('Commits', compact(project['commits']))]
+    if project['used_by'] is not None:
+        rows.append(('Used by', compact(project['used_by'])))
+    for index, (label, value) in enumerate(rows):
+        if value is not None:
+            body += [text(margin, start + index * 17, label, 9.5, t['muted']),
+                     text(width - margin, start + index * 17, value, 10.5, t['text'], 600, 'text-anchor="end"')]
+    latest = project['latest_release']
+    body += [text(margin, start + 88, 'Latest ' + (latest['tag'] if latest else 'unreleased'), min(8.5, usable / (len('Latest ' + (latest['tag'] if latest else 'unreleased')) * .57)), t['text'], 500),
+             text(margin, start + 104, 'Updated ' + project['updated'][:10], 8, t['muted']),
+             *card_pill(project['license'] + ' license', margin, start + 116, usable, theme)]
+    if project['downloads']:
+        label = compact(project['downloads']['count']) + ' downloads'
+        if project['downloads'].get('period'):
+            label += '/' + project['downloads']['period']
+        body.extend(card_pill(label, margin, start + 141, usable, theme, t['blue']))
+    if project['made_with_laravel']:
+        body.extend(card_pill('Made with Laravel', margin, start + 166, usable, theme, '#f87171' if theme == 'dark' else '#b91c1c'))
+    body.append(text(margin, height - 8, 'Free and open source', min(8, usable / 10.5), t['muted']))
+    description = f"{project['title']}. {project['description']} {project['stack']}. "
+    description += f"{project['stars']} stars; {project['contributors']} contributors; {project['releases']} releases; {project['commits']} commits. {project['license']} license."
+    return svg(width, height, project['title'], description, body)
+
+
+def action_badge(label, theme, width=100, height=28):
+    t = THEMES[theme]
+    return svg(width, height, label, label, [
+        rect(1, 1, width - 2, height - 2, t['panel'], t['border'], 6),
+        text(width / 2, height / 2 + 3.5, label, 10.5 if width > 75 else 9, t['blue'], 600, 'text-anchor="middle"'),
+    ])
+
+
+CARD_SIZES = [(1280, 182, 182), (1216, 230, 182), (1152, 210, 182), (1012, 164, 144),
+              (896, 146, 144), (820, 120, 100), (768, 104, 100), (680, 270, 182),
+              (640, 250, 182), (560, 210, 182), (480, 170, 144), (430, 144, 144),
+              (390, 124, 100), (360, 110, 100)]
+
+
+def themed_image_link(target, stem, alt, width, height=None, responsive=False):
+    links = []
+    for theme in THEMES:
+        fragment = f'#gh-{theme}-mode-only'
+        sources = ''
+        if responsive:
+            for breakpoint, display_width, asset_width in CARD_SIZES:
+                sources += (f'<source media="(min-width: {breakpoint}px)" '
+                            f'srcset="art/{stem}-{asset_width}-{theme}.svg" width="{display_width}">')
+        suffix = '-100' if responsive else ''
+        height_attr = f' height="{height}"' if height else ''
+        links.append(f'<a href="{escape(target, quote=True)}{fragment}"><picture>{sources}'
+                     f'<img src="art/{stem}{suffix}-{theme}.svg{fragment}" alt="{escape(alt, quote=True)}" '
+                     f'width="{width}"{height_attr}></picture></a>')
+    return ''.join(links)
+
+
+def showcase_markup(metrics):
+    cards = []
+    for project in metrics['showcase']:
+        card = themed_image_link(project['url'], 'project-' + project['name'],
+                                 f"{project['title']}: {project['description']}", 90, responsive=True)
+        star = themed_image_link(project['url'] + '/stargazers', 'action-star', 'Star ' + project['name'], 36, 26)
+        sponsor = themed_image_link(project['url'] + '?sponsor=1', 'action-sponsor', 'Sponsor ' + project['name'], 50, 26) if project['funding'] else ''
+        cards.append(f'<table align="left"><tr><td align="center">{card}<br>{star}{sponsor}</td></tr></table>')
+    return '\n\n' + '\n'.join(cards) + '\n<br clear="all">\n\n'
+
+
+def contribution_markup(metrics):
+    data = metrics['contributions']
+    lines = [f"\n\n**{data['pull_requests']} public pull requests across {data['repositories']} other projects. "
+             f"{data['merged']} merged.** These figures do not include private projects or private contributions.\n",
+             f"**{metrics['public_authored_commits']:,} public authored commits indexed by GitHub.** "
+             "This covers indexed default-branch history, not private work.\n",
+             '<details>\n<summary>Explore the full public contribution history</summary>\n',
+             '| Project | Merged | Open | Example pull request |', '| :--- | ---: | ---: | :--- |']
+    for project in data['projects']:
+        pull = next((item for item in project['pull_requests'] if item['state'] == 'merged'), project['pull_requests'][0])
+        title = escape(pull['title']).replace('|', '\\|').replace('\n', ' ').replace('[', '\\[').replace(']', '\\]')
+        lines.append(f"| [{project['name']}]({project['url']}) | {project['merged']} | {project['open']} | "
+                     f"[{title}]({pull['url']}) ({pull['state']}) |")
+    lines += ['', '</details>', '']
+    return '\n'.join(lines)
+
+
+def support_markup():
+    links = [('Follow Jeremy', 'follow', 'https://github.com/jeremykenedy', 120),
+             ('GitHub Sponsors', 'github', 'https://github.com/sponsors/jeremykenedy', 134),
+             ('Patreon', 'patreon', 'https://patreon.com/jeremykenedy', 82),
+             ('Ko-fi', 'kofi', 'https://ko-fi.com/jeremykenedy', 64),
+             ('PayPal', 'paypal', 'https://www.paypal.com/paypalme/jeremykenedy', 76),
+             ('Buy Me a Coffee', 'coffee', 'https://www.buymeacoffee.com/jeremykenedy', 132)]
+    markup = '<p align="center">\n' + '\n'.join(
+        themed_image_link(url, 'support-' + name, label, width, 28) for label, name, url, width in links) + '\n</p>'
+    return markup, links
 
 
 def language_groups(languages):
@@ -456,12 +535,12 @@ def languages_card(metrics, theme, mobile=False):
                  text(label_x + 16, label_y, name, 12, t["text"], 500),
                  text(label_x + (159 if mobile else 218), label_y, f"{count / total:.1%}" if total else "0%", 12, t["muted"], extra='text-anchor="end"')]
     if mobile:
-        body += [text(24, 224, "Primary language per original public repository.", 10, t["muted"]),
+        body += [text(24, 224, "Primary language per public source repository.", 10, t["muted"]),
                  text(24, 240, "A view of the code, not a skills rating.", 10, t["muted"])]
     else:
-        body.append(text(24, 177, "Primary language per original public repository. A view of the code, not a skills rating.", 10, t["muted"]))
+        body.append(text(24, 177, "Primary language per public source repository. A view of the code, not a skills rating.", 10, t["muted"]))
     description = "; ".join(f"{name}: {count} repositories" for name, count in metrics["languages"].items())
-    return svg(width, height, "Languages across original public repositories", description, body)
+    return svg(width, height, "Languages across public source repositories", description, body)
 
 
 def badge(label, value, theme, width):
@@ -484,10 +563,13 @@ def render(metrics):
         output[f"art/languages-mobile-{theme}.svg"] = languages_card(metrics, theme, mobile=True)
         output[f"art/downloads-{theme}.svg"] = badge("Packagist downloads", compact(metrics["package_downloads"]), theme, 174)
         output[f"art/stars-{theme}.svg"] = badge("GitHub stars", compact(metrics["stars"]), theme, 137)
-        for project in PROJECTS:
-            output[f"art/project-{project['repo']}-{theme}.svg"] = project_card(project, metrics, theme)
-            output[f"art/project-{project['repo']}-compact-{theme}.svg"] = project_card(project, metrics, theme, width=270)
-            output[f"art/project-{project['repo']}-narrow-{theme}.svg"] = project_card(project, metrics, theme, width=194)
+        for project in metrics["showcase"]:
+            for width in (100, 144, 182):
+                output[f"art/project-{project['name']}-{width}-{theme}.svg"] = project_card(project, metrics, theme, width)
+        output[f"art/action-star-{theme}.svg"] = action_badge("Star", theme, 36, 26)
+        output[f"art/action-sponsor-{theme}.svg"] = action_badge("Sponsor", theme, 50, 26)
+        for label, name, _, width in support_markup()[1]:
+            output[f"art/support-{name}-{theme}.svg"] = action_badge(label, theme, width)
     readme = (ROOT / "README.md").read_text()
     start, end = "<!-- METRICS:START -->", "<!-- METRICS:END -->"
     if readme.count(start) != 1 or readme.count(end) != 1:
@@ -498,7 +580,7 @@ def render(metrics):
     summary = (
         f"\n<sub>Updated {metrics['updated']} UTC · {metrics['package_downloads']:,} Packagist downloads · "
         f"{metrics['stars']:,} stars · {metrics['forks']:,} forks · "
-        f"{metrics['original_repositories']} original public repositories.</sub>\n"
+        f"{metrics['original_repositories']} public source repositories.</sub>\n"
     )
     readme = readme[:a + len(start)] + summary + readme[b:]
     start, end = "<!-- PUBLICATIONS:START -->", "<!-- PUBLICATIONS:END -->"
@@ -518,7 +600,15 @@ def render(metrics):
         "including projects already counted in registries and distribution taps.\n\n"
     )
     a, b = readme.index(start), readme.index(end)
-    output["README.md"] = readme[:a + len(start)] + breakdown + readme[b:]
+    readme = readme[:a + len(start)] + breakdown + readme[b:]
+    for name, content in [("SHOWCASE", showcase_markup(metrics)), ("CONTRIBUTIONS", contribution_markup(metrics)),
+                          ("SUPPORT", "\n" + support_markup()[0] + "\n")]:
+        start, end = f"<!-- {name}:START -->", f"<!-- {name}:END -->"
+        if readme.count(start) != 1 or readme.count(end) != 1 or readme.index(start) >= readme.index(end):
+            raise ValueError(f"README must have one ordered {name} section")
+        a, b = readme.index(start), readme.index(end)
+        readme = readme[:a + len(start)] + content + readme[b:]
+    output["README.md"] = readme
     return output
 
 
@@ -535,6 +625,9 @@ def main():
         temporary = destination.with_suffix(destination.suffix + ".tmp")
         temporary.write_text(content)
         temporary.replace(destination)
+    for obsolete in (ROOT / "art").glob("project-*.svg"):
+        if str(obsolete.relative_to(ROOT)) not in output:
+            obsolete.unlink()
     print(f"Updated {len(output)} files from the {metrics['updated']} public-data snapshot.")
 
 

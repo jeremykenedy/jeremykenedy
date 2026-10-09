@@ -285,14 +285,14 @@ def compact(number):
     return f"{number:,}"
 
 
-def world_graphic(theme, x=568, y=34, scale=1):
+def world_graphic(theme, x=568, y=34, scale=.9):
     t = THEMES[theme]
     body = [f'<g transform="translate({x} {y}) scale({scale})">',
             '<style>@keyframes routes{to{stroke-dashoffset:-100}}'
             '.route-motion{animation:routes 16s linear infinite}'
             '@media(prefers-reduced-motion:reduce){.route-motion{animation:none;stroke-dasharray:none;opacity:.3}}</style>',
-            f'<ellipse cx="96" cy="67" rx="92" ry="59" fill="{t["panel"]}" stroke="{t["border"]}"/>']
-    for rx, ry in [(91, 26), (44, 59), (72, 59)]:
+            f'<circle cx="96" cy="67" r="82" fill="{t["panel"]}" stroke="{t["border"]}"/>']
+    for rx, ry in [(82, 36), (39, 82), (64, 82)]:
         body.append(f'<ellipse cx="96" cy="67" rx="{rx}" ry="{ry}" fill="none" stroke="{t["border"]}" stroke-width=".7"/>')
     continents = [
         'M22 39L34 25L53 23L62 34L75 33L68 46L54 48L48 59L40 61L34 51L25 49Z',
@@ -304,18 +304,48 @@ def world_graphic(theme, x=568, y=34, scale=1):
         'M144 78L159 82L165 86L157 88Z',
         'M153 98L170 94L181 104L172 114L156 110Z',
     ]
+    body.append('<defs><clipPath id="globe-surface"><circle cx="96" cy="67" r="82"/></clipPath></defs>')
+    body.append('<g clip-path="url(#globe-surface)"><g transform="translate(10.435 -26.119) scale(.8913 1.38983)">')
     for path in continents:
         body.append(f'<path d="{path}" fill="{t["blue"]}" fill-opacity=".14" stroke="{t["blue"]}" stroke-opacity=".55" stroke-width=".7"/>')
-    destinations = [(101, 37, 67, 3), (167, 47, 104, -3), (64, 98, 23, 83),
-                    (111, 94, 75, 49), (153, 77, 106, 22), (167, 104, 109, 42)]
-    for index, (end_x, end_y, control_x, control_y) in enumerate(destinations):
-        path = f'M28 43 Q{control_x} {control_y} {end_x} {end_y}'
-        body += [f'<path d="{path}" fill="none" stroke="{t["purple"]}" stroke-opacity=".3"/>',
-                 f'<path class="route-motion" d="{path}" pathLength="100" fill="none" stroke="{t["purple"]}" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1 24" style="animation-delay:-{index * 2}s"/>',
-                 f'<circle cx="{end_x}" cy="{end_y}" r="2.8" fill="{t["bg"]}" stroke="{t["blue"]}" stroke-width="1.2"/>']
-    body += [f'<circle cx="28" cy="43" r="6" fill="{t["purple"]}" fill-opacity=".16"/>',
-             f'<circle cx="28" cy="43" r="3" fill="{t["purple"]}"/>',
-             text(7, 32, 'Portland', 8, t['text'], 600), '</g>']
+    body.append('</g></g>')
+
+    def project_point(point_x, point_y):
+        return round(96 + (point_x - 96) * 82 / 92, 2), round(67 + (point_y - 67) * 82 / 59, 2)
+
+    origin_x, origin_y = project_point(28, 43)
+    destinations = [
+        ('San Francisco', 29, 49, 16, 41),
+        ('New York', 56, 44, 41, 23),
+        ('Mexico City', 42, 60, 22, 60),
+        ('Sao Paulo', 64, 94, 24, 83),
+        ('London', 99, 34, 64, 6),
+        ('Paris', 103, 40, 68, 12),
+        ('Berlin', 111, 35, 72, 3),
+        ('Dubai', 124, 59, 84, 19),
+        ('Mumbai', 136, 67, 91, 24),
+        ('Singapore', 150, 79, 104, 28),
+        ('Tokyo', 171, 49, 103, -3),
+        ('Cape Town', 109, 99, 74, 51),
+        ('Sydney', 165, 100, 112, 43),
+    ]
+    for index, (city, end_x, end_y, control_x, control_y) in enumerate(destinations):
+        end_x, end_y = project_point(end_x, end_y)
+        control_x, control_y = project_point(control_x, control_y)
+        path = f'M{origin_x} {origin_y} Q{control_x} {control_y} {end_x} {end_y}'
+        body += [f'<g><title>Portland to {escape(city)}</title>',
+                 f'<path d="{path}" fill="none" stroke="{t["purple"]}" stroke-opacity=".2" stroke-width=".8"/>',
+                 f'<path class="route-motion" d="{path}" pathLength="100" fill="none" stroke="{t["purple"]}" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="1 32" style="animation-delay:-{index * 1.3:g}s"/>',
+                 f'<circle cx="{end_x}" cy="{end_y}" r="2" fill="{t["bg"]}" stroke="{t["blue"]}" stroke-width="1"/></g>']
+    for city, label_x, label_y in [
+            ('New York', 50, 56), ('London', 93, 23), ('Dubai', 128, 56),
+            ('Tokyo', 164, 38), ('Singapore', 135, 91),
+            ('Cape Town', 84, 118), ('Sao Paulo', 39, 107), ('Sydney', 160, 121)]:
+        label_x, label_y = project_point(label_x, label_y)
+        body.append(text(label_x, label_y, city, 6.5, t['muted'], 500))
+    body += [f'<circle cx="{origin_x}" cy="{origin_y}" r="6" fill="{t["purple"]}" fill-opacity=".16"/>',
+             f'<circle cx="{origin_x}" cy="{origin_y}" r="3" fill="{t["purple"]}"/>',
+             text(origin_x - 21, origin_y - 11, 'Portland', 8, t['text'], 600), '</g>']
     return body
 
 
@@ -344,22 +374,25 @@ def banner(theme):
             text(31, 82, 'Jeremy Kenedy', 40, t['text'], 700, 'letter-spacing="-.5"'),
             text(32, 111, 'Engineering leader. Architect. Hands-on builder.', 14, t['muted']),
             *banner_pills(theme, 32, 130),
-            text(32, 180, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'letter-spacing="1.2"'),
+            text(32, 173, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'letter-spacing="1.2"'),
+            text(32, 189, 'Building the tools and teams behind enterprise applications.', 11, t['text'], 500),
             *world_graphic(theme)]
-    return svg(800, 200, 'Jeremy Kenedy', 'Engineering leader. Architect. Hands-on builder. Illustrated routes from Portland to the world.', body)
+    return svg(800, 200, 'Jeremy Kenedy', 'Building the tools and teams behind enterprise applications. Illustrated routes from Portland to 13 major cities around the world.', body)
 
 
 def mobile_banner(theme):
     t = THEMES[theme]
-    body = [rect(1, 1, 390, 340, t['bg'], t['border'], 16),
+    body = [rect(1, 1, 390, 406, t['bg'], t['border'], 16),
             rect(20, 24, 24, 3, t['purple'], radius=1),
             text(54, 29, 'PEOPLE. PLATFORMS. PRODUCTS.', 9, t['muted'], 600, 'letter-spacing="1.2"'),
             text(19, 76, 'Jeremy Kenedy', 36, t['text'], 700, 'letter-spacing="-.5"'),
             text(20, 104, 'Engineering leader. Architect. Hands-on builder.', 12.2, t['muted']),
             *banner_pills(theme, 20, 125, mobile=True),
-            *world_graphic(theme, 88, 165, 1.12),
-            text(196, 319, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'text-anchor="middle" letter-spacing=".9"')]
-    return svg(392, 342, 'Jeremy Kenedy', 'Engineering leader. Architect. Hands-on builder. Illustrated routes from Portland to the world.', body)
+            *world_graphic(theme, 88, 160, 1.12),
+            text(196, 349, 'PORTLAND, OR  /  BUILDING WITH PURPOSE', 9, t['muted'], 500, 'text-anchor="middle" letter-spacing=".9"'),
+            text(196, 376, 'Building the tools and teams', 13, t['text'], 500, 'text-anchor="middle"'),
+            text(196, 395, 'behind enterprise applications.', 13, t['text'], 500, 'text-anchor="middle"')]
+    return svg(392, 408, 'Jeremy Kenedy', 'Building the tools and teams behind enterprise applications. Illustrated routes from Portland to 13 major cities around the world.', body)
 
 
 def impact(metrics, theme, mobile=False):

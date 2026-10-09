@@ -70,3 +70,20 @@ The Star link opens the repository's stargazers page with GitHub's native Star c
 If GitHub changes its profile widths, theme behavior, or sidebar response, recheck the actual page. Scheduled workflows can be disabled on inactive public repositories; check Actions if updates stop.
 
 Merging into the default branch of `jeremykenedy/jeremykenedy` publishes the README to the profile.
+
+## Banner previews
+
+The circular globe illustrates connections from Portland to 13 major cities. It is a visual motif, not a claim about deployment locations. The leadership line sits below the location in both responsive layouts. Refresh these browser captures whenever the banner changes.
+
+### Mobile
+
+<table>
+<tr><td><img src="art/screenshots/banner-mobile-light.png" alt="Mobile banner in light mode with circular globe and leadership line" width="392"></td></tr>
+<tr><td><img src="art/screenshots/banner-mobile-dark.png" alt="Mobile banner in dark mode with circular globe and leadership line" width="392"></td></tr>
+</table>
+
+### Desktop
+
+<table>
+<tr><td><img src="art/screenshots/banner-light.png" alt="Desktop banner in light mode with circular globe and leadership line" width="260"></td><td><img src="art/screenshots/banner-dark.png" alt="Desktop banner in dark mode with circular globe and leadership line" width="260"></td></tr>
+</table>

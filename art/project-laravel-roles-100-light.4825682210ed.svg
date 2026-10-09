@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="422" viewBox="0 0 100 422" role="img" aria-labelledby="title desc">
+<title id="title">Laravel Roles</title>
+<desc id="desc">Laravel Roles. Roles, permissions, and access levels with a management interface. PHP / Blade / Laravel. 1050 stars; 33 contributors; 53 releases; 339 commits. MIT license.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="100" height="422" rx="8" fill="#ffffff" stroke="none" />
+<text x="7" y="16" font-size="7.962962962962963" fill="#2563eb" font-weight="600" >Application security</text>
+<text x="7" y="41" font-size="14" fill="#0f172a" font-weight="700" >Laravel</text>
+<text x="7" y="59" font-size="14" fill="#0f172a" font-weight="700" >Roles</text>
+<text x="7" y="101" font-size="10.2" fill="#526176" font-weight="400" >Roles,</text>
+<text x="7" y="114" font-size="10.2" fill="#526176" font-weight="400" >permissions,</text>
+<text x="7" y="127" font-size="10.2" fill="#526176" font-weight="400" >and access</text>
+<text x="7" y="140" font-size="10.2" fill="#526176" font-weight="400" >levels with a</text>
+<text x="7" y="153" font-size="10.2" fill="#526176" font-weight="400" >management...</text>
+<text x="7" y="172" font-size="8.5" fill="#6d28d9" font-weight="500" >PHP / Blade /</text>
+<text x="7" y="183" font-size="8.5" fill="#6d28d9" font-weight="500" >Laravel</text>
+<text x="7" y="206" font-size="9.5" fill="#526176" font-weight="400" >Stars</text>
+<text x="93" y="206" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">1,050</text>
+<text x="7" y="223" font-size="9.5" fill="#526176" font-weight="400" >Contributors</text>
+<text x="93" y="223" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">33</text>
+<text x="7" y="240" font-size="9.5" fill="#526176" font-weight="400" >Releases</text>
+<text x="93" y="240" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">53</text>
+<text x="7" y="257" font-size="9.5" fill="#526176" font-weight="400" >Commits</text>
+<text x="93" y="257" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">339</text>
+<text x="7" y="274" font-size="9.5" fill="#526176" font-weight="400" >Used by</text>
+<text x="93" y="274" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">1,419</text>
+<text x="7" y="294" font-size="8.5" fill="#0f172a" font-weight="500" >Latest v13.0.0</text>
+<text x="7" y="310" font-size="8" fill="#526176" font-weight="400" >Updated 2026-10-08</text>
+<rect x="7" y="322" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="50.0" y="335.5" font-size="9.5" fill="#6d28d9" font-weight="500" text-anchor="middle">MIT license</text>
+<rect x="7" y="347" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="50.0" y="360.5" font-size="8.64" fill="#2563eb" font-weight="500" text-anchor="middle">903.5k downloads</text>
+<rect x="7" y="372" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="50.0" y="385.5" font-size="8.13" fill="#b91c1c" font-weight="500" text-anchor="middle">Made with Laravel</text>
+<text x="7" y="414" font-size="8" fill="#526176" font-weight="400" >Free and open source</text>
+</g>
+</svg>

@@ -555,9 +555,11 @@ def badge(label, value, theme, width):
 
 def version_artwork(readme, output):
     def reference(match):
-        name = match.group(1)
+        name = re.sub(r'\.[a-f0-9]{12}(?=\.svg$)', '', match.group(1))
         digest = sha256(output[name].encode()).hexdigest()[:12]
-        return f'{name}?v={digest}'
+        versioned = name.removesuffix('.svg') + f'.{digest}.svg'
+        output[versioned] = output[name]
+        return versioned
     return re.sub(r'(art/[^"?#\s]+\.svg)(?:\?v=[a-f0-9]+)?', reference, readme)
 
 
@@ -634,8 +636,9 @@ def main():
         temporary = destination.with_suffix(destination.suffix + ".tmp")
         temporary.write_text(content)
         temporary.replace(destination)
-    for obsolete in (ROOT / "art").glob("project-*.svg"):
-        if str(obsolete.relative_to(ROOT)) not in output:
+    for obsolete in (ROOT / "art").glob("*.svg"):
+        generated = obsolete.name.startswith('project-') or re.search(r'\.[a-f0-9]{12}\.svg$', obsolete.name)
+        if generated and str(obsolete.relative_to(ROOT)) not in output:
             obsolete.unlink()
     print(f"Updated {len(output)} files from the {metrics['updated']} public-data snapshot.")
 

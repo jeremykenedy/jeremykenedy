@@ -29,7 +29,7 @@ To refresh locally, set `GITHUB_TOKEN` or `GH_TOKEN` and run:
 python3 scripts/update_profile.py
 ```
 
-Credentials are sent only to `api.github.com`. All endpoints require HTTPS and redirects are rejected. All collection and rendering must succeed before existing output is replaced. Failed requests preserve published assets. Obsolete generated project SVGs are removed after a successful render. README image URLs carry a content hash so GitHub image caches cannot keep serving an earlier banner or stale metrics after the asset changes.
+Credentials are sent only to `api.github.com`. All endpoints require HTTPS and redirects are rejected. All collection and rendering must succeed before existing output is replaced. Failed requests preserve published assets. Obsolete generated project SVGs are removed after a successful render. README image filenames carry a content hash so GitHub image caches cannot keep serving an earlier banner or stale metrics after the asset changes. The renderer keeps readable base SVGs plus content-addressed copies, and removes obsolete versioned copies. Query parameters are insufficient because GitHub drops them when redirecting relative image URLs.
 
 ### Authored showcase
 

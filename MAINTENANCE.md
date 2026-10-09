@@ -1,49 +1,72 @@
 # Profile maintenance
 
-The profile uses Markdown and repository-hosted SVGs. The artwork has light and dark variants and does not depend on a third-party stats-image service.
+The profile uses Markdown and repository-hosted SVGs. Artwork has light and dark variants and does not depend on a third-party stats-image service.
 
 ## Edit the profile
 
 - Edit personal copy, links, and the toolbox in `README.md`.
-- Change project selection, descriptions, and artwork in `scripts/update_profile.py`.
-- Keep the paired METRICS and PUBLICATIONS markers in the README. Only the text between those markers is generated.
-- Do not add a resume, personal contact details, employer names, or employment metrics to this repository.
+- Edit selection rules, known derivative exclusions, recent flagships, and concise project copy in `data/showcase.json`.
+- Collection lives in `scripts/portfolio.py`; artwork and Markdown rendering live in `scripts/update_profile.py`.
+- Keep the paired METRICS, PUBLICATIONS, SHOWCASE, CONTRIBUTIONS, and SUPPORT markers. Their contents are generated.
+- Do not add a resume, personal contact details, employer names, or employment metrics.
 
-To regenerate artwork from the checked-in snapshot without network access:
+Regenerate artwork from the checked-in snapshot without network access:
 
 ```sh
 python3 scripts/update_profile.py --from-cache
 python3 -m unittest discover -s tests -v
 ```
 
-The renderer uses only the Python standard library. Python 3.12 is used in CI.
+Copy overrides are applied during collection. When changing them, refresh the data before rendering. The renderer uses only the Python standard library. CI uses Python 3.12.
 
-## Refresh the numbers
+## Refresh public evidence
 
-The Profile metrics workflow runs daily at 13:23 UTC and can also be started manually from Actions. It uses the repository's built-in `GITHUB_TOKEN`; no personal token or additional secret is required. The refresh job only writes on this repository's default branch.
+The Profile metrics workflow runs daily at 13:23 UTC and supports manual runs. It uses the repository's built-in `GITHUB_TOKEN`; no personal token or additional secret is required. The refresh job only writes on this repository's default branch.
 
-To fetch current public data locally, set `GITHUB_TOKEN` or `GH_TOKEN` in the environment and run:
+To refresh locally, set `GITHUB_TOKEN` or `GH_TOKEN` and run:
 
 ```sh
 python3 scripts/update_profile.py
 ```
 
-The script paginates the public repository list, excludes private repositories and forks from star/fork totals, and fetches download counts for every package in the Packagist namespace. The token is sent only to GitHub. API failures stop generation and preserve the existing published assets. The snapshot records a UTC date and exact counts. Downloads can include repeated installs and maintained forks; they do not measure people.
+Credentials are sent only to `api.github.com`. All endpoints require HTTPS and redirects are rejected. All collection and rendering must succeed before existing output is replaced. Failed requests preserve published assets. Obsolete generated project SVGs are removed after a successful render.
 
-Published project counts combine Packagist repository metadata, npm packages maintained by `developernator` or `jeremykenedy`, formula and cask files in owned Homebrew taps, and public GitHub releases in original repositories. Prereleases count; draft releases and bare git tags do not. Package source URLs are normalized so a project distributed through several channels counts once. Homebrew tap repositories do not count as extra projects. Formula files are read as text, never executed. The snapshot includes each project's public evidence links and a separate distribution breakdown.
+### Authored showcase
 
-The GitHub Packages registry is checked separately from GitHub Releases. It currently has no packages. If new GitHub Packages appear, the refresh stops until their source repositories are mapped into the audit, preventing an understated total. Unexpected or missing package source metadata also stops the refresh. Add any new npm publisher account to `NPM_PUBLISHERS` when needed.
+The collector paginates owned public, non-fork repositories and excludes archived, empty, unlicensed, and explicitly excluded projects. GitHub's fork flag is not enough: the configuration also records known detached forks and maintained derivatives. Keep those provenance exclusions current when auditing new projects. The Homebrew monitor and its tap are deliberately excluded from the cards at the owner's request.
 
-Upstream contributions and testimonials are curated profile copy, separate from owned project statistics. Contribution links must be public, and anything described as merged must have a verified merge. Keep testimonial excerpts attributed and linked to their source without employer names.
+A project with no meaningful activity in five years is omitted unless it has at least 100 stars. Funding and sponsorship commit subjects are ignored when choosing the activity date from the latest 30 default-branch commits. Recent flagships are promoted only while active within 90 days. Remaining cards sort by meaningful activity, then stars. New eligible repositories appear automatically on the next refresh.
 
-Language shares use primary-language repository counts, not lines of code or proficiency. Archived original repositories are included. Repositories without a detected language are excluded from the language denominator.
+Cards use public source evidence:
 
-All API requests must succeed before output is written. Packagist requests are limited to four concurrent requests. Failed workflow runs are visible in Actions. GitHub can disable scheduled workflows in inactive public repositories; if updates stop, check Actions and re-enable the schedule.
+- GitHub GraphQL supplies stars, languages, licenses, funding links, and default-branch commit totals.
+- Public GitHub release pagination supplies release counts and the most recently published release, including prereleases and excluding drafts.
+- GitHub's public repository `/_sidebar` JSON supplies the same Used by and contributor counts shown on repository pages. This is an undocumented UI endpoint; a response or schema failure must stop the refresh rather than publish invented counts. Contributors may include bot accounts.
+- Packagist counts use verified package-to-repository mappings. GitHub release download counts sum public release assets where the README advertises that download badge. npm badges use npm's public downloads API and display their reporting interval; an old `dt` badge is treated as the available 18-month window, never as lifetime downloads.
+- Made with Laravel appears only when that project's README links to its listing.
+
+Repository commit totals are not personal authored totals. The separate public authored commit count comes from GitHub's public commit search and covers indexed default-branch history. It is not a complete career or private-work count. Language bytes are not lines of code, so no personal LOC total is estimated.
+
+### Distribution totals
+
+Packagist downloads include repeated installs and maintained forks; they do not measure people. Stars, forks, and language shares use owned public repositories GitHub marks as non-forks, including archived repositories. Language shares count primary languages, not code volume or proficiency.
+
+Published project totals combine Packagist repository metadata, npm packages maintained by `developernator` or `jeremykenedy`, formula and cask files in owned Homebrew taps, and public GitHub releases. Prereleases count; drafts and bare tags do not. Source URL normalization deduplicates projects across channels. A tap does not count as an extra software project. Formula files are read as text, never executed.
+
+The GitHub Packages registry is checked separately. If packages appear there, collection stops until their source repositories are mapped. Unexpected or missing package source metadata also stops collection. Add any new npm publisher account to `NPM_PUBLISHERS` when needed. Published distributions can include maintained derivatives; they are intentionally separate from the stricter authored showcase.
+
+### Contributions
+
+Search explicitly uses `is:public` and excludes the account's own repositories. The ledger deduplicates pull requests and distinguishes merged, open, and closed submissions. Private work is excluded even when the local token could access it. Configured exclusions omit non-contribution repositories such as interview exercises. Curated highlights described as merged must link to verified merges.
 
 ## Review before publishing
 
-Check the profile at desktop and phone widths in both light and dark modes. All project cards should link to their matching public repository. Confirm the README has no broken local asset references and that generated assets match the snapshot.
+Run the unit suite, regenerate from cache, and confirm the generated files match the snapshot. Check the actual GitHub renderer at phone, tablet, and desktop widths in automatic and manually selected light/dark themes. Check image loading, text clipping, wrapping, links, and banner motion. Reduced-motion preferences disable the route animation; the banner copy stays still.
 
-Project cards share one wrapping paragraph. Native `picture` sources set their image dimensions at 768, 896, 1012, and 1280 pixels so the GitHub profile shows one column on phones, two on tablets, and three on large desktops. Narrow and compact SVG variants keep the text readable within GitHub's profile sidebar layout. Custom CSS and image `sizes` attributes are stripped by GitHub and should not be used for this layout. Responsive images use GitHub theme fragments on their links to keep light and dark artwork separate. This avoids the native theme helper replacing compound theme/width media queries when a visitor selects a theme manually. Keep width queries independent of theme queries. If GitHub changes its page widths, recheck these breakpoints on the actual profile.
+Each card uses a native left-aligned table to keep its repository link and separate Star/Sponsor links together. Width-only picture sources account for GitHub's changing sidebar widths: two columns below 768px, three from 768px, and four from 1280px. SVG variants keep text legible at narrow widths. The minimum tested viewport is 320px. GitHub strips custom layout CSS and image `sizes`; do not introduce them as layout dependencies. Theme fragments on paired links prevent the native theme helper from rewriting compound theme/width queries. Keep width and theme selection separate.
 
-GitHub profile content comes from `README.md` on the default branch of `jeremykenedy/jeremykenedy`. Merging a profile change into `main` publishes it to the profile.
+The Star link opens the repository's stargazers page with GitHub's native Star control. A README cannot submit a star action itself. The project Sponsor link opens that repository's funding dialog with `?sponsor=1`. General support badges link directly to the account's funding destinations, all at the same height.
+
+If GitHub changes its profile widths, theme behavior, or sidebar response, recheck the actual page. Scheduled workflows can be disabled on inactive public repositories; check Actions if updates stop.
+
+Merging into the default branch of `jeremykenedy/jeremykenedy` publishes the README to the profile.

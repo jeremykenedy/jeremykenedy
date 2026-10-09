@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="386" viewBox="0 0 144 386" role="img" aria-labelledby="title desc">
+<title id="title">Firefly Grove</title>
+<desc id="desc">Firefly Grove. Animated firefly screensaver for your TV. Python / Java / Shell. 1 stars; 1 contributors; 1 releases; 2 commits. Apache-2.0 license.</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="144" height="386" rx="8" fill="#ffffff" stroke="none" />
+<text x="10" y="16" font-size="8.5" fill="#2563eb" font-weight="600" >Creative graphics</text>
+<text x="10" y="41" font-size="17" fill="#0f172a" font-weight="700" >Firefly Grove</text>
+<text x="10" y="92" font-size="11" fill="#526176" font-weight="400" >Animated firefly</text>
+<text x="10" y="105" font-size="11" fill="#526176" font-weight="400" >screensaver for your</text>
+<text x="10" y="118" font-size="11" fill="#526176" font-weight="400" >TV.</text>
+<text x="10" y="136" font-size="8.5" fill="#6d28d9" font-weight="500" >Python / Java / Shell</text>
+<text x="10" y="170" font-size="9.5" fill="#526176" font-weight="400" >Stars</text>
+<text x="134" y="170" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">1</text>
+<text x="10" y="187" font-size="9.5" fill="#526176" font-weight="400" >Contributors</text>
+<text x="134" y="187" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">1</text>
+<text x="10" y="204" font-size="9.5" fill="#526176" font-weight="400" >Releases</text>
+<text x="134" y="204" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">1</text>
+<text x="10" y="221" font-size="9.5" fill="#526176" font-weight="400" >Commits</text>
+<text x="134" y="221" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">2</text>
+<text x="10" y="258" font-size="8.5" fill="#0f172a" font-weight="500" >Latest v1.0.0</text>
+<text x="10" y="274" font-size="8" fill="#526176" font-weight="400" >Updated 2026-10-09</text>
+<rect x="10" y="286" width="124" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="72.0" y="299.5" font-size="9.5" fill="#6d28d9" font-weight="500" text-anchor="middle">Apache-2.0 license</text>
+<rect x="10" y="311" width="124" height="20" rx="5" fill="#f8fafc" stroke="#e5e7eb" />
+<text x="72.0" y="324.5" font-size="9.5" fill="#2563eb" font-weight="500" text-anchor="middle">4 downloads</text>
+<text x="10" y="378" font-size="8" fill="#526176" font-weight="400" >Free and open source</text>
+</g>
+</svg>

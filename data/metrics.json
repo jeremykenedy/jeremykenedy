@@ -1,7 +1,7 @@
 {
   "original_repositories": 122,
   "stars": 6977,
-  "forks": 1985,
+  "forks": 1983,
   "languages": {
     "PHP": 47,
     "Python": 21,
@@ -17,32 +17,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-09",
-  "package_downloads": 4089896,
+  "updated": "2026-10-10",
+  "package_downloads": 4091998,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74519,
+    "jeremykenedy/laravel-blocker": 74560,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18281,
-    "jeremykenedy/laravel-exception-notifier": 314993,
-    "jeremykenedy/laravel-https": 137995,
+    "jeremykenedy/laravel-email-database-log": 18287,
+    "jeremykenedy/laravel-exception-notifier": 316316,
+    "jeremykenedy/laravel-https": 137997,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 315794,
+    "jeremykenedy/laravel-logger": 315895,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187593,
-    "jeremykenedy/laravel-roles": 903991,
+    "jeremykenedy/laravel-phpinfo": 187605,
+    "jeremykenedy/laravel-roles": 904175,
     "jeremykenedy/laravel-seedster": 470,
     "jeremykenedy/laravel-toast": 174,
     "jeremykenedy/laravel-ui-kit": 400,
-    "jeremykenedy/laravel-users": 98353,
-    "jeremykenedy/laravel2step": 112905,
+    "jeremykenedy/laravel-users": 98368,
+    "jeremykenedy/laravel2step": 112961,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 979369,
-    "jeremykenedy/slack-laravel": 801980,
+    "jeremykenedy/slack": 979623,
+    "jeremykenedy/slack-laravel": 802081,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139785
+    "jeremykenedy/uuid": 139792
   },
   "publications": {
     "counts": {
@@ -203,7 +203,7 @@
             "channel": "github_release",
             "name": "fire-tv-aquarium",
             "repository": "jeremykenedy/fire-tv-aquarium",
-            "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.1"
+            "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
           }
         ]
       },
@@ -214,7 +214,7 @@
             "channel": "github_release",
             "name": "fire-tv-toolkit",
             "repository": "jeremykenedy/fire-tv-toolkit",
-            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.7.0"
+            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.9.1"
           }
         ]
       },
@@ -247,7 +247,7 @@
             "channel": "github_release",
             "name": "helios-lightfield",
             "repository": "jeremykenedy/helios-lightfield",
-            "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
           }
         ]
       },
@@ -922,7 +922,7 @@
       "stack": "PHP / JavaScript / Laravel",
       "updated": "2026-10-08T20:53:13Z",
       "stars": 3041,
-      "forks": 977,
+      "forks": 975,
       "license": "MIT",
       "branch": "master",
       "commits": 879,
@@ -981,7 +981,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 903991,
+        "count": 904175,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1031,7 +1031,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 315794,
+        "count": 315895,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1081,7 +1081,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98353,
+        "count": 98368,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1177,7 +1177,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 112905,
+        "count": 112961,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1319,7 +1319,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 314993,
+        "count": 316316,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1369,7 +1369,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74519,
+        "count": 74560,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1419,7 +1419,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187593,
+        "count": 187605,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1469,7 +1469,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 137995,
+        "count": 137997,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1546,19 +1546,19 @@
       "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
       "category": "TV and tooling",
       "stack": "Java / JavaScript / Shell",
-      "updated": "2026-10-09T09:04:41Z",
+      "updated": "2026-10-10T05:19:07Z",
       "stars": 1,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
-      "commits": 88,
+      "commits": 92,
       "contributors": 3,
       "used_by": null,
-      "releases": 13,
+      "releases": 16,
       "latest_release": {
-        "tag": "v3.7.0",
-        "date": "2026-10-09T09:06:04Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.7.0"
+        "tag": "v3.9.1",
+        "date": "2026-10-10T03:24:18Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.9.1"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -1774,6 +1774,90 @@
       ]
     },
     {
+      "name": "fire-tv-aquarium",
+      "url": "https://github.com/jeremykenedy/fire-tv-aquarium",
+      "title": "Fire TV Aquarium",
+      "description": "An offline 4K aquarium with custom fish, sea life, and scenes.",
+      "category": "Creative graphics",
+      "stack": "Java / Android TV",
+      "updated": "2026-10-10T07:29:55Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "MIT",
+      "branch": "main",
+      "commits": 34,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 9,
+      "latest_release": {
+        "tag": "v1.3.6",
+        "date": "2026-10-10T07:31:29Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
+      },
+      "downloads": {
+        "count": 36,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "helios-lightfield",
+      "url": "https://github.com/jeremykenedy/helios-lightfield",
+      "title": "Helios Lightfield",
+      "description": "Animated OpenGL light sculpture screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-10T01:23:23Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 4,
+      "contributors": 3,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.0.1",
+        "date": "2026-10-10T01:23:39Z",
+        "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
+      },
+      "downloads": {
+        "count": 15,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
       "name": "laravel-notifications",
       "url": "https://github.com/jeremykenedy/laravel-notifications",
       "title": "Notifications",
@@ -1895,7 +1979,7 @@
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases"
       },
@@ -1929,7 +2013,7 @@
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 3,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases"
       },
@@ -1963,7 +2047,7 @@
         "url": "https://github.com/jeremykenedy/contour-flow/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 3,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/contour-flow/releases"
       },
@@ -1997,7 +2081,7 @@
         "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 3,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/canopy-drift/releases"
       },
@@ -2031,7 +2115,7 @@
         "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 2,
+        "count": 6,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/split-flap-drift/releases"
       },
@@ -2065,7 +2149,7 @@
         "url": "https://github.com/jeremykenedy/perseid-passage/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/perseid-passage/releases"
       },
@@ -2099,43 +2183,9 @@
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 9,
+        "count": 12,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "helios-lightfield",
-      "url": "https://github.com/jeremykenedy/helios-lightfield",
-      "title": "Helios Lightfield",
-      "description": "Animated OpenGL light sculpture screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T04:54:37Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 3,
-      "contributors": 3,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T04:56:56Z",
-        "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 6,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2167,7 +2217,7 @@
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases"
       },
@@ -2201,7 +2251,7 @@
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases"
       },
@@ -2235,7 +2285,7 @@
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases"
       },
@@ -2269,7 +2319,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -2303,7 +2353,7 @@
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
       },
@@ -2337,7 +2387,7 @@
         "url": "https://github.com/jeremykenedy/retro-flight/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/retro-flight/releases"
       },
@@ -2371,7 +2421,7 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
       },
@@ -2405,7 +2455,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2439,7 +2489,7 @@
         "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/jellyfish-drift/releases"
       },
@@ -2473,7 +2523,7 @@
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
       },
@@ -2507,7 +2557,7 @@
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 2,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases"
       },
@@ -2541,7 +2591,7 @@
         "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/starfield-drift/releases"
       },
@@ -2575,7 +2625,7 @@
         "url": "https://github.com/jeremykenedy/firefly-grove/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/firefly-grove/releases"
       },
@@ -2609,7 +2659,7 @@
         "url": "https://github.com/jeremykenedy/neon-corridor/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 8,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/neon-corridor/releases"
       },
@@ -2643,7 +2693,7 @@
         "url": "https://github.com/jeremykenedy/blue-meridian/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 2,
+        "count": 5,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/blue-meridian/releases"
       },
@@ -2680,56 +2730,6 @@
         "count": 400,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-ui-kit"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "fire-tv-aquarium",
-      "url": "https://github.com/jeremykenedy/fire-tv-aquarium",
-      "title": "Fire TV Aquarium",
-      "description": "An offline 4K aquarium with custom fish, sea life, and scenes.",
-      "category": "Creative graphics",
-      "stack": "Java / Android TV",
-      "updated": "2026-10-08T20:59:08Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "MIT",
-      "branch": "main",
-      "commits": 28,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 4,
-      "latest_release": {
-        "tag": "v1.3.1",
-        "date": "2026-10-08T19:12:57Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.1"
-      },
-      "downloads": {
-        "count": 18,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2977,12 +2977,12 @@
         "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 303,
+        "count": 304,
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-10",
-        "end": "2026-10-10"
+        "start": "2025-04-11",
+        "end": "2026-10-11"
       },
       "made_with_laravel": null,
       "funding": [
@@ -3818,5 +3818,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29133
+  "public_authored_commits": 29144
 }

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="422" viewBox="0 0 100 422" role="img" aria-labelledby="title desc">
 <title id="title">PHP Info</title>
-<desc id="desc">PHP Info. Inspect the PHP environment from a Blade application page. PHP / Blade. 44 stars; 2 contributors; 6 releases; 47 commits. MIT license.</desc>
+<desc id="desc">PHP Info. Inspect the PHP environment from a Blade application page. PHP / Blade. 43 stars; 2 contributors; 6 releases; 47 commits. MIT license.</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="0" y="0" width="100" height="422" rx="8" fill="#ffffff" stroke="none" />
 <text x="7" y="16" font-size="8.5" fill="#2563eb" font-weight="600" >Developer tools</text>
@@ -12,7 +12,7 @@
 <text x="7" y="153" font-size="10.2" fill="#526176" font-weight="400" >page.</text>
 <text x="7" y="172" font-size="8.5" fill="#6d28d9" font-weight="500" >PHP / Blade</text>
 <text x="7" y="206" font-size="9.5" fill="#526176" font-weight="400" >Stars</text>
-<text x="93" y="206" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">44</text>
+<text x="93" y="206" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">43</text>
 <text x="7" y="223" font-size="9.5" fill="#526176" font-weight="400" >Contributors</text>
 <text x="93" y="223" font-size="10.5" fill="#0f172a" font-weight="600" text-anchor="end">2</text>
 <text x="7" y="240" font-size="9.5" fill="#526176" font-weight="400" >Releases</text>

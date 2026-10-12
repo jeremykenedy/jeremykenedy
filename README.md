@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/jeremykenedy#gh-light-mode-only"><picture><source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="art/banner-mobile-still-light.9a42f37856d7.svg"><source media="(prefers-reduced-motion: reduce)" srcset="art/banner-still-light.2e23bb13ba3d.svg"><source media="(max-width: 600px)" srcset="art/banner-mobile-light.5ca52586ec12.svg"><img src="art/banner-light.30247a730ace.svg#gh-light-mode-only" alt="Jeremy Kenedy. Engineering leader, architect, and hands-on builder." width="800"></picture></a>
-  <a href="https://github.com/jeremykenedy#gh-dark-mode-only"><picture><source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="art/banner-mobile-still-dark.781da3e57c21.svg"><source media="(prefers-reduced-motion: reduce)" srcset="art/banner-still-dark.956acd6ad65f.svg"><source media="(max-width: 600px)" srcset="art/banner-mobile-dark.4825082b4034.svg"><img src="art/banner-dark.d73c84b7f995.svg#gh-dark-mode-only" alt="Jeremy Kenedy. Engineering leader, architect, and hands-on builder." width="800"></picture></a>
+  <a href="https://github.com/jeremykenedy#gh-light-mode-only"><picture><source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="art/banner-mobile-still-light.eef3746d3291.svg"><source media="(prefers-reduced-motion: reduce)" srcset="art/banner-still-light.a90a62b11292.svg"><source media="(max-width: 600px)" srcset="art/banner-mobile-light.6c333657dc0c.svg"><img src="art/banner-light.1154bd743783.svg#gh-light-mode-only" alt="Jeremy Kenedy. Engineering leader, architect, and hands-on builder." width="800"></picture></a>
+  <a href="https://github.com/jeremykenedy#gh-dark-mode-only"><picture><source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="art/banner-mobile-still-dark.a5231c9ada70.svg"><source media="(prefers-reduced-motion: reduce)" srcset="art/banner-still-dark.f447afde9393.svg"><source media="(max-width: 600px)" srcset="art/banner-mobile-dark.eac5de8eb963.svg"><img src="art/banner-dark.470b13a8d2a6.svg#gh-dark-mode-only" alt="Jeremy Kenedy. Engineering leader, architect, and hands-on builder." width="800"></picture></a>
 </p>
 
 <p align="center">I build useful software and help people do their best work.</p>
@@ -35,7 +35,7 @@
 
 **16+ years building software. 10 years leading engineering teams. Still writing code.**
 
-I'm an engineering leader and software engineer in Portland, Oregon. I like taking ideas from a rough sketch to something people can actually use, and helping teams find their rhythm along the way.
+I'm a Director of Engineering and software engineer in Portland, Oregon. I like taking ideas from a rough sketch to something people can actually use, and helping teams find their rhythm along the way.
 
 My work spans web and mobile apps, SaaS platforms, APIs, cloud infrastructure, AI integrations, and the occasional piece of hardware. I care about clear architecture, dependable systems, good developer experience, and treating people well.
 
@@ -43,7 +43,7 @@ Outside the day job, I build in public, maintain open source projects, contribut
 
 ## People and teams
 
-I've run companies, served as a Director of Engineering, and reorganized departments into full Scrum teams. I give teams clear direction, make hard decisions, and back my people. Building trust, developing leaders, and helping teams take ownership are a big part of what I do.
+I've run engineering departments at five companies as a Director of Engineering and Engineering Manager, and reorganized them into full Scrum teams. I give teams clear direction, make hard decisions, and back my people. Building trust, developing leaders, and helping teams take ownership are a big part of what I do.
 
 I'm comfortable with Scrum, Agile, Waterfall, and the days when we just need to roll up our sleeves and ship. I adapt the process to the work, keep people talking, and stay close enough to the code to help when it matters.
 
@@ -53,7 +53,7 @@ I'm comfortable with Scrum, Agile, Waterfall, and the days when we just need to 
 
 [More from people I've worked with](https://jeremykenedy.com/#2) · [Professional background](https://www.linkedin.com/in/jeremykenedy/)
 
-[37 LinkedIn Recommendations Given](https://www.linkedin.com/in/jeremykenedy/details/recommendations/?detailScreenTabIndex=0)
+[37 LinkedIn Recommendations Received](https://www.linkedin.com/in/jeremykenedy/details/recommendations/?detailScreenTabIndex=0)
 
 ## Built to be used
 
@@ -109,14 +109,14 @@ I choose tools around the problem. These are some of the ones I work with:
 
 | Area | Tools and interests |
 | :--- | :--- |
-| Languages | TypeScript, JavaScript, Python, PHP, C++, C#, Java, SQL, Bash / shell scripting |
-| Web and mobile | React, React Native / Expo, Vue, Nuxt, Node.js, Laravel, Android, Fire TV / Android TV |
+| Web and mobile | Laravel, Vue, Nuxt, React, React Native / Expo, Node.js, Android, Fire TV / Android TV |
+| Languages | PHP, TypeScript, JavaScript, Python, SQL, Bash / shell scripting, C++, C#, Java |
 | Data and APIs | PostgreSQL, MySQL, MongoDB, Redis, REST, GraphQL, WebSockets |
 | Infrastructure | AWS, Docker, Linux, Nginx, CI/CD, GitHub Actions |
-| Systems | Multi-tenant SaaS, event-driven architecture, authentication, observability |
-| Leadership and delivery | Company leadership, department restructuring, mentoring, Scrum, Agile, Waterfall, rapid prototyping |
+| Systems | Multi tenant SaaS, event driven architecture, authentication, observability |
+| Leadership and delivery | Engineering department leadership, department restructuring, mentoring, Scrum, Agile, Waterfall, rapid prototyping |
 | AI and hardware | Local AI, MCP, vector search, ESP32 / ESP-IDF, firmware, connected devices |
-| Graphics and interfaces | OpenGL ES, GLSL shaders, animation, real-time rendering, accessible interfaces |
+| Graphics and interfaces | OpenGL ES, GLSL shaders, animation, real time rendering, accessible interfaces |
 
 <a id="a-few-things-ive-built"></a>
 

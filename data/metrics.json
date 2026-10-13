@@ -1,6 +1,6 @@
 {
   "original_repositories": 122,
-  "stars": 6974,
+  "stars": 6975,
   "forks": 1983,
   "languages": {
     "PHP": 47,
@@ -17,32 +17,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-12",
-  "package_downloads": 4095773,
+  "updated": "2026-10-13",
+  "package_downloads": 4099419,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74594,
+    "jeremykenedy/laravel-blocker": 74646,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18312,
-    "jeremykenedy/laravel-exception-notifier": 316663,
-    "jeremykenedy/laravel-https": 138043,
+    "jeremykenedy/laravel-email-database-log": 18380,
+    "jeremykenedy/laravel-exception-notifier": 317021,
+    "jeremykenedy/laravel-https": 138132,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 316241,
+    "jeremykenedy/laravel-logger": 316547,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187668,
-    "jeremykenedy/laravel-roles": 904737,
-    "jeremykenedy/laravel-seedster": 471,
+    "jeremykenedy/laravel-phpinfo": 187765,
+    "jeremykenedy/laravel-roles": 905347,
+    "jeremykenedy/laravel-seedster": 473,
     "jeremykenedy/laravel-toast": 176,
-    "jeremykenedy/laravel-ui-kit": 401,
-    "jeremykenedy/laravel-users": 98415,
-    "jeremykenedy/laravel2step": 113015,
+    "jeremykenedy/laravel-ui-kit": 403,
+    "jeremykenedy/laravel-users": 98494,
+    "jeremykenedy/laravel2step": 113112,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 980876,
-    "jeremykenedy/slack-laravel": 803026,
+    "jeremykenedy/slack": 982014,
+    "jeremykenedy/slack-laravel": 803678,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139841
+    "jeremykenedy/uuid": 139937
   },
   "publications": {
     "counts": {
@@ -921,7 +921,7 @@
       "category": "Application security",
       "stack": "PHP / JavaScript / Laravel",
       "updated": "2026-10-08T20:53:13Z",
-      "stars": 3039,
+      "stars": 3040,
       "forks": 975,
       "license": "MIT",
       "branch": "master",
@@ -981,7 +981,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 904737,
+        "count": 905347,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1031,7 +1031,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 316241,
+        "count": 316547,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1081,7 +1081,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98415,
+        "count": 98494,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1177,7 +1177,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113015,
+        "count": 113112,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1319,7 +1319,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 316663,
+        "count": 317021,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1369,7 +1369,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74594,
+        "count": 74646,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1419,7 +1419,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187668,
+        "count": 187765,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1469,7 +1469,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 138043,
+        "count": 138132,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -2387,7 +2387,7 @@
         "url": "https://github.com/jeremykenedy/retro-flight/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 11,
+        "count": 12,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/retro-flight/releases"
       },
@@ -2727,7 +2727,7 @@
         "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.5.0"
       },
       "downloads": {
-        "count": 401,
+        "count": 403,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-ui-kit"
       },
@@ -2981,8 +2981,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-13",
-        "end": "2026-10-13"
+        "start": "2025-04-14",
+        "end": "2026-10-14"
       },
       "made_with_laravel": null,
       "funding": [
@@ -3202,7 +3202,7 @@
             "title": "ENH: per-filament control of purifying the chamber air at print end",
             "url": "https://github.com/bambulab/BambuStudio/pull/12194",
             "state": "open",
-            "updated": "2026-10-09T08:48:22Z"
+            "updated": "2026-10-13T03:00:54Z"
           },
           {
             "title": "ENH: text tool accepts emoji and other characters above U+FFFF",

@@ -1,7 +1,7 @@
 {
   "original_repositories": 122,
-  "stars": 6975,
-  "forks": 1983,
+  "stars": 6976,
+  "forks": 1984,
   "languages": {
     "PHP": 47,
     "Python": 21,
@@ -17,32 +17,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-13",
-  "package_downloads": 4099419,
+  "updated": "2026-10-14",
+  "package_downloads": 4103511,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74646,
+    "jeremykenedy/laravel-blocker": 74663,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18380,
-    "jeremykenedy/laravel-exception-notifier": 317021,
-    "jeremykenedy/laravel-https": 138132,
+    "jeremykenedy/laravel-email-database-log": 18515,
+    "jeremykenedy/laravel-exception-notifier": 317299,
+    "jeremykenedy/laravel-https": 138274,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 316547,
+    "jeremykenedy/laravel-logger": 316834,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187765,
-    "jeremykenedy/laravel-roles": 905347,
-    "jeremykenedy/laravel-seedster": 473,
+    "jeremykenedy/laravel-phpinfo": 187918,
+    "jeremykenedy/laravel-roles": 906042,
+    "jeremykenedy/laravel-seedster": 481,
     "jeremykenedy/laravel-toast": 176,
     "jeremykenedy/laravel-ui-kit": 403,
-    "jeremykenedy/laravel-users": 98494,
-    "jeremykenedy/laravel2step": 113112,
+    "jeremykenedy/laravel-users": 98562,
+    "jeremykenedy/laravel2step": 113233,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 982014,
-    "jeremykenedy/slack-laravel": 803678,
+    "jeremykenedy/slack": 983072,
+    "jeremykenedy/slack-laravel": 804681,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 139937
+    "jeremykenedy/uuid": 140064
   },
   "publications": {
     "counts": {
@@ -921,8 +921,8 @@
       "category": "Application security",
       "stack": "PHP / JavaScript / Laravel",
       "updated": "2026-10-08T20:53:13Z",
-      "stars": 3040,
-      "forks": 975,
+      "stars": 3041,
+      "forks": 976,
       "license": "MIT",
       "branch": "master",
       "commits": 879,
@@ -981,7 +981,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 905347,
+        "count": 906042,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1031,7 +1031,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 316547,
+        "count": 316834,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1081,7 +1081,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98494,
+        "count": 98562,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1177,7 +1177,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113112,
+        "count": 113233,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1319,7 +1319,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 317021,
+        "count": 317299,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1369,7 +1369,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74646,
+        "count": 74663,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1419,7 +1419,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187765,
+        "count": 187918,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1469,7 +1469,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 138132,
+        "count": 138274,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1795,7 +1795,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
       },
       "downloads": {
-        "count": 36,
+        "count": 37,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
@@ -1845,7 +1845,7 @@
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 15,
+        "count": 16,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
       },
@@ -2285,7 +2285,7 @@
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 12,
+        "count": 13,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases"
       },
@@ -2319,7 +2319,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -2421,7 +2421,7 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 12,
+        "count": 13,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
       },
@@ -2455,7 +2455,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2489,7 +2489,7 @@
         "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/jellyfish-drift/releases"
       },
@@ -2523,7 +2523,7 @@
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
       },
@@ -2557,7 +2557,7 @@
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases"
       },
@@ -2591,7 +2591,7 @@
         "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 9,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/starfield-drift/releases"
       },
@@ -2625,7 +2625,7 @@
         "url": "https://github.com/jeremykenedy/firefly-grove/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 9,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/firefly-grove/releases"
       },
@@ -2659,7 +2659,7 @@
         "url": "https://github.com/jeremykenedy/neon-corridor/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 9,
+        "count": 10,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/neon-corridor/releases"
       },
@@ -2693,7 +2693,7 @@
         "url": "https://github.com/jeremykenedy/blue-meridian/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/blue-meridian/releases"
       },
@@ -2977,12 +2977,12 @@
         "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 307,
+        "count": 309,
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-14",
-        "end": "2026-10-14"
+        "start": "2025-04-15",
+        "end": "2026-10-15"
       },
       "made_with_laravel": null,
       "funding": [

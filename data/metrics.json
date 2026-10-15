@@ -1,6 +1,6 @@
 {
   "original_repositories": 122,
-  "stars": 6976,
+  "stars": 6974,
   "forks": 1984,
   "languages": {
     "PHP": 47,
@@ -17,32 +17,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-14",
-  "package_downloads": 4103511,
+  "updated": "2026-10-15",
+  "package_downloads": 4106877,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74663,
+    "jeremykenedy/laravel-blocker": 74696,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18515,
-    "jeremykenedy/laravel-exception-notifier": 317299,
-    "jeremykenedy/laravel-https": 138274,
+    "jeremykenedy/laravel-email-database-log": 18554,
+    "jeremykenedy/laravel-exception-notifier": 317878,
+    "jeremykenedy/laravel-https": 138326,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 316834,
+    "jeremykenedy/laravel-logger": 317071,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187918,
-    "jeremykenedy/laravel-roles": 906042,
-    "jeremykenedy/laravel-seedster": 481,
-    "jeremykenedy/laravel-toast": 176,
+    "jeremykenedy/laravel-phpinfo": 187995,
+    "jeremykenedy/laravel-roles": 906634,
+    "jeremykenedy/laravel-seedster": 482,
+    "jeremykenedy/laravel-toast": 185,
     "jeremykenedy/laravel-ui-kit": 403,
-    "jeremykenedy/laravel-users": 98562,
-    "jeremykenedy/laravel2step": 113233,
+    "jeremykenedy/laravel-users": 98629,
+    "jeremykenedy/laravel2step": 113274,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 983072,
-    "jeremykenedy/slack-laravel": 804681,
+    "jeremykenedy/slack": 983888,
+    "jeremykenedy/slack-laravel": 805438,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 140064
+    "jeremykenedy/uuid": 140130
   },
   "publications": {
     "counts": {
@@ -981,7 +981,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 906042,
+        "count": 906634,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1017,7 +1017,7 @@
       "category": "Operations",
       "stack": "PHP / Laravel",
       "updated": "2026-10-08T20:58:48Z",
-      "stars": 582,
+      "stars": 581,
       "forks": 120,
       "license": "MIT",
       "branch": "master",
@@ -1031,7 +1031,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 316834,
+        "count": 317071,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1081,7 +1081,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98562,
+        "count": 98629,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1177,7 +1177,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113233,
+        "count": 113274,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1319,7 +1319,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 317299,
+        "count": 317878,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1355,7 +1355,7 @@
       "category": "Application security",
       "stack": "PHP / Laravel",
       "updated": "2026-10-08T20:58:58Z",
-      "stars": 100,
+      "stars": 99,
       "forks": 27,
       "license": "MIT",
       "branch": "master",
@@ -1369,7 +1369,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74663,
+        "count": 74696,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1419,7 +1419,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187918,
+        "count": 187995,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1469,7 +1469,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 138274,
+        "count": 138326,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1699,7 +1699,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 21,
+        "count": 23,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -1929,7 +1929,7 @@
         "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.1.0"
       },
       "downloads": {
-        "count": 176,
+        "count": 185,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
       },
@@ -1979,7 +1979,7 @@
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 11,
+        "count": 12,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases"
       },
@@ -2981,8 +2981,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-15",
-        "end": "2026-10-15"
+        "start": "2025-04-16",
+        "end": "2026-10-16"
       },
       "made_with_laravel": null,
       "funding": [

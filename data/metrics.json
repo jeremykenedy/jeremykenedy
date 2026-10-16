@@ -1,60 +1,61 @@
 {
-  "original_repositories": 122,
-  "stars": 6974,
-  "forks": 1984,
+  "original_repositories": 128,
+  "stars": 6980,
+  "forks": 1983,
   "languages": {
     "PHP": 47,
-    "Python": 21,
+    "Python": 25,
     "JavaScript": 17,
     "HTML": 8,
-    "Java": 7,
+    "Java": 8,
     "Blade": 2,
     "CSS": 2,
     "Objective-C": 2,
     "Shell": 2,
     "Vue": 2,
     "C": 1,
+    "Dart": 1,
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-15",
-  "package_downloads": 4106877,
+  "updated": "2026-10-16",
+  "package_downloads": 4110487,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74696,
+    "jeremykenedy/laravel-blocker": 74739,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18554,
-    "jeremykenedy/laravel-exception-notifier": 317878,
-    "jeremykenedy/laravel-https": 138326,
+    "jeremykenedy/laravel-email-database-log": 18589,
+    "jeremykenedy/laravel-exception-notifier": 318278,
+    "jeremykenedy/laravel-https": 138394,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 317071,
+    "jeremykenedy/laravel-logger": 317288,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 187995,
-    "jeremykenedy/laravel-roles": 906634,
-    "jeremykenedy/laravel-seedster": 482,
+    "jeremykenedy/laravel-phpinfo": 188059,
+    "jeremykenedy/laravel-roles": 907487,
+    "jeremykenedy/laravel-seedster": 488,
     "jeremykenedy/laravel-toast": 185,
     "jeremykenedy/laravel-ui-kit": 403,
-    "jeremykenedy/laravel-users": 98629,
-    "jeremykenedy/laravel2step": 113274,
+    "jeremykenedy/laravel-users": 98697,
+    "jeremykenedy/laravel2step": 113327,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 983888,
-    "jeremykenedy/slack-laravel": 805438,
+    "jeremykenedy/slack": 984778,
+    "jeremykenedy/slack-laravel": 806296,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 140130
+    "jeremykenedy/uuid": 140185
   },
   "publications": {
     "counts": {
       "packagist": 23,
       "npm": 1,
       "homebrew": 1,
-      "github_release_repositories": 64,
+      "github_release_repositories": 67,
       "github_packages": 0,
       "registry_listings": 25,
       "registry_projects": 25,
-      "additional_github_projects": 40,
-      "unique_projects": 65
+      "additional_github_projects": 43,
+      "unique_projects": 68
     },
     "projects": [
       {
@@ -197,6 +198,17 @@
         ]
       },
       {
+        "repository": "jeremykenedy/fire-iptv",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "fire-iptv",
+            "repository": "jeremykenedy/fire-iptv",
+            "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
         "repository": "jeremykenedy/fire-tv-aquarium",
         "publications": [
           {
@@ -214,7 +226,7 @@
             "channel": "github_release",
             "name": "fire-tv-toolkit",
             "repository": "jeremykenedy/fire-tv-toolkit",
-            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.9.1"
+            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.3.1"
           }
         ]
       },
@@ -237,6 +249,17 @@
             "name": "gmail-monitor",
             "repository": "jeremykenedy/gmail-monitor",
             "url": "https://github.com/jeremykenedy/gmail-monitor/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/hearth-presence",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "hearth-presence",
+            "repository": "jeremykenedy/hearth-presence",
+            "url": "https://github.com/jeremykenedy/hearth-presence/releases/tag/v1.0.0"
           }
         ]
       },
@@ -762,7 +785,7 @@
             "channel": "github_release",
             "name": "rainforest-cascade",
             "repository": "jeremykenedy/rainforest-cascade",
-            "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.1.0"
           }
         ]
       },
@@ -845,6 +868,17 @@
         ]
       },
       {
+        "repository": "jeremykenedy/slot-vision",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "slot-vision",
+            "repository": "jeremykenedy/slot-vision",
+            "url": "https://github.com/jeremykenedy/slot-vision/releases/tag/v1.0.0"
+          }
+        ]
+      },
+      {
         "repository": "jeremykenedy/split-flap-drift",
         "publications": [
           {
@@ -884,7 +918,7 @@
             "channel": "github_release",
             "name": "twilight-hearth",
             "repository": "jeremykenedy/twilight-hearth",
-            "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
           }
         ]
       },
@@ -981,7 +1015,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 906634,
+        "count": 907487,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1031,7 +1065,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 317071,
+        "count": 317288,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1081,7 +1115,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 98629,
+        "count": 98697,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1164,7 +1198,7 @@
       "stack": "PHP / Laravel",
       "updated": "2026-09-11T08:44:44Z",
       "stars": 279,
-      "forks": 47,
+      "forks": 46,
       "license": "MIT",
       "branch": "master",
       "commits": 111,
@@ -1177,7 +1211,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113274,
+        "count": 113327,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1319,7 +1353,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 317878,
+        "count": 318278,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1369,7 +1403,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74696,
+        "count": 74739,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1419,7 +1453,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 187995,
+        "count": 188059,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1469,7 +1503,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 138326,
+        "count": 138394,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1546,19 +1580,19 @@
       "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
       "category": "TV and tooling",
       "stack": "Java / JavaScript / Shell",
-      "updated": "2026-10-10T05:19:07Z",
+      "updated": "2026-10-16T11:54:49Z",
       "stars": 1,
       "forks": 0,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "branch": "main",
-      "commits": 92,
+      "commits": 101,
       "contributors": 3,
       "used_by": null,
-      "releases": 16,
+      "releases": 23,
       "latest_release": {
-        "tag": "v3.9.1",
-        "date": "2026-10-10T03:24:18Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v3.9.1"
+        "tag": "v4.3.1",
+        "date": "2026-10-16T12:04:21Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.3.1"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -1774,6 +1808,245 @@
       ]
     },
     {
+      "name": "fire-iptv",
+      "url": "https://github.com/jeremykenedy/fire-iptv",
+      "title": "Fire Iptv",
+      "description": "Fire TV guide and discovery with automatic live TV setup, sports, and your own movie and series libraries.",
+      "category": "Creative graphics",
+      "stack": "Dart / Kotlin / C++",
+      "updated": "2026-10-16T17:05:20Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "GPL-3.0",
+      "branch": "main",
+      "commits": 278,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-16T17:06:40Z",
+        "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 3,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/fire-iptv/releases"
+      },
+      "made_with_laravel": null,
+      "funding": []
+    },
+    {
+      "name": "twilight-hearth",
+      "url": "https://github.com/jeremykenedy/twilight-hearth",
+      "title": "Twilight Hearth",
+      "description": "Offline recorded wood-fire screensaver with brick, stone and slate surrounds, native TV controls, and no ads or tracking.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-16T12:10:46Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 6,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-16T12:13:48Z",
+        "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 17,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "rainforest-cascade",
+      "url": "https://github.com/jeremykenedy/rainforest-cascade",
+      "title": "Rainforest Cascade",
+      "description": "Three recorded waterfalls and an original animated sunrise garden, with offline TV playback and remote controls.",
+      "category": "Software and tools",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-16T11:27:17Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 4,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-16T11:29:28Z",
+        "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 13,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/rainforest-cascade/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "alloy-tide",
+      "url": "https://github.com/jeremykenedy/alloy-tide",
+      "title": "Alloy Tide",
+      "description": "Animated metal and neon tile fields for TV.",
+      "category": "Software and tools",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-16T11:26:02Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 1,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 0,
+      "latest_release": null,
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "slot-vision",
+      "url": "https://github.com/jeremykenedy/slot-vision",
+      "title": "Slot Vision",
+      "description": "Native TV slot screensaver with 3D cabinets, fullscreen reels, seasonal games, slow camera movement and jackpot coin showers.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-16T11:05:08Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 7,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-16T11:06:55Z",
+        "url": "https://github.com/jeremykenedy/slot-vision/releases/tag/v1.0.0"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "hearth-presence",
+      "url": "https://github.com/jeremykenedy/hearth-presence",
+      "title": "Hearth Presence",
+      "description": "An offline TV fireplace with real moving fire, modern rectangular gas-style flames, photographed surrounds and remote controls.",
+      "category": "Software and tools",
+      "stack": "Python / Java / GLSL",
+      "updated": "2026-10-16T10:45:35Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 7,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-16T10:57:46Z",
+        "url": "https://github.com/jeremykenedy/hearth-presence/releases/tag/v1.0.0"
+      },
+      "downloads": {
+        "count": 4,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/hearth-presence/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "skycast-weather",
+      "url": "https://github.com/jeremykenedy/skycast-weather",
+      "title": "Skycast Weather",
+      "description": "Native weather screensaver with real forecasts and a moving volumetric sky for Android TV.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-16T10:39:06Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 4,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 0,
+      "latest_release": null,
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "prism-clock",
+      "url": "https://github.com/jeremykenedy/prism-clock",
+      "title": "Prism Clock",
+      "description": "A native clock over a continuously deforming metallic triangular surface.",
+      "category": "Software and tools",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-16T09:11:26Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 3,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 0,
+      "latest_release": null,
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
       "name": "fire-tv-aquarium",
       "url": "https://github.com/jeremykenedy/fire-tv-aquarium",
       "title": "Fire TV Aquarium",
@@ -1845,7 +2118,7 @@
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 16,
+        "count": 19,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
       },
@@ -2013,7 +2286,7 @@
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 9,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases"
       },
@@ -2149,7 +2422,7 @@
         "url": "https://github.com/jeremykenedy/perseid-passage/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 12,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/perseid-passage/releases"
       },
@@ -2335,8 +2608,8 @@
       "name": "pipeworks-dream",
       "url": "https://github.com/jeremykenedy/pipeworks-dream",
       "title": "Pipeworks Dream",
-      "description": "Continuously animated 3D pipe-growth screensaver for your TV.",
-      "category": "Creative graphics",
+      "description": "Offline 3D pipes with rounded bends, configurable colors, tube shapes, thickness and following tails.",
+      "category": "Software and tools",
       "stack": "Java / Python / Shell",
       "updated": "2026-10-09T04:13:00Z",
       "stars": 1,
@@ -2353,7 +2626,7 @@
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 11,
+        "count": 12,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
       },
@@ -2434,40 +2707,6 @@
       ]
     },
     {
-      "name": "twilight-hearth",
-      "url": "https://github.com/jeremykenedy/twilight-hearth",
-      "title": "Twilight Hearth",
-      "description": "Animated fireplace screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T03:23:56Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 1,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T03:25:43Z",
-        "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 11,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "jellyfish-drift",
       "url": "https://github.com/jeremykenedy/jellyfish-drift",
       "title": "Jellyfish Drift",
@@ -2523,43 +2762,9 @@
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 9,
+        "count": 13,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "rainforest-cascade",
-      "url": "https://github.com/jeremykenedy/rainforest-cascade",
-      "title": "Rainforest Cascade",
-      "description": "Animated waterfall screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T03:16:10Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 2,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T03:04:41Z",
-        "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 7,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/rainforest-cascade/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2693,7 +2898,7 @@
         "url": "https://github.com/jeremykenedy/blue-meridian/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 7,
+        "count": 11,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/blue-meridian/releases"
       },
@@ -2981,8 +3186,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-16",
-        "end": "2026-10-16"
+        "start": "2025-04-17",
+        "end": "2026-10-17"
       },
       "made_with_laravel": null,
       "funding": [
@@ -3818,5 +4023,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29146
+  "public_authored_commits": 29192
 }

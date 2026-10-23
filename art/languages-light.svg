@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-labelledby="title desc">
 <title id="title">Languages across public source repositories</title>
-<desc id="desc">PHP: 47 repositories; Python: 25 repositories; JavaScript: 17 repositories; HTML: 8 repositories; Java: 8 repositories; Blade: 2 repositories; CSS: 2 repositories; Objective-C: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; C: 1 repositories; Dart: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
+<desc id="desc">PHP: 47 repositories; Python: 25 repositories; JavaScript: 17 repositories; Java: 11 repositories; HTML: 8 repositories; Blade: 2 repositories; CSS: 2 repositories; Objective-C: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; C: 1 repositories; Dart: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
 <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
 <rect x="1" y="1" width="798" height="198" rx="14" fill="#ffffff" stroke="#e5e7eb" />
 <text x="24" y="35" font-size="10" fill="#526176" font-weight="600" letter-spacing="1.5">THE PUBLIC CODEBASE</text>
-<text x="776" y="35" font-size="11" fill="#526176" font-weight="400" text-anchor="end">119 repos with a detected language</text>
-<rect x="24.0" y="54" width="297.008" height="11" rx="0" fill="#8b5cf6" stroke="none" />
+<text x="776" y="35" font-size="11" fill="#526176" font-weight="400" text-anchor="end">122 repos with a detected language</text>
+<rect x="24.0" y="54" width="289.705" height="11" rx="0" fill="#8b5cf6" stroke="none" />
 <circle cx="28" cy="93" r="4" fill="#8b5cf6"/>
 <text x="40" y="97" font-size="12" fill="#0f172a" font-weight="500" >PHP</text>
-<text x="242" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">39.5%</text>
-<rect x="321.008" y="54" width="157.983" height="11" rx="0" fill="#3b82f6" stroke="none" />
+<text x="242" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">38.5%</text>
+<rect x="313.705" y="54" width="154.098" height="11" rx="0" fill="#3b82f6" stroke="none" />
 <circle cx="282" cy="93" r="4" fill="#3b82f6"/>
 <text x="294" y="97" font-size="12" fill="#0f172a" font-weight="500" >Python</text>
-<text x="496" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">21.0%</text>
-<rect x="478.992" y="54" width="107.429" height="11" rx="0" fill="#22c55e" stroke="none" />
+<text x="496" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">20.5%</text>
+<rect x="467.803" y="54" width="104.787" height="11" rx="0" fill="#22c55e" stroke="none" />
 <circle cx="536" cy="93" r="4" fill="#22c55e"/>
 <text x="548" y="97" font-size="12" fill="#0f172a" font-weight="500" >JavaScript</text>
-<text x="750" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">14.3%</text>
-<rect x="586.42" y="54" width="50.555" height="11" rx="0" fill="#f59e0b" stroke="none" />
+<text x="750" y="97" font-size="12" fill="#526176" font-weight="400" text-anchor="end">13.9%</text>
+<rect x="572.59" y="54" width="67.803" height="11" rx="0" fill="#f59e0b" stroke="none" />
 <circle cx="28" cy="129" r="4" fill="#f59e0b"/>
-<text x="40" y="133" font-size="12" fill="#0f172a" font-weight="500" >HTML</text>
-<text x="242" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">6.7%</text>
-<rect x="636.975" y="54" width="50.555" height="11" rx="0" fill="#ec4899" stroke="none" />
+<text x="40" y="133" font-size="12" fill="#0f172a" font-weight="500" >Java</text>
+<text x="242" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">9.0%</text>
+<rect x="640.393" y="54" width="49.311" height="11" rx="0" fill="#ec4899" stroke="none" />
 <circle cx="282" cy="129" r="4" fill="#ec4899"/>
-<text x="294" y="133" font-size="12" fill="#0f172a" font-weight="500" >Java</text>
-<text x="496" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">6.7%</text>
-<rect x="687.529" y="54" width="88.471" height="11" rx="0" fill="#64748b" stroke="none" />
+<text x="294" y="133" font-size="12" fill="#0f172a" font-weight="500" >HTML</text>
+<text x="496" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">6.6%</text>
+<rect x="689.705" y="54" width="86.295" height="11" rx="0" fill="#64748b" stroke="none" />
 <circle cx="536" cy="129" r="4" fill="#64748b"/>
 <text x="548" y="133" font-size="12" fill="#0f172a" font-weight="500" >Other</text>
-<text x="750" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">11.8%</text>
+<text x="750" y="133" font-size="12" fill="#526176" font-weight="400" text-anchor="end">11.5%</text>
 <text x="24" y="177" font-size="10" fill="#526176" font-weight="400" >Primary language per public source repository. A view of the code, not a skills rating.</text>
 </g>
 </svg>

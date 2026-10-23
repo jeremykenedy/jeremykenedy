@@ -1,13 +1,13 @@
 {
-  "original_repositories": 128,
-  "stars": 6981,
+  "original_repositories": 131,
+  "stars": 6982,
   "forks": 1984,
   "languages": {
     "PHP": 47,
     "Python": 25,
     "JavaScript": 17,
+    "Java": 11,
     "HTML": 8,
-    "Java": 8,
     "Blade": 2,
     "CSS": 2,
     "Objective-C": 2,
@@ -18,44 +18,44 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-22",
-  "package_downloads": 4129466,
+  "updated": "2026-10-23",
+  "package_downloads": 4133569,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 74912,
+    "jeremykenedy/laravel-blocker": 74982,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18669,
-    "jeremykenedy/laravel-exception-notifier": 321108,
-    "jeremykenedy/laravel-https": 138667,
+    "jeremykenedy/laravel-email-database-log": 18722,
+    "jeremykenedy/laravel-exception-notifier": 321487,
+    "jeremykenedy/laravel-https": 138758,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 318553,
+    "jeremykenedy/laravel-logger": 318895,
     "jeremykenedy/laravel-notifications": 20,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 188474,
-    "jeremykenedy/laravel-roles": 911138,
-    "jeremykenedy/laravel-seedster": 519,
+    "jeremykenedy/laravel-phpinfo": 188618,
+    "jeremykenedy/laravel-roles": 911839,
+    "jeremykenedy/laravel-seedster": 525,
     "jeremykenedy/laravel-toast": 197,
     "jeremykenedy/laravel-ui-kit": 403,
-    "jeremykenedy/laravel-users": 99003,
-    "jeremykenedy/laravel2step": 113508,
+    "jeremykenedy/laravel-users": 99088,
+    "jeremykenedy/laravel2step": 113584,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 990082,
-    "jeremykenedy/slack-laravel": 810496,
+    "jeremykenedy/slack": 991328,
+    "jeremykenedy/slack-laravel": 811300,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 140443
+    "jeremykenedy/uuid": 140549
   },
   "publications": {
     "counts": {
       "packagist": 23,
       "npm": 1,
       "homebrew": 1,
-      "github_release_repositories": 67,
+      "github_release_repositories": 71,
       "github_packages": 0,
       "registry_listings": 25,
       "registry_projects": 25,
-      "additional_github_projects": 43,
-      "unique_projects": 68
+      "additional_github_projects": 47,
+      "unique_projects": 72
     },
     "projects": [
       {
@@ -76,7 +76,7 @@
             "channel": "github_release",
             "name": "aqua-surface-drift",
             "repository": "jeremykenedy/aqua-surface-drift",
-            "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.1.0"
           }
         ]
       },
@@ -88,6 +88,17 @@
             "name": "aquarium-live",
             "repository": "jeremykenedy/aquarium-live",
             "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/black-screen-dream",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "black-screen-dream",
+            "repository": "jeremykenedy/black-screen-dream",
+            "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.0"
           }
         ]
       },
@@ -109,7 +120,7 @@
             "channel": "github_release",
             "name": "canopy-drift",
             "repository": "jeremykenedy/canopy-drift",
-            "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.1.0"
           }
         ]
       },
@@ -154,7 +165,7 @@
             "channel": "github_release",
             "name": "cloud-drift-clock",
             "repository": "jeremykenedy/cloud-drift-clock",
-            "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.0.1"
+            "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.1.0"
           }
         ]
       },
@@ -204,7 +215,7 @@
             "channel": "github_release",
             "name": "fire-iptv",
             "repository": "jeremykenedy/fire-iptv",
-            "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.1.0"
+            "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.2.0"
           }
         ]
       },
@@ -226,7 +237,18 @@
             "channel": "github_release",
             "name": "fire-tv-toolkit",
             "repository": "jeremykenedy/fire-tv-toolkit",
-            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.3.1"
+            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.4.3"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/fire-tv-ui",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "fire-tv-ui",
+            "repository": "jeremykenedy/fire-tv-ui",
+            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.8.0"
           }
         ]
       },
@@ -281,7 +303,18 @@
             "channel": "github_release",
             "name": "jellyfish-drift",
             "repository": "jeremykenedy/jellyfish-drift",
-            "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v3.0.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/jellyfish-drift-v2",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "jellyfish-drift-v2",
+            "repository": "jeremykenedy/jellyfish-drift-v2",
+            "url": "https://github.com/jeremykenedy/jellyfish-drift-v2/releases/tag/v2.0.0"
           }
         ]
       },
@@ -697,7 +730,7 @@
             "channel": "github_release",
             "name": "nebula-drift",
             "repository": "jeremykenedy/nebula-drift",
-            "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.1.0"
           }
         ]
       },
@@ -752,7 +785,18 @@
             "channel": "github_release",
             "name": "pipeworks-dream",
             "repository": "jeremykenedy/pipeworks-dream",
-            "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.1.0"
+          }
+        ]
+      },
+      {
+        "repository": "jeremykenedy/prism-clock",
+        "publications": [
+          {
+            "channel": "github_release",
+            "name": "prism-clock",
+            "repository": "jeremykenedy/prism-clock",
+            "url": "https://github.com/jeremykenedy/prism-clock/releases/tag/v1.0.0"
           }
         ]
       },
@@ -774,7 +818,7 @@
             "channel": "github_release",
             "name": "rain-on-glass",
             "repository": "jeremykenedy/rain-on-glass",
-            "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.1.0"
           }
         ]
       },
@@ -885,7 +929,7 @@
             "channel": "github_release",
             "name": "split-flap-drift",
             "repository": "jeremykenedy/split-flap-drift",
-            "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.1.0"
           }
         ]
       },
@@ -896,7 +940,7 @@
             "channel": "github_release",
             "name": "starfield-drift",
             "repository": "jeremykenedy/starfield-drift",
-            "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.1.0"
           }
         ]
       },
@@ -1015,7 +1059,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 911138,
+        "count": 911839,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1065,7 +1109,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 318553,
+        "count": 318895,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1115,7 +1159,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 99003,
+        "count": 99088,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1211,7 +1255,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113508,
+        "count": 113584,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1353,7 +1397,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 321108,
+        "count": 321487,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1403,7 +1447,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 74912,
+        "count": 74982,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1453,7 +1497,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 188474,
+        "count": 188618,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1503,7 +1547,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 138667,
+        "count": 138758,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1580,19 +1624,19 @@
       "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
       "category": "TV and tooling",
       "stack": "Java / JavaScript / Shell",
-      "updated": "2026-10-16T11:54:49Z",
+      "updated": "2026-10-23T05:34:43Z",
       "stars": 1,
       "forks": 0,
       "license": "Apache-2.0",
       "branch": "main",
-      "commits": 101,
+      "commits": 110,
       "contributors": 3,
       "used_by": null,
-      "releases": 23,
+      "releases": 28,
       "latest_release": {
-        "tag": "v4.3.1",
-        "date": "2026-10-16T12:04:21Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.3.1"
+        "tag": "v4.4.3",
+        "date": "2026-10-23T05:43:52Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.4.3"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -1733,7 +1777,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 24,
+        "count": 37,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -1808,33 +1852,512 @@
       ]
     },
     {
-      "name": "fire-iptv",
-      "url": "https://github.com/jeremykenedy/fire-iptv",
-      "title": "Fire Iptv",
-      "description": "Fire TV guide and discovery with automatic live TV setup, sports, and your own movie and series libraries.",
+      "name": "fire-tv-ui",
+      "url": "https://github.com/jeremykenedy/fire-tv-ui",
+      "title": "Fire Tv Ui",
+      "description": "Custom Fire TV home with top-level feed and item ordering, Plex, app recommendations, verified updates and native TV tiles.",
       "category": "Creative graphics",
-      "stack": "Dart / Kotlin / C++",
-      "updated": "2026-10-16T17:05:20Z",
+      "stack": "Java / Python / Smali",
+      "updated": "2026-10-23T06:09:36Z",
       "stars": 1,
       "forks": 0,
-      "license": "GPL-3.0",
+      "license": "MIT",
       "branch": "main",
-      "commits": 278,
+      "commits": 102,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 15,
+      "latest_release": {
+        "tag": "v1.8.0",
+        "date": "2026-10-23T06:18:26Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.8.0"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": []
+    },
+    {
+      "name": "black-screen-dream",
+      "url": "https://github.com/jeremykenedy/black-screen-dream",
+      "title": "Black Screen Dream",
+      "description": "A pure black, offline Android TV and Fire TV screensaver with no clock, animation, or sound.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-23T05:36:52Z",
+      "stars": 0,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 1,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-23T05:40:00Z",
+        "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.0"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "aqua-surface-drift",
+      "url": "https://github.com/jeremykenedy/aqua-surface-drift",
+      "title": "Aqua Surface Drift",
+      "description": "Animated water surface screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-23T05:04:55Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 5,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-23T05:06:39Z",
+        "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 29,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "starfield-drift",
+      "url": "https://github.com/jeremykenedy/starfield-drift",
+      "title": "Starfield Drift",
+      "description": "Animated starfield screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-23T05:04:55Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 8,
+      "contributors": 3,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-23T05:06:39Z",
+        "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 26,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/starfield-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "split-flap-drift",
+      "url": "https://github.com/jeremykenedy/split-flap-drift",
+      "title": "Split Flap Drift",
+      "description": "An original animated split-flap clock screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-23T05:04:55Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 6,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-23T05:06:12Z",
+        "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 23,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/split-flap-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "nebula-drift",
+      "url": "https://github.com/jeremykenedy/nebula-drift",
+      "title": "Nebula Drift",
+      "description": "Offline animated nebula screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-23T05:04:54Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 8,
       "contributors": 2,
       "used_by": null,
       "releases": 2,
       "latest_release": {
         "tag": "v1.1.0",
-        "date": "2026-10-16T17:06:40Z",
-        "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.1.0"
+        "date": "2026-10-23T05:07:13Z",
+        "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 27,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/nebula-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "canopy-drift",
+      "url": "https://github.com/jeremykenedy/canopy-drift",
+      "title": "Canopy Drift",
+      "description": "Animated forest screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-23T05:04:54Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 5,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-23T05:06:12Z",
+        "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 25,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/canopy-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "cloud-drift-clock",
+      "url": "https://github.com/jeremykenedy/cloud-drift-clock",
+      "title": "Cloud Drift Clock",
+      "description": "An animated cloudscape clock screensaver for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-23T05:04:54Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 9,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 3,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-23T05:06:12Z",
+        "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 32,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "jellyfish-drift",
+      "url": "https://github.com/jeremykenedy/jellyfish-drift",
+      "title": "Jellyfish Drift",
+      "description": "Original illustrated jellyfish screensaver with dark and light water, adjustable movement, and an optional drifting clock.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-23T05:03:35Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 31,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 3,
+      "latest_release": {
+        "tag": "v3.0.0",
+        "date": "2026-10-23T05:05:55Z",
+        "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v3.0.0"
+      },
+      "downloads": {
+        "count": 34,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/jellyfish-drift/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "jellyfish-drift-v2",
+      "url": "https://github.com/jeremykenedy/jellyfish-drift-v2",
+      "title": "Jellyfish Drift V2",
+      "description": "Offline filmed jellyfish scenes with playback controls and an optional drifting clock.",
+      "category": "Software and tools",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-23T05:03:35Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 7,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v2.0.0",
+        "date": "2026-10-23T05:06:00Z",
+        "url": "https://github.com/jeremykenedy/jellyfish-drift-v2/releases/tag/v2.0.0"
+      },
+      "downloads": {
+        "count": 4,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/jellyfish-drift-v2/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "fire-iptv",
+      "url": "https://github.com/jeremykenedy/fire-iptv",
+      "title": "Fire Iptv",
+      "description": "Fire TV IPTV player with live TV, sports, a program guide, launcher cards, provider libraries and opt-in Picture-in-Picture.",
+      "category": "Creative graphics",
+      "stack": "Dart / Kotlin / C++",
+      "updated": "2026-10-23T05:00:30Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "GPL-3.0",
+      "branch": "main",
+      "commits": 282,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 4,
+      "latest_release": {
+        "tag": "v1.2.0",
+        "date": "2026-10-23T05:06:34Z",
+        "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.2.0"
+      },
+      "downloads": {
+        "count": 14,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-iptv/releases"
       },
       "made_with_laravel": null,
       "funding": []
+    },
+    {
+      "name": "prism-clock",
+      "url": "https://github.com/jeremykenedy/prism-clock",
+      "title": "Prism Clock",
+      "description": "A drifting local clock over a continuously deforming metallic triangular surface, with remote controls and offline credits for Fire TV and Android TV.",
+      "category": "Software and tools",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-22T22:36:43Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 4,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 1,
+      "latest_release": {
+        "tag": "v1.0.0",
+        "date": "2026-10-22T22:37:54Z",
+        "url": "https://github.com/jeremykenedy/prism-clock/releases/tag/v1.0.0"
+      },
+      "downloads": {
+        "count": 12,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/prism-clock/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "fire-tv-aquarium",
+      "url": "https://github.com/jeremykenedy/fire-tv-aquarium",
+      "title": "Fire TV Aquarium",
+      "description": "An offline 4K aquarium with custom fish, sea life, and scenes.",
+      "category": "Creative graphics",
+      "stack": "Java / Android TV",
+      "updated": "2026-10-22T22:29:23Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "MIT",
+      "branch": "main",
+      "commits": 46,
+      "contributors": 2,
+      "used_by": null,
+      "releases": 9,
+      "latest_release": {
+        "tag": "v1.3.6",
+        "date": "2026-10-10T07:31:29Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
+      },
+      "downloads": {
+        "count": 53,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        },
+        {
+          "platform": "PATREON",
+          "url": "https://patreon.com/jeremykenedy"
+        },
+        {
+          "platform": "KO_FI",
+          "url": "https://ko-fi.com/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.paypal.com/paypalme/jeremykenedy"
+        },
+        {
+          "platform": "CUSTOM",
+          "url": "https://www.buymeacoffee.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "rain-on-glass",
+      "url": "https://github.com/jeremykenedy/rain-on-glass",
+      "title": "Rain On Glass",
+      "description": "Refractive rain-on-glass screensaver with moving runoff, night and overcast city scenes, remote controls and offline credits for your TV.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-22T22:27:16Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 3,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-22T22:28:54Z",
+        "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 30,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "pipeworks-dream",
+      "url": "https://github.com/jeremykenedy/pipeworks-dream",
+      "title": "Pipeworks Dream",
+      "description": "Offline 3D pipes with rounded bends, configurable colors, tube shapes, thickness and following tails.",
+      "category": "Software and tools",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-22T19:55:05Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 2,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-22T19:59:23Z",
+        "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 32,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
     },
     {
       "name": "twilight-hearth",
@@ -1858,7 +2381,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 17,
+        "count": 36,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -1892,7 +2415,7 @@
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 13,
+        "count": 26,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rainforest-cascade/releases"
       },
@@ -1982,7 +2505,7 @@
         "url": "https://github.com/jeremykenedy/hearth-presence/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 4,
+        "count": 18,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/hearth-presence/releases"
       },
@@ -2021,82 +2544,6 @@
       ]
     },
     {
-      "name": "prism-clock",
-      "url": "https://github.com/jeremykenedy/prism-clock",
-      "title": "Prism Clock",
-      "description": "A native clock over a continuously deforming metallic triangular surface.",
-      "category": "Software and tools",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-16T09:11:26Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 3,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 0,
-      "latest_release": null,
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "fire-tv-aquarium",
-      "url": "https://github.com/jeremykenedy/fire-tv-aquarium",
-      "title": "Fire TV Aquarium",
-      "description": "An offline 4K aquarium with custom fish, sea life, and scenes.",
-      "category": "Creative graphics",
-      "stack": "Java / Android TV",
-      "updated": "2026-10-10T07:29:55Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "MIT",
-      "branch": "main",
-      "commits": 34,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 9,
-      "latest_release": {
-        "tag": "v1.3.6",
-        "date": "2026-10-10T07:31:29Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
-      },
-      "downloads": {
-        "count": 39,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        },
-        {
-          "platform": "PATREON",
-          "url": "https://patreon.com/jeremykenedy"
-        },
-        {
-          "platform": "KO_FI",
-          "url": "https://ko-fi.com/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.paypal.com/paypalme/jeremykenedy"
-        },
-        {
-          "platform": "CUSTOM",
-          "url": "https://www.buymeacoffee.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "helios-lightfield",
       "url": "https://github.com/jeremykenedy/helios-lightfield",
       "title": "Helios Lightfield",
@@ -2118,7 +2565,7 @@
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 20,
+        "count": 33,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
       },
@@ -2252,7 +2699,7 @@
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 12,
+        "count": 25,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases"
       },
@@ -2286,7 +2733,7 @@
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 23,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/skyburst-nocturne/releases"
       },
@@ -2320,77 +2767,9 @@
         "url": "https://github.com/jeremykenedy/contour-flow/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 21,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/contour-flow/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "canopy-drift",
-      "url": "https://github.com/jeremykenedy/canopy-drift",
-      "title": "Canopy Drift",
-      "description": "Animated forest screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T08:15:28Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 1,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T08:15:37Z",
-        "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 8,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/canopy-drift/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "split-flap-drift",
-      "url": "https://github.com/jeremykenedy/split-flap-drift",
-      "title": "Split Flap Drift",
-      "description": "An original animated split-flap clock screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Java / Python / Shell",
-      "updated": "2026-10-09T07:55:35Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 2,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T07:55:56Z",
-        "url": "https://github.com/jeremykenedy/split-flap-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 7,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/split-flap-drift/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2422,43 +2801,9 @@
         "url": "https://github.com/jeremykenedy/perseid-passage/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 12,
+        "count": 25,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/perseid-passage/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "cloud-drift-clock",
-      "url": "https://github.com/jeremykenedy/cloud-drift-clock",
-      "title": "Cloud Drift Clock",
-      "description": "An animated cloudscape clock screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T06:41:52Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 6,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 2,
-      "latest_release": {
-        "tag": "v1.0.1",
-        "date": "2026-10-09T06:42:10Z",
-        "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases/tag/v1.0.1"
-      },
-      "downloads": {
-        "count": 16,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/cloud-drift-clock/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2490,43 +2835,9 @@
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 11,
+        "count": 24,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/earthbound-orbit/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "aqua-surface-drift",
-      "url": "https://github.com/jeremykenedy/aqua-surface-drift",
-      "title": "Aqua Surface Drift",
-      "description": "Animated water surface screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T04:31:48Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 1,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T04:33:29Z",
-        "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 13,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/aqua-surface-drift/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2558,77 +2869,9 @@
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 13,
+        "count": 26,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/vortex-spiral/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "nebula-drift",
-      "url": "https://github.com/jeremykenedy/nebula-drift",
-      "title": "Nebula Drift",
-      "description": "Offline animated nebula screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Java / Python / Shell",
-      "updated": "2026-10-09T04:25:33Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 4,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T03:43:30Z",
-        "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 11,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/nebula-drift/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "pipeworks-dream",
-      "url": "https://github.com/jeremykenedy/pipeworks-dream",
-      "title": "Pipeworks Dream",
-      "description": "Offline 3D pipes with rounded bends, configurable colors, tube shapes, thickness and following tails.",
-      "category": "Software and tools",
-      "stack": "Java / Python / Shell",
-      "updated": "2026-10-09T04:13:00Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 1,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T04:15:17Z",
-        "url": "https://github.com/jeremykenedy/pipeworks-dream/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 12,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/pipeworks-dream/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2660,7 +2903,7 @@
         "url": "https://github.com/jeremykenedy/retro-flight/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 12,
+        "count": 25,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/retro-flight/releases"
       },
@@ -2694,111 +2937,9 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 13,
+        "count": 26,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "jellyfish-drift",
-      "url": "https://github.com/jeremykenedy/jellyfish-drift",
-      "title": "Jellyfish Drift",
-      "description": "Animated jellyfish screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T03:19:05Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 12,
-      "contributors": 2,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T02:08:35Z",
-        "url": "https://github.com/jeremykenedy/jellyfish-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 13,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/jellyfish-drift/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "rain-on-glass",
-      "url": "https://github.com/jeremykenedy/rain-on-glass",
-      "title": "Rain On Glass",
-      "description": "Animated rain-on-glass screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T03:16:10Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 2,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T02:55:32Z",
-        "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 14,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
-      "name": "starfield-drift",
-      "url": "https://github.com/jeremykenedy/starfield-drift",
-      "title": "Starfield Drift",
-      "description": "Animated starfield screensaver for your TV.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-09T03:16:10Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 4,
-      "contributors": 3,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-09T02:34:55Z",
-        "url": "https://github.com/jeremykenedy/starfield-drift/releases/tag/v1.0.0"
-      },
-      "downloads": {
-        "count": 10,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/starfield-drift/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2830,7 +2971,7 @@
         "url": "https://github.com/jeremykenedy/firefly-grove/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 22,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/firefly-grove/releases"
       },
@@ -2864,7 +3005,7 @@
         "url": "https://github.com/jeremykenedy/neon-corridor/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 10,
+        "count": 23,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/neon-corridor/releases"
       },
@@ -2898,7 +3039,7 @@
         "url": "https://github.com/jeremykenedy/blue-meridian/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 13,
+        "count": 27,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/blue-meridian/releases"
       },
@@ -3186,8 +3327,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-04-23",
-        "end": "2026-10-23"
+        "start": "2025-04-24",
+        "end": "2026-10-24"
       },
       "made_with_laravel": null,
       "funding": [
@@ -4023,5 +4164,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29192
+  "public_authored_commits": 29371
 }

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="254" viewBox="0 0 392 254" role="img" aria-labelledby="title desc">
+<title id="title">Languages across public source repositories</title>
+<desc id="desc">PHP: 47 repositories; Python: 24 repositories; JavaScript: 17 repositories; Java: 14 repositories; HTML: 8 repositories; Blade: 2 repositories; CSS: 2 repositories; Objective-C: 2 repositories; Shell: 2 repositories; Vue: 2 repositories; C: 1 repositories; Dart: 1 repositories; Ruby: 1 repositories; TypeScript: 1 repositories</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="1" y="1" width="390" height="252" rx="14" fill="#101318" stroke="#303640" />
+<text x="24" y="35" font-size="10" fill="#a5afbf" font-weight="600" letter-spacing="1.5">THE PUBLIC CODEBASE</text>
+<text x="24" y="57" font-size="11" fill="#a5afbf" font-weight="400" >124 repos with a detected language</text>
+<rect x="24.0" y="76" width="130.387" height="11" rx="0" fill="#8b5cf6" stroke="none" />
+<circle cx="28" cy="114" r="4" fill="#8b5cf6"/>
+<text x="40" y="118" font-size="12" fill="#f0f3f8" font-weight="500" >PHP</text>
+<text x="183" y="118" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">37.9%</text>
+<rect x="154.387" y="76" width="66.581" height="11" rx="0" fill="#3b82f6" stroke="none" />
+<circle cx="212" cy="114" r="4" fill="#3b82f6"/>
+<text x="224" y="118" font-size="12" fill="#f0f3f8" font-weight="500" >Python</text>
+<text x="367" y="118" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">19.4%</text>
+<rect x="220.968" y="76" width="47.161" height="11" rx="0" fill="#22c55e" stroke="none" />
+<circle cx="28" cy="150" r="4" fill="#22c55e"/>
+<text x="40" y="154" font-size="12" fill="#f0f3f8" font-weight="500" >JavaScript</text>
+<text x="183" y="154" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">13.7%</text>
+<rect x="268.129" y="76" width="38.839" height="11" rx="0" fill="#f59e0b" stroke="none" />
+<circle cx="212" cy="150" r="4" fill="#f59e0b"/>
+<text x="224" y="154" font-size="12" fill="#f0f3f8" font-weight="500" >Java</text>
+<text x="367" y="154" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">11.3%</text>
+<rect x="306.968" y="76" width="22.194" height="11" rx="0" fill="#ec4899" stroke="none" />
+<circle cx="28" cy="186" r="4" fill="#ec4899"/>
+<text x="40" y="190" font-size="12" fill="#f0f3f8" font-weight="500" >HTML</text>
+<text x="183" y="190" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">6.5%</text>
+<rect x="329.161" y="76" width="38.839" height="11" rx="0" fill="#64748b" stroke="none" />
+<circle cx="212" cy="186" r="4" fill="#64748b"/>
+<text x="224" y="190" font-size="12" fill="#f0f3f8" font-weight="500" >Other</text>
+<text x="367" y="190" font-size="12" fill="#a5afbf" font-weight="400" text-anchor="end">11.3%</text>
+<text x="24" y="224" font-size="10" fill="#a5afbf" font-weight="400" >Primary language per public source repository.</text>
+<text x="24" y="240" font-size="10" fill="#a5afbf" font-weight="400" >A view of the code, not a skills rating.</text>
+</g>
+</svg>

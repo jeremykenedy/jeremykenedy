@@ -1,7 +1,7 @@
 {
   "original_repositories": 133,
-  "stars": 6986,
-  "forks": 1982,
+  "stars": 6988,
+  "forks": 1983,
   "languages": {
     "PHP": 47,
     "Python": 24,
@@ -18,32 +18,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-29",
-  "package_downloads": 4159146,
+  "updated": "2026-10-30",
+  "package_downloads": 4163139,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2849,
-    "jeremykenedy/laravel-blocker": 75330,
+    "jeremykenedy/laravel-blocker": 75423,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 18928,
-    "jeremykenedy/laravel-exception-notifier": 328670,
-    "jeremykenedy/laravel-https": 139194,
+    "jeremykenedy/laravel-email-database-log": 19009,
+    "jeremykenedy/laravel-exception-notifier": 329622,
+    "jeremykenedy/laravel-https": 139332,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 320890,
+    "jeremykenedy/laravel-logger": 321279,
     "jeremykenedy/laravel-notifications": 21,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 189240,
-    "jeremykenedy/laravel-roles": 916339,
-    "jeremykenedy/laravel-seedster": 578,
+    "jeremykenedy/laravel-phpinfo": 189369,
+    "jeremykenedy/laravel-roles": 917014,
+    "jeremykenedy/laravel-seedster": 588,
     "jeremykenedy/laravel-toast": 200,
     "jeremykenedy/laravel-ui-kit": 404,
-    "jeremykenedy/laravel-users": 99375,
-    "jeremykenedy/laravel2step": 113947,
+    "jeremykenedy/laravel-users": 99465,
+    "jeremykenedy/laravel2step": 114055,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 997100,
-    "jeremykenedy/slack-laravel": 814709,
+    "jeremykenedy/slack": 997831,
+    "jeremykenedy/slack-laravel": 815205,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 140947
+    "jeremykenedy/uuid": 141048
   },
   "publications": {
     "counts": {
@@ -98,7 +98,7 @@
             "channel": "github_release",
             "name": "black-screen-dream",
             "repository": "jeremykenedy/black-screen-dream",
-            "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.0"
+            "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.1"
           }
         ]
       },
@@ -237,7 +237,7 @@
             "channel": "github_release",
             "name": "fire-tv-toolkit",
             "repository": "jeremykenedy/fire-tv-toolkit",
-            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.7.2"
+            "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.7.3"
           }
         ]
       },
@@ -248,7 +248,7 @@
             "channel": "github_release",
             "name": "fire-tv-ui",
             "repository": "jeremykenedy/fire-tv-ui",
-            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.15.0"
+            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.16.0"
           }
         ]
       },
@@ -347,7 +347,7 @@
             "channel": "github_release",
             "name": "laravel-auth",
             "repository": "jeremykenedy/laravel-auth",
-            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v13.0.0"
+            "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v13.0.2"
           }
         ]
       },
@@ -612,7 +612,7 @@
             "channel": "github_release",
             "name": "laravel-spa",
             "repository": "jeremykenedy/laravel-spa",
-            "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v7.0.0"
+            "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v8.0.4"
           }
         ]
       },
@@ -1031,19 +1031,19 @@
       "description": "An application foundation with sign-in, recovery, roles, and account management.",
       "category": "Application security",
       "stack": "PHP / JavaScript / Laravel",
-      "updated": "2026-10-08T20:53:13Z",
-      "stars": 3040,
+      "updated": "2026-10-30T02:38:19Z",
+      "stars": 3041,
       "forks": 975,
       "license": "MIT",
       "branch": "master",
-      "commits": 879,
+      "commits": 894,
       "contributors": 35,
       "used_by": null,
-      "releases": 35,
+      "releases": 37,
       "latest_release": {
-        "tag": "v11.3.0",
-        "date": "2026-09-29T02:28:51Z",
-        "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v11.3.0"
+        "tag": "v13.0.2",
+        "date": "2026-10-30T02:41:31Z",
+        "url": "https://github.com/jeremykenedy/laravel-auth/releases/tag/v13.0.2"
       },
       "downloads": null,
       "made_with_laravel": "https://madewithlaravel.com/p/laravel-auth/shield-link",
@@ -1092,7 +1092,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 916339,
+        "count": 917014,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1142,7 +1142,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 320890,
+        "count": 321279,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1192,7 +1192,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 99375,
+        "count": 99465,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1227,19 +1227,19 @@
       "description": "A Vue application foundation with authentication, accounts, and social sign-in.",
       "category": "Web applications",
       "stack": "Vue / PHP / Tailwind",
-      "updated": "2026-10-12T20:07:21Z",
+      "updated": "2026-10-30T11:46:02Z",
       "stars": 295,
       "forks": 74,
       "license": "MIT",
       "branch": "master",
-      "commits": 977,
+      "commits": 984,
       "contributors": 7,
       "used_by": null,
-      "releases": 38,
+      "releases": 42,
       "latest_release": {
-        "tag": "v7.0.0",
-        "date": "2025-10-21T23:26:06Z",
-        "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v7.0.0"
+        "tag": "v8.0.4",
+        "date": "2026-10-30T09:39:28Z",
+        "url": "https://github.com/jeremykenedy/laravel-spa/releases/tag/v8.0.4"
       },
       "downloads": null,
       "made_with_laravel": null,
@@ -1288,7 +1288,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 113947,
+        "count": 114055,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1430,7 +1430,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 328670,
+        "count": 329622,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1480,7 +1480,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 75330,
+        "count": 75423,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1530,7 +1530,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 189240,
+        "count": 189369,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1580,7 +1580,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 139194,
+        "count": 139332,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1657,22 +1657,22 @@
       "description": "Set up ad-free screensavers, a better home screen, and the Alexa sleep fix.",
       "category": "TV and tooling",
       "stack": "Java / JavaScript / Shell",
-      "updated": "2026-10-29T15:32:01Z",
+      "updated": "2026-10-30T09:41:16Z",
       "stars": 4,
-      "forks": 0,
+      "forks": 1,
       "license": "Apache-2.0",
       "branch": "main",
-      "commits": 150,
+      "commits": 151,
       "contributors": 3,
       "used_by": null,
-      "releases": 36,
+      "releases": 37,
       "latest_release": {
-        "tag": "v4.7.2",
-        "date": "2026-10-29T15:52:17Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.7.2"
+        "tag": "v4.7.3",
+        "date": "2026-10-30T09:49:08Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.7.3"
       },
       "downloads": {
-        "count": 453,
+        "count": 473,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases"
       },
@@ -1814,7 +1814,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 45,
+        "count": 47,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -1892,30 +1892,60 @@
       "name": "fire-tv-ui",
       "url": "https://github.com/jeremykenedy/fire-tv-ui",
       "title": "Fire Tv Ui",
-      "description": "Custom Fire TV launcher with optional horizontal layouts, icon styles, animated backgrounds, screensaver controls and verified updates.",
+      "description": "Custom Fire TV launcher with saved setups, holiday backgrounds and overlays, independent card timers, screensaver controls and verified updates.",
       "category": "Creative graphics",
       "stack": "Java / Python / Smali",
-      "updated": "2026-10-29T15:15:53Z",
-      "stars": 2,
+      "updated": "2026-10-30T09:30:49Z",
+      "stars": 3,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
-      "commits": 173,
+      "commits": 174,
       "contributors": 1,
       "used_by": null,
-      "releases": 26,
+      "releases": 27,
       "latest_release": {
-        "tag": "v1.15.0",
-        "date": "2026-10-29T15:18:55Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.15.0"
+        "tag": "v1.16.0",
+        "date": "2026-10-30T09:33:06Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.16.0"
       },
       "downloads": {
-        "count": 268,
+        "count": 285,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-ui/releases"
       },
       "made_with_laravel": null,
       "funding": []
+    },
+    {
+      "name": "black-screen-dream",
+      "url": "https://github.com/jeremykenedy/black-screen-dream",
+      "title": "Black Screen Dream",
+      "description": "A pure black, offline Android TV and Fire TV screensaver with scoped minimum brightness and no clock, animation, or sound.",
+      "category": "Creative graphics",
+      "stack": "Java / Python / Shell",
+      "updated": "2026-10-30T09:02:18Z",
+      "stars": 0,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 3,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.0.1",
+        "date": "2026-10-30T09:09:41Z",
+        "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.1"
+      },
+      "downloads": null,
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
     },
     {
       "name": "contour-flow",
@@ -2207,7 +2237,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
       },
       "downloads": {
-        "count": 65,
+        "count": 70,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
@@ -2291,7 +2321,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 45,
+        "count": 46,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2538,36 +2568,6 @@
       ]
     },
     {
-      "name": "black-screen-dream",
-      "url": "https://github.com/jeremykenedy/black-screen-dream",
-      "title": "Black Screen Dream",
-      "description": "A pure black, offline Android TV and Fire TV screensaver with no clock, animation, or sound.",
-      "category": "Creative graphics",
-      "stack": "Java / Python / Shell",
-      "updated": "2026-10-23T05:36:52Z",
-      "stars": 0,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 1,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 1,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "date": "2026-10-23T05:40:00Z",
-        "url": "https://github.com/jeremykenedy/black-screen-dream/releases/tag/v1.0.0"
-      },
-      "downloads": null,
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "aqua-surface-drift",
       "url": "https://github.com/jeremykenedy/aqua-surface-drift",
       "title": "Aqua Surface Drift",
@@ -2657,7 +2657,7 @@
         "url": "https://github.com/jeremykenedy/canopy-drift/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 29,
+        "count": 30,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/canopy-drift/releases"
       },
@@ -2720,7 +2720,7 @@
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 34,
+        "count": 35,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/rain-on-glass/releases"
       },
@@ -3432,12 +3432,12 @@
         "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 323,
+        "count": 324,
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
         "start": "2025-04-30",
-        "end": "2026-10-30"
+        "end": "2026-10-31"
       },
       "made_with_laravel": null,
       "funding": [
@@ -4273,5 +4273,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29543
+  "public_authored_commits": 29566
 }

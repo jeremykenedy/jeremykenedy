@@ -18,32 +18,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-10-31",
-  "package_downloads": 4165426,
+  "updated": "2026-11-01",
+  "package_downloads": 4167158,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2857,
-    "jeremykenedy/laravel-blocker": 75450,
+    "jeremykenedy/laravel-blocker": 75517,
     "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 19023,
-    "jeremykenedy/laravel-exception-notifier": 330522,
-    "jeremykenedy/laravel-https": 139353,
+    "jeremykenedy/laravel-email-database-log": 19071,
+    "jeremykenedy/laravel-exception-notifier": 331181,
+    "jeremykenedy/laravel-https": 139405,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 321429,
+    "jeremykenedy/laravel-logger": 321628,
     "jeremykenedy/laravel-notifications": 21,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 189406,
-    "jeremykenedy/laravel-roles": 917456,
-    "jeremykenedy/laravel-seedster": 588,
-    "jeremykenedy/laravel-toast": 201,
-    "jeremykenedy/laravel-ui-kit": 404,
-    "jeremykenedy/laravel-users": 99527,
-    "jeremykenedy/laravel2step": 114080,
+    "jeremykenedy/laravel-phpinfo": 189462,
+    "jeremykenedy/laravel-roles": 917763,
+    "jeremykenedy/laravel-seedster": 590,
+    "jeremykenedy/laravel-toast": 203,
+    "jeremykenedy/laravel-ui-kit": 406,
+    "jeremykenedy/laravel-users": 99535,
+    "jeremykenedy/laravel2step": 114128,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 998300,
-    "jeremykenedy/slack-laravel": 815313,
+    "jeremykenedy/slack": 998410,
+    "jeremykenedy/slack-laravel": 815418,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 141071
+    "jeremykenedy/uuid": 141138
   },
   "publications": {
     "counts": {
@@ -1032,7 +1032,7 @@
       "category": "Application security",
       "stack": "PHP / JavaScript / Laravel",
       "updated": "2026-10-30T02:38:19Z",
-      "stars": 3041,
+      "stars": 3040,
       "forks": 975,
       "license": "MIT",
       "branch": "master",
@@ -1092,7 +1092,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 917456,
+        "count": 917763,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1142,7 +1142,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 321429,
+        "count": 321628,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1192,7 +1192,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 99527,
+        "count": 99535,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1288,7 +1288,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 114080,
+        "count": 114128,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1430,7 +1430,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 330522,
+        "count": 331181,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1480,7 +1480,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 75450,
+        "count": 75517,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1530,7 +1530,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 189406,
+        "count": 189462,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1580,7 +1580,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 139353,
+        "count": 139405,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1754,7 +1754,7 @@
       "category": "Embedded systems",
       "stack": "ESP32 / C++ / Web UI",
       "updated": "2026-09-27T04:43:51Z",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
@@ -1814,7 +1814,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 51,
+        "count": 53,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -1910,7 +1910,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.16.0"
       },
       "downloads": {
-        "count": 297,
+        "count": 303,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-ui/releases"
       },
@@ -2300,40 +2300,6 @@
       ]
     },
     {
-      "name": "twilight-hearth",
-      "url": "https://github.com/jeremykenedy/twilight-hearth",
-      "title": "Twilight Hearth",
-      "description": "Offline recorded wood-fire screensaver with brick, stone and slate surrounds, native TV controls, and no ads or tracking.",
-      "category": "Creative graphics",
-      "stack": "Python / Java / Shell",
-      "updated": "2026-10-29T09:16:50Z",
-      "stars": 1,
-      "forks": 0,
-      "license": "Apache-2.0",
-      "branch": "main",
-      "commits": 7,
-      "contributors": 1,
-      "used_by": null,
-      "releases": 2,
-      "latest_release": {
-        "tag": "v1.1.0",
-        "date": "2026-10-16T12:13:48Z",
-        "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
-      },
-      "downloads": {
-        "count": 47,
-        "label": "Release downloads",
-        "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
-      },
-      "made_with_laravel": null,
-      "funding": [
-        {
-          "platform": "GITHUB",
-          "url": "https://github.com/jeremykenedy"
-        }
-      ]
-    },
-    {
       "name": "signal-rain",
       "url": "https://github.com/jeremykenedy/signal-rain",
       "title": "Signal Rain",
@@ -2358,6 +2324,40 @@
         "count": 29,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
+      },
+      "made_with_laravel": null,
+      "funding": [
+        {
+          "platform": "GITHUB",
+          "url": "https://github.com/jeremykenedy"
+        }
+      ]
+    },
+    {
+      "name": "twilight-hearth",
+      "url": "https://github.com/jeremykenedy/twilight-hearth",
+      "title": "Twilight Hearth",
+      "description": "Offline recorded wood-fire screensaver with brick, stone and slate surrounds, native TV controls, and no ads or tracking.",
+      "category": "Creative graphics",
+      "stack": "Python / Java / Shell",
+      "updated": "2026-10-29T09:16:50Z",
+      "stars": 1,
+      "forks": 0,
+      "license": "Apache-2.0",
+      "branch": "main",
+      "commits": 7,
+      "contributors": 1,
+      "used_by": null,
+      "releases": 2,
+      "latest_release": {
+        "tag": "v1.1.0",
+        "date": "2026-10-16T12:13:48Z",
+        "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
+      },
+      "downloads": {
+        "count": 47,
+        "label": "Release downloads",
+        "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
       "made_with_laravel": null,
       "funding": [
@@ -2691,7 +2691,7 @@
         "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.2.0"
       },
       "downloads": {
-        "count": 27,
+        "count": 28,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-iptv/releases"
       },
@@ -2928,7 +2928,7 @@
         "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.1.0"
       },
       "downloads": {
-        "count": 201,
+        "count": 203,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
       },
@@ -3148,7 +3148,7 @@
         "url": "https://github.com/jeremykenedy/neon-corridor/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 30,
+        "count": 31,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/neon-corridor/releases"
       },
@@ -3182,7 +3182,7 @@
         "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.5.0"
       },
       "downloads": {
-        "count": 404,
+        "count": 406,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-ui-kit"
       },
@@ -3436,8 +3436,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-05-01",
-        "end": "2026-11-01"
+        "start": "2025-05-02",
+        "end": "2026-11-02"
       },
       "made_with_laravel": null,
       "funding": [

@@ -18,32 +18,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-11-10",
-  "package_downloads": 4199430,
+  "updated": "2026-11-11",
+  "package_downloads": 4203338,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2857,
-    "jeremykenedy/laravel-blocker": 76109,
-    "jeremykenedy/laravel-darkmode-toggle": 6,
-    "jeremykenedy/laravel-email-database-log": 19621,
-    "jeremykenedy/laravel-exception-notifier": 337679,
-    "jeremykenedy/laravel-https": 140138,
+    "jeremykenedy/laravel-blocker": 76159,
+    "jeremykenedy/laravel-darkmode-toggle": 7,
+    "jeremykenedy/laravel-email-database-log": 19655,
+    "jeremykenedy/laravel-exception-notifier": 338632,
+    "jeremykenedy/laravel-https": 140189,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 323953,
+    "jeremykenedy/laravel-logger": 324163,
     "jeremykenedy/laravel-notifications": 33,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 190868,
-    "jeremykenedy/laravel-roles": 924089,
-    "jeremykenedy/laravel-seedster": 693,
-    "jeremykenedy/laravel-toast": 211,
-    "jeremykenedy/laravel-ui-kit": 429,
-    "jeremykenedy/laravel-users": 99983,
-    "jeremykenedy/laravel2step": 114846,
+    "jeremykenedy/laravel-phpinfo": 191163,
+    "jeremykenedy/laravel-roles": 924714,
+    "jeremykenedy/laravel-seedster": 698,
+    "jeremykenedy/laravel-toast": 216,
+    "jeremykenedy/laravel-ui-kit": 432,
+    "jeremykenedy/laravel-users": 100100,
+    "jeremykenedy/laravel2step": 114913,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 1005551,
-    "jeremykenedy/slack-laravel": 820112,
+    "jeremykenedy/slack": 1006401,
+    "jeremykenedy/slack-laravel": 820691,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 141833
+    "jeremykenedy/uuid": 141896
   },
   "publications": {
     "counts": {
@@ -248,7 +248,7 @@
             "channel": "github_release",
             "name": "fire-tv-ui",
             "repository": "jeremykenedy/fire-tv-ui",
-            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v2.0.0-alpha.3"
+            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.17.1"
           }
         ]
       },
@@ -1092,7 +1092,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 924089,
+        "count": 924714,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1142,7 +1142,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 323953,
+        "count": 324163,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1192,7 +1192,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 99983,
+        "count": 100100,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1288,7 +1288,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 114846,
+        "count": 114913,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1430,7 +1430,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 337679,
+        "count": 338632,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1480,7 +1480,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 76109,
+        "count": 76159,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1530,7 +1530,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 190868,
+        "count": 191163,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1580,7 +1580,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 140138,
+        "count": 140189,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1672,7 +1672,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.8.2"
       },
       "downloads": {
-        "count": 585,
+        "count": 588,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases"
       },
@@ -1892,25 +1892,25 @@
       "name": "fire-tv-ui",
       "url": "https://github.com/jeremykenedy/fire-tv-ui",
       "title": "Fire Tv Ui",
-      "description": "Fire TV launcher and independent native preview with the existing Home and Settings layout, local widgets, saved setups and custom appearance.",
+      "description": "Customizable Fire TV launcher with featured card controls, local widgets and saved setups, plus a separate independent native preview.",
       "category": "Creative graphics",
       "stack": "Java / Python / Shell",
-      "updated": "2026-11-03T01:11:21Z",
+      "updated": "2026-11-11T18:28:42Z",
       "stars": 4,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
-      "commits": 194,
+      "commits": 195,
       "contributors": 1,
       "used_by": null,
-      "releases": 31,
+      "releases": 32,
       "latest_release": {
-        "tag": "v2.0.0-alpha.3",
-        "date": "2026-11-03T01:18:06Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v2.0.0-alpha.3"
+        "tag": "v1.17.1",
+        "date": "2026-11-11T18:34:43Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.17.1"
       },
       "downloads": {
-        "count": 366,
+        "count": 378,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-ui/releases"
       },
@@ -2237,7 +2237,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
       },
       "downloads": {
-        "count": 85,
+        "count": 89,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
@@ -2453,7 +2453,7 @@
         "url": "https://github.com/jeremykenedy/nibbles-hd/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 5,
+        "count": 7,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nibbles-hd/releases"
       },
@@ -2928,7 +2928,7 @@
         "url": "https://github.com/jeremykenedy/laravel-toast/releases/tag/v3.1.0"
       },
       "downloads": {
-        "count": 211,
+        "count": 216,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-toast"
       },
@@ -2978,7 +2978,7 @@
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 38,
+        "count": 39,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/pulse-circuit/releases"
       },
@@ -3182,7 +3182,7 @@
         "url": "https://github.com/jeremykenedy/laravel-ui-kit/releases/tag/v2.5.0"
       },
       "downloads": {
-        "count": 429,
+        "count": 432,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-ui-kit"
       },
@@ -3382,7 +3382,7 @@
         "url": "https://github.com/jeremykenedy/laravel-darkmode-toggle/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 6,
+        "count": 7,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-darkmode-toggle"
       },
@@ -3432,12 +3432,12 @@
         "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 346,
+        "count": 348,
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-05-11",
-        "end": "2026-11-11"
+        "start": "2025-05-12",
+        "end": "2026-11-12"
       },
       "made_with_laravel": null,
       "funding": [
@@ -4273,5 +4273,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29597
+  "public_authored_commits": 29598
 }

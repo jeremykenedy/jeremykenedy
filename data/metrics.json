@@ -1,7 +1,7 @@
 {
   "original_repositories": 133,
   "stars": 6999,
-  "forks": 1981,
+  "forks": 1982,
   "languages": {
     "PHP": 47,
     "Python": 24,
@@ -18,32 +18,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-11-15",
-  "package_downloads": 4215093,
+  "updated": "2026-11-16",
+  "package_downloads": 4219230,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2857,
-    "jeremykenedy/laravel-blocker": 76349,
-    "jeremykenedy/laravel-darkmode-toggle": 8,
-    "jeremykenedy/laravel-email-database-log": 19757,
-    "jeremykenedy/laravel-exception-notifier": 342498,
-    "jeremykenedy/laravel-https": 140338,
+    "jeremykenedy/laravel-blocker": 76454,
+    "jeremykenedy/laravel-darkmode-toggle": 9,
+    "jeremykenedy/laravel-email-database-log": 19824,
+    "jeremykenedy/laravel-exception-notifier": 343273,
+    "jeremykenedy/laravel-https": 140444,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 324823,
+    "jeremykenedy/laravel-logger": 325107,
     "jeremykenedy/laravel-notifications": 48,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 191841,
-    "jeremykenedy/laravel-roles": 926726,
-    "jeremykenedy/laravel-seedster": 731,
+    "jeremykenedy/laravel-phpinfo": 192030,
+    "jeremykenedy/laravel-roles": 927546,
+    "jeremykenedy/laravel-seedster": 744,
     "jeremykenedy/laravel-toast": 216,
     "jeremykenedy/laravel-ui-kit": 432,
-    "jeremykenedy/laravel-users": 100423,
-    "jeremykenedy/laravel2step": 115125,
+    "jeremykenedy/laravel-users": 100470,
+    "jeremykenedy/laravel2step": 115240,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 1008356,
-    "jeremykenedy/slack-laravel": 822044,
+    "jeremykenedy/slack": 1009239,
+    "jeremykenedy/slack-laravel": 822656,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 142102
+    "jeremykenedy/uuid": 142222
   },
   "publications": {
     "counts": {
@@ -248,7 +248,7 @@
             "channel": "github_release",
             "name": "fire-tv-ui",
             "repository": "jeremykenedy/fire-tv-ui",
-            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.18.0"
+            "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.21.0"
           }
         ]
       },
@@ -1078,7 +1078,7 @@
       "category": "Application security",
       "stack": "PHP / Blade / Laravel",
       "updated": "2026-10-08T21:04:57Z",
-      "stars": 1049,
+      "stars": 1048,
       "forks": 200,
       "license": "MIT",
       "branch": "master",
@@ -1092,7 +1092,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 926726,
+        "count": 927546,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1142,7 +1142,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 324823,
+        "count": 325107,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1192,7 +1192,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 100423,
+        "count": 100470,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1288,7 +1288,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 115125,
+        "count": 115240,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1430,7 +1430,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 342498,
+        "count": 343273,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1480,7 +1480,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 76349,
+        "count": 76454,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1530,7 +1530,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 191841,
+        "count": 192030,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1580,7 +1580,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 140338,
+        "count": 140444,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1672,7 +1672,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases/tag/v4.8.2"
       },
       "downloads": {
-        "count": 608,
+        "count": 625,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-toolkit/releases"
       },
@@ -1814,7 +1814,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 87,
+        "count": 100,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -1892,25 +1892,25 @@
       "name": "fire-tv-ui",
       "url": "https://github.com/jeremykenedy/fire-tv-ui",
       "title": "Fire Tv Ui",
-      "description": "Customizable Fire TV launcher with card controls, app focus sizes, widgets and saved setups, plus a separate independent native preview.",
+      "description": "Customizable Fire TV launcher with original HD icons, app focus controls, Plex card hiding, shared widget and card layouts, saved setups and appearance presets.",
       "category": "Creative graphics",
       "stack": "Java / Python / Shell",
-      "updated": "2026-11-11T22:51:52Z",
+      "updated": "2026-11-16T02:59:33Z",
       "stars": 4,
       "forks": 0,
       "license": "MIT",
       "branch": "main",
-      "commits": 196,
+      "commits": 204,
       "contributors": 1,
       "used_by": null,
-      "releases": 33,
+      "releases": 38,
       "latest_release": {
-        "tag": "v1.18.0",
-        "date": "2026-11-11T22:58:05Z",
-        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.18.0"
+        "tag": "v1.21.0",
+        "date": "2026-11-16T03:05:27Z",
+        "url": "https://github.com/jeremykenedy/fire-tv-ui/releases/tag/v1.21.0"
       },
       "downloads": {
-        "count": 434,
+        "count": 550,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-ui/releases"
       },
@@ -2169,7 +2169,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 38,
+        "count": 39,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -2223,8 +2223,8 @@
       "category": "Creative graphics",
       "stack": "Java / Android TV",
       "updated": "2026-10-29T09:22:00Z",
-      "stars": 2,
-      "forks": 0,
+      "stars": 3,
+      "forks": 1,
       "license": "MIT",
       "branch": "main",
       "commits": 49,
@@ -2237,7 +2237,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
       },
       "downloads": {
-        "count": 106,
+        "count": 113,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
@@ -2321,7 +2321,7 @@
         "url": "https://github.com/jeremykenedy/signal-rain/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 32,
+        "count": 33,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/signal-rain/releases"
       },
@@ -2355,7 +2355,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 68,
+        "count": 72,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2691,7 +2691,7 @@
         "url": "https://github.com/jeremykenedy/fire-iptv/releases/tag/v1.2.0"
       },
       "downloads": {
-        "count": 36,
+        "count": 43,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-iptv/releases"
       },
@@ -2844,7 +2844,7 @@
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases/tag/v1.0.1"
       },
       "downloads": {
-        "count": 39,
+        "count": 40,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/helios-lightfield/releases"
       },
@@ -3382,7 +3382,7 @@
         "url": "https://github.com/jeremykenedy/laravel-darkmode-toggle/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 8,
+        "count": 9,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-darkmode-toggle"
       },
@@ -3436,8 +3436,8 @@
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-05-16",
-        "end": "2026-11-16"
+        "start": "2025-05-17",
+        "end": "2026-11-17"
       },
       "made_with_laravel": null,
       "funding": [
@@ -4273,5 +4273,5 @@
     "merged": 36,
     "open": 6
   },
-  "public_authored_commits": 29600
+  "public_authored_commits": 29608
 }

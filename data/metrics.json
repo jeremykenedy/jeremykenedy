@@ -18,32 +18,32 @@
     "Ruby": 1,
     "TypeScript": 1
   },
-  "updated": "2026-11-26",
-  "package_downloads": 4256259,
+  "updated": "2026-11-27",
+  "package_downloads": 4260385,
   "packages": {
     "jeremykenedy/filament-spotlight-2": 2857,
-    "jeremykenedy/laravel-blocker": 77075,
+    "jeremykenedy/laravel-blocker": 77137,
     "jeremykenedy/laravel-darkmode-toggle": 9,
-    "jeremykenedy/laravel-email-database-log": 20225,
-    "jeremykenedy/laravel-exception-notifier": 349746,
-    "jeremykenedy/laravel-https": 140959,
+    "jeremykenedy/laravel-email-database-log": 20271,
+    "jeremykenedy/laravel-exception-notifier": 350344,
+    "jeremykenedy/laravel-https": 141053,
     "jeremykenedy/laravel-ip-capture": 1,
-    "jeremykenedy/laravel-logger": 327834,
+    "jeremykenedy/laravel-logger": 328238,
     "jeremykenedy/laravel-notifications": 50,
     "jeremykenedy/laravel-observability": 5,
     "jeremykenedy/laravel-packagist": 280,
-    "jeremykenedy/laravel-phpinfo": 193990,
-    "jeremykenedy/laravel-roles": 934204,
-    "jeremykenedy/laravel-seedster": 848,
+    "jeremykenedy/laravel-phpinfo": 194125,
+    "jeremykenedy/laravel-roles": 934928,
+    "jeremykenedy/laravel-seedster": 853,
     "jeremykenedy/laravel-toast": 229,
     "jeremykenedy/laravel-ui-kit": 434,
-    "jeremykenedy/laravel-users": 100943,
-    "jeremykenedy/laravel2step": 116063,
+    "jeremykenedy/laravel-users": 101047,
+    "jeremykenedy/laravel2step": 116136,
     "jeremykenedy/laravelpodcast": 112,
-    "jeremykenedy/slack": 1019335,
-    "jeremykenedy/slack-laravel": 828113,
+    "jeremykenedy/slack": 1020476,
+    "jeremykenedy/slack-laravel": 828667,
     "jeremykenedy/timezones": 21,
-    "jeremykenedy/uuid": 142926
+    "jeremykenedy/uuid": 143112
   },
   "publications": {
     "counts": {
@@ -1092,7 +1092,7 @@
         "url": "https://github.com/jeremykenedy/laravel-roles/releases/tag/v13.0.0"
       },
       "downloads": {
-        "count": 934204,
+        "count": 934928,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-roles"
       },
@@ -1142,7 +1142,7 @@
         "url": "https://github.com/jeremykenedy/laravel-logger/releases/tag/v12.0.0"
       },
       "downloads": {
-        "count": 327834,
+        "count": 328238,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-logger"
       },
@@ -1192,7 +1192,7 @@
         "url": "https://github.com/jeremykenedy/laravel-users/releases/tag/v6.0.1"
       },
       "downloads": {
-        "count": 100943,
+        "count": 101047,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-users"
       },
@@ -1288,7 +1288,7 @@
         "url": "https://github.com/jeremykenedy/laravel2step/releases/tag/v6.0.0"
       },
       "downloads": {
-        "count": 116063,
+        "count": 116136,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel2step"
       },
@@ -1430,7 +1430,7 @@
         "url": "https://github.com/jeremykenedy/laravel-exception-notifier/releases/tag/V5.0.0"
       },
       "downloads": {
-        "count": 349746,
+        "count": 350344,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-exception-notifier"
       },
@@ -1480,7 +1480,7 @@
         "url": "https://github.com/jeremykenedy/laravel-blocker/releases/tag/v7.0.0"
       },
       "downloads": {
-        "count": 77075,
+        "count": 77137,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-blocker"
       },
@@ -1530,7 +1530,7 @@
         "url": "https://github.com/jeremykenedy/laravel-phpinfo/releases/tag/v2.0.0"
       },
       "downloads": {
-        "count": 193990,
+        "count": 194125,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-phpinfo"
       },
@@ -1580,7 +1580,7 @@
         "url": "https://github.com/jeremykenedy/laravel-https/releases/tag/v3.0.0"
       },
       "downloads": {
-        "count": 140959,
+        "count": 141053,
         "label": "Packagist downloads",
         "url": "https://packagist.org/packages/jeremykenedy/laravel-https"
       },
@@ -1814,7 +1814,7 @@
         "url": "https://github.com/jeremykenedy/aquarium-live/releases/tag/v1.0.3"
       },
       "downloads": {
-        "count": 150,
+        "count": 151,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/aquarium-live/releases"
       },
@@ -2169,7 +2169,7 @@
         "url": "https://github.com/jeremykenedy/nebula-drift/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 47,
+        "count": 48,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/nebula-drift/releases"
       },
@@ -2237,7 +2237,7 @@
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases/tag/v1.3.6"
       },
       "downloads": {
-        "count": 174,
+        "count": 178,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/fire-tv-aquarium/releases"
       },
@@ -2355,7 +2355,7 @@
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 81,
+        "count": 82,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/twilight-hearth/releases"
       },
@@ -2487,7 +2487,7 @@
         "url": "https://github.com/jeremykenedy/prism-clock/releases/tag/v1.1.0"
       },
       "downloads": {
-        "count": 27,
+        "count": 30,
         "label": "Release downloads",
         "url": "https://github.com/jeremykenedy/prism-clock/releases"
       },
@@ -3432,12 +3432,12 @@
         "url": "https://github.com/jeremykenedy/claude-rules-mcp-server/releases/tag/v1.0.0"
       },
       "downloads": {
-        "count": 374,
+        "count": 375,
         "label": "npm downloads",
         "period": "18mo",
         "url": "https://www.npmjs.com/package/claude-rules-mcp",
-        "start": "2025-05-27",
-        "end": "2026-11-27"
+        "start": "2025-05-28",
+        "end": "2026-11-28"
       },
       "made_with_laravel": null,
       "funding": [
